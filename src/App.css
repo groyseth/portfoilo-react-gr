@@ -1,0 +1,20 @@
+.box{
+    background-image:url(./assets/textback/mainbackgournd.jpg) ;
+    width: 80%;
+    text-align: center;
+    object-position: center;
+    margin: auto;
+}
+body {
+    background-image:url(./assets/cover/2000pxSize.jpg);
+}
+.center{
+    /* text-align: center; */
+    /* object-position:center; */
+    /* margin: auto; */
+    width: 50%;
+}
+.stat {
+    position:fixed;
+    color: black;
+}
