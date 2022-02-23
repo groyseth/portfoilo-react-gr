@@ -2,10 +2,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { projects } from "../data";
-import { Row } from "react-bootstrap";
+// import { Row } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+// import { Col } from "react-bootstrap";
+import {removeHyphensAndCapitalize} from '../utils/helpers'
 
 export default function Projects() {
   // const { title, subtitle,  description } = projects;
@@ -14,11 +15,10 @@ export default function Projects() {
     <section id="projects" className="box">
       <div >
         <div >
-          
-          <h1 >
+          <h1>
             Apps I've Built
           </h1>
-          <p >
+          <p>
             Take a look a my projects!
           </p>
         </div>
@@ -36,12 +36,15 @@ export default function Projects() {
     <Card.Text>
       {project.description}
     </Card.Text>
-    <img src={project.image} alt='project Pics'></img>
+    {/* <img src={require(`../assets/projects/${project.title}.png`)}
+        alt="hey"></img> */}
     <a href={project.link}>
     <Button variant="primary">Repo</Button>
     </a>
+     
   </Card.Body>
-  
+  <img src={require(`../assets/projects/${project.title}.png`)}
+       className='projectImg' alt="hey">  </img>
 </Card>
 
 

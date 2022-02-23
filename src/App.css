@@ -17,4 +17,8 @@ body {
 .stat {
     position:fixed;
     color: black;
+    float: left;
+}
+.projectImg {
+    width: auto;
 }
