@@ -40,3 +40,46 @@ body {
     /* text-align: center;
     object-position: center; */
 }
+.footer{
+    /* width: 30%; */
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(8, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: -7px -1px 11px 10px #c6ecff;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type:none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.scrolled{
+    width: 252px;
+    height: 250px;
+overflow-y: scroll;
+}

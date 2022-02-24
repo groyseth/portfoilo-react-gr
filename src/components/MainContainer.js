@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import NavTabs from './Navtab';
 import Home from './Page/Home';
 // import Projects from './Projects';
-import Contacts from './Page/Contacts';
+import Group from './Page/Group';
+import Footer from './Footer';
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -12,8 +13,8 @@ export default function MainContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'Contact') {
-      return <Contacts />;
+    if (currentPage === 'Group Projects') {
+      return <Group />;
     }
   };
 
@@ -23,8 +24,10 @@ export default function MainContainer() {
     <div>
      
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-     
+    
       {renderPage()}
+       <Footer />
     </div>
+    
   );
 }

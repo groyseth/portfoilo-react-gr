@@ -20,18 +20,11 @@ export default function Navbar() {
       >
         <Dropdown.Item eventKey="1" a href="#about">about</Dropdown.Item>
         <Dropdown.Item eventKey="2" a href="#projects">Projects</Dropdown.Item>
-       
+        <Dropdown.Item eventKey="2" a href="#contact">Contact Me</Dropdown.Item>
       </DropdownButton>
     ))}
   </div>
 
-
-       {/* <div className="container ">
-
-
-
-
-      </div> */}
     </header>
 
 

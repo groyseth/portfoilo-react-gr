@@ -32,10 +32,10 @@ export default function Projects() {
   
   <Card.Img variant="top" src={require(`../assets/projects/${project.title}.png`)} className="projectImg" />
   
-  <Card.Body>
+  <Card.Body >
     <Card.Title>{project.title}</Card.Title>
     <p1>{project.subtitle}</p1>
-    <Card.Text>
+    <Card.Text className="scrolled">
       {project.description}
     </Card.Text>
     
