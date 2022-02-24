@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.2b393ef0.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.d4c59f32.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.1fc631dd.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.bfb90c49.js",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/newPicOfMe.jpg": "/portfoilo-react-gr/static/media/newPicOfMe.8bf4216367f356cfaa1a.jpg",
     "static/media/DNR Project.png": "/portfoilo-react-gr/static/media/DNR Project.c9c39116ff6752ac28dc.png",
@@ -13,11 +13,11 @@
     "static/media/background.png": "/portfoilo-react-gr/static/media/background.ff2e9711ac2f9e09d189.png",
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
-    "main.2b393ef0.css.map": "/portfoilo-react-gr/static/css/main.2b393ef0.css.map",
-    "main.d4c59f32.js.map": "/portfoilo-react-gr/static/js/main.d4c59f32.js.map"
+    "main.1fc631dd.css.map": "/portfoilo-react-gr/static/css/main.1fc631dd.css.map",
+    "main.bfb90c49.js.map": "/portfoilo-react-gr/static/js/main.bfb90c49.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b393ef0.css",
-    "static/js/main.d4c59f32.js"
+    "static/css/main.1fc631dd.css",
+    "static/js/main.bfb90c49.js"
   ]
 }
