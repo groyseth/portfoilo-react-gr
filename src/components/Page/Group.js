@@ -7,13 +7,16 @@ import { Button } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { group } from "../../data";
 
+
+
 export default function Projects() {
   // const { title, subtitle,  description } = projects;
+
 
   return (
     <section id="" className="">
       <div >
-        <div className="box">
+        <div className="box group-back">
           <h1>
             Group Apps I Helped Build
           </h1>

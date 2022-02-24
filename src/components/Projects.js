@@ -13,7 +13,7 @@ export default function Projects() {
   // const { title, subtitle,  description } = projects;
 
   return (
-    <section id="projects" className="">
+    <section id="projects" className="py-5">
       <div >
         <div className="box">
           <h1>
@@ -23,7 +23,7 @@ export default function Projects() {
             Take a look a my projects!
           </p>
         </div>
-        <Container className="container">
+        <Container className="container py-5">
       <div className="row " style={{margin: 'auto'}}>
      
           {projects.map((project) => (
@@ -34,7 +34,7 @@ export default function Projects() {
   
   <Card.Body >
     <Card.Title>{project.title}</Card.Title>
-    <p1>{project.subtitle}</p1>
+    <p1><strong>{project.subtitle}</strong></p1>
     <Card.Text className="scrolled">
       {project.description}
     </Card.Text>
@@ -47,15 +47,7 @@ export default function Projects() {
     </a>
      
   </Card.Body>
-  {/* <img src={require(`../assets/projects/${project.title}.png`)}
-       className='projectImg' alt="Project Image"></img> */}
-       {/* <div>
-       <video width="600" controls>
-              <source src={require(`../videos/${project.title}`)} type="video/mp4"/>
-
-            </video>
-            </div> */}
-            {/* {project.media} */}
+  
 </Card>
 
 
