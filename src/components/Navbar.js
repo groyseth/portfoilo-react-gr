@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="stat">
   
-  <div className="mb-2 ">
+  <div className="mb-2 color">
     {['down'].map((direction) => (
       <DropdownButton
         as={ButtonGroup}
@@ -16,7 +16,8 @@ export default function Navbar() {
         id={`dropdown-button-drop-${direction}`}
         drop={direction}
         variant="primary"
-        title={` Drop ${direction} `}
+        title={` Menu `}
+        
       >
         <Dropdown.Item eventKey="1" a href="#about">about</Dropdown.Item>
         <Dropdown.Item eventKey="2" a href="#projects">Projects</Dropdown.Item>
