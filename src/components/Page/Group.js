@@ -35,7 +35,7 @@ export default function Projects() {
   
   <Card.Body>
     <Card.Title>{group.title}</Card.Title>
-    <p1>{group.subtitle}</p1>
+    <p1><strong>{group.subtitle}</strong></p1>
     <Card.Text>
       {group.description}
     </Card.Text>

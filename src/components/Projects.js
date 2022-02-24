@@ -2,15 +2,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { projects } from "../data";
-// import { Row } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-// import { Col } from "react-bootstrap";
-// import {removeHyphensAndCapitalize} from '../utils/helpers'
+
 
 
 export default function Projects() {
-  // const { title, subtitle,  description } = projects;
+
 
   return (
     <section id="projects" className="py-5">
