@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 import pic from "../assets/profile/newPicOfMe.jpg"
 const styles = {
   aboutTop: {
-    width: '25%'
+    width: '30%'
   }
 }
 

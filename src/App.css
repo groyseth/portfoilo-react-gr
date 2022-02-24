@@ -44,7 +44,7 @@ body {
     /* width: 30%; */
     /* position: fixed; */
     left: 0;
-    bottom: 0;
+    bottom: 100%;
     width: 100%;
     background-color: rgb(8, 0, 0);
     color: rgb(255, 255, 255);
@@ -95,3 +95,7 @@ overflow-y: scroll;
 /* .profile-pic{
     width: 55%;
 } */
+.buttons button{
+color: rgb(255, 254, 254);
+background-color: black;
+}

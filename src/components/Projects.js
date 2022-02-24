@@ -15,43 +15,43 @@ export default function Projects() {
       <div >
         <div className="box">
           <h1>
-            Apps I've Built
+           Some Apps I've Built
           </h1>
           <p>
             Take a look a my projects!
           </p>
         </div>
         <Container className="container py-5">
-      <div className="row " style={{margin: 'auto'}}>
-     
-          {projects.map((project) => (
-        
-<Card style={{ width: '18rem' }} className="spacing">
-  
-  <Card.Img variant="top" src={require(`../assets/projects/${project.title}.png`)} className="projectImg" />
-  
-  <Card.Body >
-    <Card.Title>{project.title}</Card.Title>
-    <p1><strong>{project.subtitle}</strong></p1>
-    <Card.Text className="scrolled">
-      {project.description}
-    </Card.Text>
-    
-    <a href={project.link}>
-    <Button variant="primary">Repo</Button>
-    </a>
-    <a href={project.live}>
-    <Button variant="primary">Live Page</Button>
-    </a>
-     
-  </Card.Body>
-  
-</Card>
+          <div className="row " style={{ margin: 'auto' }}>
+
+            {projects.map((project) => (
+
+              <Card style={{ width: '18rem' }} className="spacing">
+
+                <Card.Img variant="top" src={require(`../assets/projects/${project.title}.png`)} className="projectImg" />
+
+                <Card.Body >
+                  <Card.Title>{project.title}</Card.Title>
+                  <p1><strong>{project.subtitle}</strong></p1>
+                  <Card.Text className="scrolled">
+                    {project.description}
+                  </Card.Text>
+                  <div className="buttons">
+                    <a href={project.link}>
+                      <Button variant="primary" className="mx-2">Repo</Button>
+                    </a>
+                    <a href={project.live}>
+                      <Button variant="primary">Live Page</Button>
+                    </a>
+                  </div>
+                </Card.Body>
+
+              </Card>
 
 
-            
-          ))}
-         
+
+            ))}
+
           </div>
         </Container>
       </div>
