@@ -1,12 +1,17 @@
 .box{
-    background-image:url(./assets/textback/mainbackgournd.jpg) ;
+    /* background-image:url(./assets/textback/mainbackgournd.jpg) ; */
     width: 80%;
     text-align: center;
     object-position: center;
     margin: auto;
+    color:#c6ecff;
+    box-shadow: #c6ecff 2px;
+    
 }
 body {
-    background-image:url(./assets/cover/2000pxSize.jpg);
+    background-image:url(./assets/projects/nutronStar.png);
+    background-repeat: no-repeat;
+            background-attachment: fixed;
 }
 .center{
     /* text-align: center; */
@@ -31,7 +36,7 @@ body {
     /* margin-right: -3px; */
     /* height: 100%; */
     border: 2px solid black;
-    box-shadow: 8px 8px 15px;
+    box-shadow: -7px -1px 11px 10px #c6ecff;
     /* text-align: center;
     object-position: center; */
 }

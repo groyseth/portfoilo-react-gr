@@ -31,7 +31,7 @@ export default function Projects() {
 <Card style={{ width: '18rem' }} className="spacing">
   
   <Card.Img variant="top" src={require(`../assets/projects/${project.title}.png`)} className="projectImg" />
-  {project.video}
+  
   <Card.Body>
     <Card.Title>{project.title}</Card.Title>
     <p1>{project.subtitle}</p1>
