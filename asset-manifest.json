@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.38e66033.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.e436e332.js",
-    "static/media/noteTaker.mp4": "/portfoilo-react-gr/static/media/noteTaker.9a22cbece56f336c9ca7.mp4",
+    "main.css": "/portfoilo-react-gr/static/css/main.2b393ef0.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.6e71b8ac.js",
+    "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/newPicOfMe.jpg": "/portfoilo-react-gr/static/media/newPicOfMe.8bf4216367f356cfaa1a.jpg",
-    "static/media/2000pxSize.jpg": "/portfoilo-react-gr/static/media/2000pxSize.934ad05ff8d491b48622.jpg",
-    "static/media/mainbackgournd.jpg": "/portfoilo-react-gr/static/media/mainbackgournd.cb4af6ad941421922787.jpg",
+    "static/media/DNR Project.png": "/portfoilo-react-gr/static/media/DNR Project.c9c39116ff6752ac28dc.png",
+    "static/media/newnutron.png": "/portfoilo-react-gr/static/media/newnutron.64c1f06e2ab27f736f2b.png",
+    "static/media/Weather.png": "/portfoilo-react-gr/static/media/Weather.daf13db2455cc711980d.png",
+    "static/media/Workday.png": "/portfoilo-react-gr/static/media/Workday.07d4ab08fce6ecd75269.png",
+    "static/media/Password.png": "/portfoilo-react-gr/static/media/Password.5e29369695e7a4eafac4.png",
+    "static/media/Text-Editor.png": "/portfoilo-react-gr/static/media/Text-Editor.7c6e7975bf931bc80686.png",
+    "static/media/background.png": "/portfoilo-react-gr/static/media/background.ff2e9711ac2f9e09d189.png",
+    "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
-    "main.38e66033.css.map": "/portfoilo-react-gr/static/css/main.38e66033.css.map",
-    "main.e436e332.js.map": "/portfoilo-react-gr/static/js/main.e436e332.js.map"
+    "main.2b393ef0.css.map": "/portfoilo-react-gr/static/css/main.2b393ef0.css.map",
+    "main.6e71b8ac.js.map": "/portfoilo-react-gr/static/js/main.6e71b8ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.38e66033.css",
-    "static/js/main.e436e332.js"
+    "static/css/main.2b393ef0.css",
+    "static/js/main.6e71b8ac.js"
   ]
 }
