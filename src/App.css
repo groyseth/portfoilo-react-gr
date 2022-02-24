@@ -21,4 +21,17 @@ body {
 }
 .projectImg {
     width: auto;
+    height: fit-content;
+}
+.spacing {
+    padding: 14px;
+    /* width: auto; */
+    /* padding-block: 1px; */
+    margin: 16px;
+    /* margin-right: -3px; */
+    /* height: 100%; */
+    border: 2px solid black;
+    box-shadow: 8px 8px 15px;
+    /* text-align: center;
+    object-position: center; */
 }

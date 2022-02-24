@@ -6,15 +6,16 @@ import { projects } from "../data";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 // import { Col } from "react-bootstrap";
-import {removeHyphensAndCapitalize} from '../utils/helpers'
+// import {removeHyphensAndCapitalize} from '../utils/helpers'
+
 
 export default function Projects() {
   // const { title, subtitle,  description } = projects;
 
   return (
-    <section id="projects" className="box">
+    <section id="projects" className="">
       <div >
-        <div >
+        <div className="box">
           <h1>
             Apps I've Built
           </h1>
@@ -23,28 +24,38 @@ export default function Projects() {
           </p>
         </div>
         <Container className="container">
-      <div className="row ">
+      <div className="row " style={{margin: 'auto'}}>
      
           {projects.map((project) => (
         
-<Card style={{ width: '18rem' }}>
+<Card style={{ width: '18rem' }} className="spacing">
   
-  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Img variant="top" src={require(`../assets/projects/${project.title}.png`)} className="projectImg" />
+  {project.video}
   <Card.Body>
     <Card.Title>{project.title}</Card.Title>
     <p1>{project.subtitle}</p1>
     <Card.Text>
       {project.description}
     </Card.Text>
-    {/* <img src={require(`../assets/projects/${project.title}.png`)}
-        alt="hey"></img> */}
+    
     <a href={project.link}>
     <Button variant="primary">Repo</Button>
     </a>
+    <a href={project.live}>
+    <Button variant="primary">Live Page</Button>
+    </a>
      
   </Card.Body>
-  <img src={require(`../assets/projects/${project.title}.png`)}
-       className='projectImg' alt="hey">  </img>
+  {/* <img src={require(`../assets/projects/${project.title}.png`)}
+       className='projectImg' alt="Project Image"></img> */}
+       {/* <div>
+       <video width="600" controls>
+              <source src={require(`../videos/${project.title}`)} type="video/mp4"/>
+
+            </video>
+            </div> */}
+            {/* {project.media} */}
 </Card>
 
 

@@ -8,14 +8,14 @@ export default function Navbar() {
   return (
     <header className="stat">
   
-  <div className="mb-2">
-    {['end'].map((direction) => (
+  <div className="mb-2 ">
+    {['down'].map((direction) => (
       <DropdownButton
         as={ButtonGroup}
         key={direction}
         id={`dropdown-button-drop-${direction}`}
         drop={direction}
-        variant="secondary"
+        variant="primary"
         title={` Drop ${direction} `}
       >
         <Dropdown.Item eventKey="1" a href="#about">about</Dropdown.Item>
