@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfoilo-react-gr/static/css/main.5ef90b7b.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.d8c9c647.js",
+    "main.js": "/portfoilo-react-gr/static/js/main.3a6f8497.js",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/UpdatedProfile.jpg": "/portfoilo-react-gr/static/media/UpdatedProfile.4c770f23b0cf423c92a6.jpg",
     "static/media/DNR Project.png": "/portfoilo-react-gr/static/media/DNR Project.c9c39116ff6752ac28dc.png",
@@ -15,10 +15,10 @@
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
     "main.5ef90b7b.css.map": "/portfoilo-react-gr/static/css/main.5ef90b7b.css.map",
-    "main.d8c9c647.js.map": "/portfoilo-react-gr/static/js/main.d8c9c647.js.map"
+    "main.3a6f8497.js.map": "/portfoilo-react-gr/static/js/main.3a6f8497.js.map"
   },
   "entrypoints": [
     "static/css/main.5ef90b7b.css",
-    "static/js/main.d8c9c647.js"
+    "static/js/main.3a6f8497.js"
   ]
 }
