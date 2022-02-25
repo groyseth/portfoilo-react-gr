@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 // import { Image } from "react-bootstrap";
 // import Style from './mystyle.module.css'
-import pic from "../assets/profile/newPicOfMe.jpg"
+import pic from "../assets/projects/UpdatedProfile.jpg"
 const styles = {
   aboutTop: {
     width: '30%'

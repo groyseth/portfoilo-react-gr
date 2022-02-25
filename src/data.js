@@ -46,7 +46,7 @@ export const group = [
   },
   {
     title: "DnD Project",
-    subtitle: "Third Party API, HandleBars, Sequilize, Group Project",
+    subtitle: "2 Third Party API's, Group Project",
     description: "D&D Seekers is a Dungeons and Dragons monster search application that allows people to search for monster challenge ratings and receive a random snack based on user input.",
     link: "https://github.com/groyseth/project-1-dnd",
     live: "https://the-wake.github.io/project-1-dnd/"

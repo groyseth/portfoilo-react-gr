@@ -1,7 +1,6 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-//destructoring them
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
@@ -9,9 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          // onClick={handlePageChange}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-        //if the home link is clicked it is set to active
+         
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
           Home
@@ -28,6 +25,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Group Projects' ? 'nav-link active' : 'nav-link'}
         >
           Group Projects
+        </a>
+      </li>
+
+      <li className="nav-item">
+        <a
+          href="#resume"
+           
+          onClick={() => handlePageChange('resume')}
+          className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}
+        >
+          My Resume
         </a>
       </li>
       

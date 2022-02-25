@@ -4,6 +4,8 @@ import Home from './Page/Home';
 // import Projects from './Projects';
 import Group from './Page/Group';
 import Footer from './Footer';
+import Resume from './Page/Resume'
+
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -16,6 +18,7 @@ export default function MainContainer() {
     if (currentPage === 'Group Projects') {
       return <Group />;
     }
+    return <Resume />
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -26,6 +29,7 @@ export default function MainContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
     
       {renderPage()}
+
        <Footer />
     </div>
     

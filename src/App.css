@@ -43,8 +43,10 @@ body {
 .footer{
     /* width: 30%; */
     /* position: fixed; */
+    /* position: absolute; */
+    margin-top: 100vh;
     left: 0;
-    bottom: 100%;
+    bottom: 0;
     width: 100%;
     background-color: rgb(8, 0, 0);
     color: rgb(255, 255, 255);
@@ -56,6 +58,11 @@ a{
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
     
+}
+a, a:hover{
+    text-decoration: none !important;
+    /* color: inherit; */
+    color: white;
 }
 ul{
     list-style-type:none;
