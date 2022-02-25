@@ -119,33 +119,29 @@ ul {
     background-color: black;
 }
 
-/* .wraped{
+.wraped{
     flex-direction: row;
+    max-width: fit-content;
+}
+/* .profile-pic {
+    max-width:fit-content;
 } */
-/* @media (min-width: 576px) {
 
-    .wraped{
-        font-size: 2px;
-    }
- } */
+
+
+ 
 @media (max-width: 575.98px) {
     .wraped {
         font-size: 20px;
-
+        max-width:max-content;
         width: 320px;
     }
 
     .profile-pic {
         position: relative;
         left: 70px;
-        width: 194%;
+        width: 210%;
+        max-width: max-content;
     }
-    body {
-        background-image: url(./assets/projects/newnutron.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        /* height: 1000%; */
-        background-size:cover;
-         /* background-position:center */
-    }
+    
 }
