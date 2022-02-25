@@ -1,33 +1,38 @@
-.box{
+.box {
     /* background-image:url(./assets/textback/mainbackgournd.jpg) ; */
     width: 80%;
     text-align: center;
     object-position: center;
     margin: auto;
-    color:#c6ecff;
+    color: #c6ecff;
     box-shadow: #c6ecff 2px;
-    
+
 }
+
 body {
-    background-image:url(./assets/projects/newnutron.png);
+    background-image: url(./assets/projects/newnutron.png);
     background-repeat: no-repeat;
-            background-attachment: fixed;
+    background-attachment: fixed;
 }
-.center{
+
+.center {
     /* text-align: center; */
     /* object-position:center; */
     /* margin: auto; */
     width: 50%;
 }
+
 .stat {
-    position:fixed;
+    position: fixed;
     color: black;
     float: left;
 }
+
 .projectImg {
     width: auto;
     height: fit-content;
 }
+
 .spacing {
     padding: 14px;
     /* width: auto; */
@@ -37,9 +42,10 @@ body {
     /* height: 100%; */
     border: 2px solid black;
     box-shadow: -7px -1px 11px 10px #c6ecff;
-    
+
 }
-.footer{
+
+.footer {
     position: absolute;
     margin-top: 15%;
     left: 0;
@@ -49,59 +55,88 @@ body {
     text-align: center;
     box-shadow: -7px -1px 11px 10px #c6ecff;
 }
-a{
+
+a {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
-    
+
 }
-button{
-    
-}
-a, a:hover{
+
+a,
+a:hover {
     text-decoration: none !important;
     /* color: inherit; */
     color: white;
 }
-ul{
-    list-style-type:none;
+
+ul {
+    list-style-type: none;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-.scrolled{
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scrolled {
     width: 252px;
     height: 250px;
-overflow-y: scroll;
+    overflow-y: scroll;
 }
-#about{
+
+#about {
     padding-top: 70px;
     color: white;
     border: 2px solid rgb(126, 98, 98);
     background-image: url(./assets/textback/background.png);
 }
-.group-back{
+
+.group-back {
     background-image: url(./assets/textback/background.png);
 }
+
 /* .profile-pic{
     width: 55%;
 } */
-.buttons button{
-color: rgb(255, 254, 254);
-background-color: black;
+.buttons button {
+    color: rgb(255, 254, 254);
+    background-color: black;
+}
+
+/* .wraped{
+    flex-direction: row;
+} */
+/* @media (min-width: 576px) {
+
+    .wraped{
+        font-size: 2px;
+    }
+ } */
+@media (max-width: 575.98px) {
+    .wraped {
+        font-size: 20px;
+
+        width: 320px;
+    }
+
+    .profile-pic {
+        position: relative;
+        left: 70px;
+        width: 194%;
+    }
 }
