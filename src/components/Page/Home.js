@@ -4,16 +4,19 @@ import About from "../About";
 // import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Projects from "../Projects";
+import './page.css'
 
 export default function Home() {
     return (
       <main>
-        {/* <NavTabs /> */}
+      
         <Navbar />
+        
+        <div className="home">
         <About />
-        {/* <Portfolio /> */}
+        </div>
         <Projects />
-        {/* <Footer /> */}
+   
       </main>
     );
   }

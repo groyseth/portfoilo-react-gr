@@ -9,12 +9,12 @@
 
 }
 
-body {
+/* body {
     background-image: url(./assets/projects/newnutron.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
-}
+} */
 
 .center {
     /* text-align: center; */
@@ -111,9 +111,9 @@ ul {
     background-image: url(./assets/textback/background.png);
 }
 
-/* .profile-pic{
-    width: 55%;
-} */
+.profile-pic{
+    width: 50%;
+}
 .buttons button {
     color: rgb(255, 254, 254);
     background-color: black;
@@ -126,7 +126,6 @@ ul {
 /* .profile-pic {
     max-width:fit-content;
 } */
-
 
 
  
@@ -144,4 +143,16 @@ ul {
         max-width: max-content;
     }
     
+}
+@media (max-width: 1200px) {
+    .footer{
+        position: absolute;
+    margin-top: 65%;
+    }
+    .spacing{
+        padding: px;
+    }
+    .wraped{
+        font-size: 20px;
+    }
 }
