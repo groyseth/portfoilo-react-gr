@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.4908da91.css",
+    "main.css": "/portfoilo-react-gr/static/css/main.24de7584.css",
     "main.js": "/portfoilo-react-gr/static/js/main.ceef6ef4.js",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/UpdatedProfile.jpg": "/portfoilo-react-gr/static/media/UpdatedProfile.4c770f23b0cf423c92a6.jpg",
@@ -14,11 +14,11 @@
     "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.e1a9bcc500f4a0e1ca0f.pdf",
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
-    "main.4908da91.css.map": "/portfoilo-react-gr/static/css/main.4908da91.css.map",
+    "main.24de7584.css.map": "/portfoilo-react-gr/static/css/main.24de7584.css.map",
     "main.ceef6ef4.js.map": "/portfoilo-react-gr/static/js/main.ceef6ef4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4908da91.css",
+    "static/css/main.24de7584.css",
     "static/js/main.ceef6ef4.js"
   ]
 }
