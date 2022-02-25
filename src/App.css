@@ -37,17 +37,12 @@ body {
     /* height: 100%; */
     border: 2px solid black;
     box-shadow: -7px -1px 11px 10px #c6ecff;
-    /* text-align: center;
-    object-position: center; */
+    
 }
 .footer{
-    /* width: 30%; */
-    /* position: fixed; */
     position: absolute;
     margin-top: 15%;
-    /* margin-bottom: -13px; */
     left: 0;
-    /* bottom: 0; */
     width: 100%;
     background-color: rgb(8, 0, 0);
     color: rgb(255, 255, 255);
@@ -58,6 +53,9 @@ a{
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
+    
+}
+button{
     
 }
 a, a:hover{

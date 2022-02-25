@@ -25,40 +25,40 @@ export default function Projects() {
           </p>
         </div>
         <Container className="container">
-      <div className="row " style={{margin: 'auto'}}>
-     
-          {group.map((group) => (
-        
-<Card style={{ width: '18rem' }} className="spacing">
-  
-  <Card.Img variant="top" src={require(`../../assets/projects/${group.title}.png`)} className="projectImg" />
-  
-  <Card.Body>
-    <Card.Title>{group.title}</Card.Title>
-    <p1><strong>{group.subtitle}</strong></p1>
-    <Card.Text>
-      {group.description}
-    </Card.Text>
-    
-    <a href={group.link}>
-    <Button variant="primary">Repo</Button>
-    </a>
-    <a href={group.live}>
-    <Button variant="primary">Live Page</Button>
-    </a>
-     
-  </Card.Body>
-  
-</Card>
+          <div className="row " style={{ margin: 'auto' }}>
+
+            {group.map((group) => (
+
+              <Card style={{ width: '18rem' }} className="spacing">
+
+                <Card.Img variant="top" src={require(`../../assets/projects/${group.title}.png`)} className="projectImg" />
+
+                <Card.Body>
+                  <Card.Title>{group.title}</Card.Title>
+                  <p1><strong>{group.subtitle}</strong></p1>
+                  <Card.Text>
+                    {group.description}
+                  </Card.Text>
+                  <div className='buttons'>
+                    <a href={group.link}>
+                      <Button variant="primary">Repo</Button>
+                    </a>
+                    <a href={group.live}>
+                      <Button variant="primary">Live Page</Button>
+                    </a>
+                  </div>
+                </Card.Body>
+
+              </Card>
 
 
-            
-          ))}
-         
+
+            ))}
+
           </div>
         </Container>
       </div>
     </section>
-    
+
   );
 }
