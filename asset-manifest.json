@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.1fc631dd.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.687de75b.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.2535c077.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.d8c9c647.js",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
-    "static/media/newPicOfMe.jpg": "/portfoilo-react-gr/static/media/newPicOfMe.8bf4216367f356cfaa1a.jpg",
+    "static/media/UpdatedProfile.jpg": "/portfoilo-react-gr/static/media/UpdatedProfile.4c770f23b0cf423c92a6.jpg",
     "static/media/DNR Project.png": "/portfoilo-react-gr/static/media/DNR Project.c9c39116ff6752ac28dc.png",
     "static/media/newnutron.png": "/portfoilo-react-gr/static/media/newnutron.64c1f06e2ab27f736f2b.png",
     "static/media/Weather.png": "/portfoilo-react-gr/static/media/Weather.daf13db2455cc711980d.png",
@@ -11,13 +11,14 @@
     "static/media/Password.png": "/portfoilo-react-gr/static/media/Password.5e29369695e7a4eafac4.png",
     "static/media/Text-Editor.png": "/portfoilo-react-gr/static/media/Text-Editor.7c6e7975bf931bc80686.png",
     "static/media/background.png": "/portfoilo-react-gr/static/media/background.ff2e9711ac2f9e09d189.png",
+    "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.e1a9bcc500f4a0e1ca0f.pdf",
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
-    "main.1fc631dd.css.map": "/portfoilo-react-gr/static/css/main.1fc631dd.css.map",
-    "main.687de75b.js.map": "/portfoilo-react-gr/static/js/main.687de75b.js.map"
+    "main.2535c077.css.map": "/portfoilo-react-gr/static/css/main.2535c077.css.map",
+    "main.d8c9c647.js.map": "/portfoilo-react-gr/static/js/main.d8c9c647.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fc631dd.css",
-    "static/js/main.687de75b.js"
+    "static/css/main.2535c077.css",
+    "static/js/main.d8c9c647.js"
   ]
 }
