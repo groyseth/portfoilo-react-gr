@@ -28,7 +28,7 @@ My profile page [GitHub](https://github.com/groyseth)
 Reach me at [Gmail](Groyseth@gmail.com)
 
 ## Future Update 
-The media query works on my phone but I will make it more responsive to others
+The media queries, but accidently made a collume
 
 ## Screenshots
 ![Screenshot (52)](https://user-images.githubusercontent.com/90479839/155744934-67e5969e-a6df-4f99-ad05-2d1642fee389.png)
