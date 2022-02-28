@@ -1,13 +1,13 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 // import { Image } from "react-bootstrap";
 // import Style from './mystyle.module.css'
 import pic from "../assets/projects/UpdatedProfile.jpg"
-// const styles = {
-//   aboutTop: {
-//     width: '30%'
-//   }
-// }
+const styles = {
+  aboutTop: {
+    width: '40%'
+  }
+}
 
 export default function About() {
   return (
@@ -25,7 +25,7 @@ export default function About() {
         </Col>
         <Col>
           <div >
-            <img  src={pic} alt="Profile" className="profile-pic"></img>
+            <Image style={styles.aboutTop} src={pic} alt="Profile" className="profile-pic"></Image>
           </div>
         </Col>
       </Row>
