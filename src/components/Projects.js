@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { projects } from "../data";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
@@ -22,7 +22,7 @@ export default function Projects() {
           </p>
         </div>
         <Container className="container py-5 cardstyle">
-          <div className="rowing " style={{ margin: 'auto'}}>
+          <Row className="displaying " style={{ margin: 'auto'}}>
 
             {projects.map((project) => (
 
@@ -52,7 +52,7 @@ export default function Projects() {
 
             ))}
 
-          </div>
+          </Row>
         </Container>
       </div>
     </section>

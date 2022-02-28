@@ -55,6 +55,8 @@
     color: rgb(255, 255, 255);
     text-align: center;
     box-shadow: -7px -1px 11px 10px #c6ecff;
+    display: flex;
+    /* overflow-x:visible; */
 }
 
 a {
@@ -123,7 +125,18 @@ ul {
     flex-direction: row;
     max-width: fit-content;
 }
-
+.displaying{
+    /* object-position: center; */
+    /* text-align: center; */
+    position: relative;
+    /* margin-left: 100px; */
+    /* display: flex; */
+    /* right: 100px; */
+    margin: auto;
+    align-items: center;
+    margin: auto;
+    object-position: center;
+}
 
 /* @media screen and (min-width: 375px) {
     .profile-pic {
@@ -145,17 +158,21 @@ ul {
         /* margin-right: 100px; */
         /* right: 0px; */
     }
-    .rowing{
-        /* margin-left: 10px; */
+    /* .displaying{
+        margin-left: 10px;
         position: relative;
         right: 10vh;
-        /* object-position: center;
-        text-align: center; */
-    }
+        object-position: center;
+        text-align: center;
+        align-items: center;
+        
+    } */
  }
-
+ @media screen and (max-width: 393px){
+    /* work on footer poping */
+ }
  @media screen and (max-width: 540px) {
-    .rowing{
+    .displaying{
         position: relative;
         left: 0vh;
 
@@ -177,6 +194,10 @@ ul {
         width: 40vh;
 
         max-width: max-content;
+    }
+    .footer{
+        /* display: flex; */
+        /* overflow:visible; */
     }
     /* .cardstyle{
         position: relative;
@@ -217,11 +238,18 @@ ul {
         /* right: 10%; */
         /* width: 100vh; */
     }
+    /* .displaying{
+        object-position: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 100vh;
+    } */
 }
 @media (max-width: 1200px) {
     .footer{
         position: absolute;
     margin-top: 65%;
+    display: flex;
     }
     /* .spacing{
         padding: px;
@@ -234,5 +262,10 @@ ul {
         /* left: 100px; */
         object-position: center;
         margin: 150px ;
+    }
+    .displaying{
+        display: flex;
+        flex-wrap: wrap;
+        
     }
 }
