@@ -22,7 +22,7 @@ export default function Projects() {
           </p>
         </div>
         <Container className="container py-5 cardstyle">
-          <div className="row " style={{ margin: 'auto'}}>
+          <div className="rowing " style={{ margin: 'auto'}}>
 
             {projects.map((project) => (
 

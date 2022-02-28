@@ -130,7 +130,37 @@ ul {
       width: 10px;
     }
   } */
- 
+ .profile-pic{
+     width: 40%;
+ }
+ @media screen and (min-width: 360px){
+     .rowing{
+         position: relative;
+         right: 15vh;
+     }
+ }
+ @media screen and (min-width: 374px) {
+    .spacing{
+        /* position: relative; */
+        /* margin-right: 100px; */
+        /* right: 0px; */
+    }
+    .rowing{
+        /* margin-left: 10px; */
+        position: relative;
+        right: 10vh;
+        /* object-position: center;
+        text-align: center; */
+    }
+ }
+
+ @media screen and (max-width: 540px) {
+    .rowing{
+        position: relative;
+        left: 0vh;
+
+    }
+ }
 @media (max-width: 575.98px) {
     .wraped {
         font-size: 20px;
@@ -141,12 +171,13 @@ ul {
         margin-left: 100%;
     } */
 
-    /* .profile-pic {
+    .profile-pic {
         position: relative;
-        left: 70px;
-        width: 210%;
+        /* left: 70px; */
+        width: 40vh;
+
         max-width: max-content;
-    } */
+    }
     /* .cardstyle{
         position: relative;
         left: 100px;
@@ -180,10 +211,10 @@ ul {
     .spacing{
         text-align: center;
         object-position: center;
-        /* margin: auto; */
+        margin: auto;
         
         position: relative;
-        right: 10%;
+        /* right: 10%; */
         /* width: 100vh; */
     }
 }
