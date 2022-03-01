@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfoilo-react-gr/static/css/main.29f66995.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.42f8920e.js",
+    "main.js": "/portfoilo-react-gr/static/js/main.ef69215d.js",
     "static/media/video.mp4": "/portfoilo-react-gr/static/media/video.8884ce28564fa1e59c52.mp4",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/UpdatedProfile.jpg": "/portfoilo-react-gr/static/media/UpdatedProfile.4c770f23b0cf423c92a6.jpg",
@@ -16,10 +16,10 @@
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
     "main.29f66995.css.map": "/portfoilo-react-gr/static/css/main.29f66995.css.map",
-    "main.42f8920e.js.map": "/portfoilo-react-gr/static/js/main.42f8920e.js.map"
+    "main.ef69215d.js.map": "/portfoilo-react-gr/static/js/main.ef69215d.js.map"
   },
   "entrypoints": [
     "static/css/main.29f66995.css",
-    "static/js/main.42f8920e.js"
+    "static/js/main.ef69215d.js"
   ]
 }
