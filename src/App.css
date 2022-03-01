@@ -9,18 +9,13 @@
 
 }
 
-/* body {
-    background-image: url(./assets/projects/newnutron.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-} */
+
 
 .center {
     /* text-align: center; */
     /* object-position:center; */
     /* margin: auto; */
-    width: 50%;
+    width: 70%;
 }
 
 .stat {
@@ -36,14 +31,11 @@
 
 .spacing {
     padding: 14px;
-    /* width: auto; */
-    /* padding-block: 1px; */
-    margin: 16px;
-    /* margin-right: -3px; */
-    /* height: 100%; */
+    
+    display: flex;
     border: 2px solid black;
-    box-shadow: -7px -1px 11px 10px #c6ecff;
-
+    box-shadow: -3px -1px 9px 1px #050505;
+    text-align: center;
 }
 
 .footer {
@@ -98,7 +90,7 @@ ul {
 
 .scrolled {
     width: 252px;
-    height: 250px;
+    height: 300px;
     overflow-y: scroll;
 }
 
@@ -113,9 +105,7 @@ ul {
     background-image: url(./assets/textback/background.png);
 }
 
-/* .profile-pic{
-    width: 50%;
-} */
+
 .buttons button {
     color: rgb(255, 254, 254);
     background-color: black;
@@ -125,32 +115,14 @@ ul {
     flex-direction: row;
     max-width: fit-content;
 }
-.displaying{
-    /* object-position: center; */
-    /* text-align: center; */
-    position: relative;
-    /* margin-left: 100px; */
-    /* display: flex; */
-    /* right: 100px; */
-    margin: auto;
-    align-items: center;
-    margin: auto;
-    object-position: center;
-}
 
-/* @media screen and (min-width: 375px) {
-    .profile-pic {
-      width: 10px;
-    }
-  } */
+
+
  .profile-pic{
      width: 40%;
  }
  @media screen and (min-width: 360px){
-     .rowing{
-         position: relative;
-         right: 15vh;
-     }
+   
  }
  @media screen and (min-width: 374px) {
     .spacing{
@@ -158,35 +130,17 @@ ul {
         /* margin-right: 100px; */
         /* right: 0px; */
     }
-    /* .displaying{
-        margin-left: 10px;
-        position: relative;
-        right: 10vh;
-        object-position: center;
-        text-align: center;
-        align-items: center;
-        
-    } */
+    
  }
- @media screen and (max-width: 393px){
-    /* work on footer poping */
- }
- @media screen and (max-width: 540px) {
-    .displaying{
-        position: relative;
-        left: 0vh;
-
-    }
- }
+ 
+ 
 @media (max-width: 575.98px) {
     .wraped {
         font-size: 20px;
         max-width:max-content;
         width: 320px;
     }
-    /* .cardstyle{
-        margin-left: 100%;
-    } */
+   
 
     .profile-pic {
         position: relative;
@@ -195,40 +149,24 @@ ul {
 
         max-width: max-content;
     }
-    .footer{
-        /* display: flex; */
-        /* overflow:visible; */
-    }
-    /* .cardstyle{
-        position: relative;
-        left: 100px;
-        
-    } */
+   
     .spacing{
         text-align: center;
     object-position: center;
     /* margin: auto; */
     position: relative;
-    right: 30%;
+    /* right: 30%; */
     /* width: auto; */
+    
+
         
     }
 }
 
 
 @media (max-width: 992px) {
-    .cardstyle{
-        margin-left: 39%;
-    }
-    /* .profile-pic{
-        width: 100%;
-    } */
-      /* .cardstyle{
-        position: relative;
-        left: 100px;
-        object-position: center;
-        margin: 100px ;
-    } */
+    
+    
     .spacing{
         text-align: center;
         object-position: center;
@@ -238,12 +176,7 @@ ul {
         /* right: 10%; */
         /* width: 100vh; */
     }
-    /* .displaying{
-        object-position: center;
-        text-align: center;
-        align-items: center;
-        margin-left: 100vh;
-    } */
+   
 }
 @media (max-width: 1200px) {
     .footer{
@@ -251,21 +184,9 @@ ul {
     margin-top: 65%;
     display: flex;
     }
-    /* .spacing{
-        padding: px;
-    } */
+   
     .wraped{
         font-size: 20px;
     }
-    .cardstyle{
-        /* position: relative; */
-        /* left: 100px; */
-        object-position: center;
-        margin: 150px ;
-    }
-    .displaying{
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
+  
 }
