@@ -76,7 +76,7 @@ export default function Projects() {
                   </Card.Text>
                   <div className='buttons'>
                     <a href={group.link}>
-                      <Button variant="primary">Repo</Button>
+                      <Button variant="primary" className="mx-2">Repo</Button>
                     </a>
                     <a href={group.live}>
                       <Button variant="primary">Live Page</Button>

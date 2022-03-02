@@ -4,19 +4,23 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
+
+
+
 export default function Navbar() {
   return (
     <header className="stat">
   
-  <div className="mb-2 color">
+  <div className="mb-2 color" style={{zIndex: '1'}}>
     {['down'].map((direction) => (
-      <DropdownButton
+      <DropdownButton 
         as={ButtonGroup}
         key={direction}
         id={`dropdown-button-drop-${direction}`}
         drop={direction}
         variant="primary"
         title={` Menu `}
+        
         
       >
         <Dropdown.Item eventKey="1" a href="#about">about</Dropdown.Item>

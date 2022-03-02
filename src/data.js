@@ -33,6 +33,20 @@ export const projects = [
     link: "https://github.com/groyseth/Passwork-Genorator-GR",
     live: "https://groyseth.github.io/Passwork-Genorator-GR/"
   },
+  {
+    title: "E-Commerce",
+    subtitle: "MySQL, Javascript",
+    description: "This e-commerce project you will be able to add, delete and update into pre-existing tables using 'mysql2'. This project is easy to run in insomnia if you follow the video instructions. ",
+    link: "https://github.com/groyseth/E-Commerce-GR",
+    live: "https://watch.screencastify.com/v/jbDFdhhvEYZTDywi538x"
+  },
+  {
+    title: "Employee Tracker",
+    subtitle: "Inquirer, MySQL",
+    description: "In this employee tracker you can add a role, department, and employees! The user input will be saved in the MySQL data base.",
+    link: "https://github.com/groyseth/Employee-Tracker-GR",
+    live: "https://watch.screencastify.com/v/Xjh32kDMmF4Js0QVjNmA"
+  },
 
 ];
 
