@@ -1,8 +1,4 @@
-// import df from './assets/vids/RealNoteTaker.mp4'
-
 export const projects = [
-
-  
 
   {
     title: "Text-Editor",
@@ -10,7 +6,6 @@ export const projects = [
     description: "This text editor demonstrates the use of PWA(Progressive Web Application) and wepacks. User will be able to type code into the body, the code will be cashed into an IndexDb and the application will work offline. User will also be able to download the application!",
     link: "https://github.com/groyseth/text-editor-GR",
     live: "https://nameless-meadow-70824.herokuapp.com/"
-
   },
   {
     title: "Workday",
