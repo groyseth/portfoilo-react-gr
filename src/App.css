@@ -13,11 +13,11 @@
 
 .stat {
     position: fixed;
-    /* color: rgb(255, 241, 241); */
     float: left;
     z-index: 1;
     
 }
+
 
 .projectImg {
     width: auto;
@@ -29,11 +29,14 @@
 
 .spacing {
     padding: 14px;
+    
     display: flex;
     border: 2px solid black;
     box-shadow: -3px -1px 9px 1px #050505;
     text-align: center;
 }
+
+
 
 .footer {
     position: absolute;
@@ -61,7 +64,75 @@ a:hover {
 
 ul {
     list-style-type: none;
+    color: yellow;
 }
+
+.nav li{
+    border: 1px solid rgb(255, 254, 254);
+    background-color: #18ec5b;
+}
+#dropdown-button-drop-down{
+    background-color: rgba(132, 4, 4, .5);
+    box-shadow: 1px  1px #c6ecff;
+    border: none;
+}
+
+.menuColor{
+    background-color: black;
+    
+}
+
+
+
+.nav a {
+    padding: .5em .8em;
+    color: rgba(255, 255, 255, 0.986);
+    position: relative;
+    text-decoration: none;
+    /* background-color: rgba(10, 6, 6, 0.5); */
+  }
+  
+  .nav a::before,
+  .nav a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+    /* background-color: black; */
+  }
+  
+  .nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #3E8914;
+    border-right: 3px solid #2E640F;
+    transform: translate(-100%, 50%);
+    /* background-color: black; */
+  }
+  
+  .nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #2E640F;
+    border-left: 3px solid #3E8914;
+    transform: translate(100%, -50%)
+  }
+  .nav a:hover:before,
+  .nav a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  
+  .nav a:hover {
+    color: #18ec5b;
+    background-color: black;
+  }
+    
+
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -99,7 +170,6 @@ ul {
     background-image: url(./assets/textback/background.png);
 }
 
-
 .buttons button {
     color: rgb(255, 254, 254);
     background-color: black;
@@ -109,18 +179,10 @@ ul {
     flex-direction: row;
     max-width: fit-content;
 }
-
-
-
  .profile-pic{
      width: 40%;
  }
- @media screen and (min-width: 360px){
-   
- }
 
- 
- 
 @media (max-width: 575.98px) {
     .wraped {
         font-size: 20px;
@@ -128,7 +190,6 @@ ul {
         width: 320px;
     }
    
-
     .profile-pic {
         position: relative;
         /* left: 70px; */
@@ -140,28 +201,17 @@ ul {
     .spacing{
         text-align: center;
     object-position: center;
-    /* margin: auto; */
     position: relative;
-    /* right: 30%; */
-    /* width: auto; */
-    
-
-        
     }
 }
 
-
 @media (max-width: 992px) {
-    
     
     .spacing{
         text-align: center;
         object-position: center;
         margin: auto;
-        
         position: relative;
-        /* right: 10%; */
-        /* width: 100vh; */
     }
    
 }
@@ -175,5 +225,4 @@ ul {
     .wraped{
         font-size: 20px;
     }
-  
 }

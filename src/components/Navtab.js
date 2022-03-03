@@ -1,15 +1,22 @@
 import React from 'react';
 
+const style = {
+  backcolor: {
+    backgroundColor: 'black'
+    
+  }
+}
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li className="nav-item test">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
          
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          className= {currentPage === 'Home' ? 'nav-link active' : 'nav-link'} style={style.backcolor} 
+          
         >
           Home
         </a>
@@ -21,7 +28,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#contact"
          
           onClick={() => handlePageChange('Group Projects')}
-          className={currentPage === 'Group Projects' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Group Projects' ? 'nav-link active' : 'nav-link'} style={style.backcolor}
+          
         >
           Group Projects
         </a>
@@ -32,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#resume"
            
           onClick={() => handlePageChange('resume')}
-          className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'} style={style.backcolor}
         >
           My Resume
         </a>

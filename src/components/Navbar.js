@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <header className="stat">
   
-  <div className="mb-2 color" style={{zIndex: '1'}}>
+  <div className="mb-2 color nav" style={{zIndex: '1'}}>
     {['down'].map((direction) => (
       <DropdownButton 
         as={ButtonGroup}
@@ -23,10 +23,13 @@ export default function Navbar() {
         
         
       >
+        <li className="menuColor">
         <Dropdown.Item eventKey="1" a href="#about">about</Dropdown.Item>
         <Dropdown.Item eventKey="2" a href="#projects">Projects</Dropdown.Item>
         <Dropdown.Item eventKey="2" a href="#contact">Contact Me</Dropdown.Item>
+        </li>
       </DropdownButton>
+      
     ))}
   </div>
 
