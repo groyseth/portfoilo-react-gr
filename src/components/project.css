@@ -2,11 +2,14 @@
 .spacing:hover {
     background: #ffffff;
 }
-        .spacing {
-            transform: rotateX(20deg);
-        }
-        .spacing:hover{
-            transition: all 0.65s;
-            transform: rotateY(20deg);
-        }
+ .spacing {
+     transform: rotateX(20deg);
+}
+ .spacing:hover{
+transition: all 0.65s;
+transform: rotateY(20deg);
+ }
+ .spacing:hover p{
+   text-shadow: 1px 1px 1px black;
+ }
        

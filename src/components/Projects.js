@@ -35,7 +35,9 @@ export default function Projects() {
                   <Card.Title>{group.title}</Card.Title>
                   <p1><strong>{group.subtitle}</strong></p1>
                   <Card.Text>
+                    <p>
                     {group.description}
+                    </p>
                   </Card.Text>
                   <div className='buttons'>
                     <a href={group.link}>
