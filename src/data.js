@@ -50,7 +50,7 @@ export const group = [
     title: "DNR Project",
     subtitle: "Third Party API, HandleBars, Sequilize, Group Project",
     description: "This project was a group project of 3 developers and is a DNR reference site. This site demonstrates the use of handlebars and sequilize with user input.",
-    link: "https://github.com/groyseth/Project_2_uofm/tree/main",
+    link: "https://github.com/groyseth/Project_2_uofm",
     live: "https://stormy-garden-90236.herokuapp.com/login"
   },
   {
