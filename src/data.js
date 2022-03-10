@@ -61,10 +61,10 @@ export const group = [
     live: "https://the-wake.github.io/project-1-dnd/"
   },
   {
-    title: "Coming Soon",
-    subtitle: "",
-    description: "Will be Published 03/09/2022",
-    link: "/",
-    live: "/"
+    title: "Creative-Dev",
+    subtitle: "React, Group Project, React-Boostrap, Updates In Progress",
+    description: "An open source social media platform for developers to share projects, games, and applications with other devs to gain feedback and to network.",
+    link: "https://github.com/groyseth/creative_dev",
+    live: "https://mysterious-cliffs-92833.herokuapp.com/"
   }
 ]
