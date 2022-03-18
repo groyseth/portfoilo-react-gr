@@ -4,6 +4,8 @@
 }
  .spacing {
      transform: rotateX(20deg);
+     margin: 10px;
+     
 }
  .spacing:hover{
 transition: all 0.65s;

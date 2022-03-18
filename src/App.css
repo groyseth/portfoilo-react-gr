@@ -168,6 +168,8 @@ ul {
 
 .group-back {
     background-image: url(./assets/textback/background.png);
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons button {

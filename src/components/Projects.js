@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-5">
       <div >
-        <div className="box">
+        <div className="box group-back">
           <h1>
            Some Apps I've Built
           </h1>
