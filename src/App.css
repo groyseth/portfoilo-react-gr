@@ -13,18 +13,11 @@
 
 .stat {
     position: fixed;
-    float: left;
-    z-index: 1;
+    right: 0px;
+    /* z-index: 1; */
     
 }
 
-
-.projectImg {
-    width: auto;
-    height: fit-content;
-    border: 2px solid black;
-    box-shadow: -3px -1px 9px 1px #050505;
-}
 
 
 .spacing {
@@ -67,10 +60,6 @@ ul {
     color: yellow;
 }
 
-.nav li{
-    border: 1px solid rgb(255, 254, 254);
-    
-}
 #dropdown-button-drop-down{
     background-color: rgba(132, 4, 4, .5);
     box-shadow: 1px  1px #c6ecff;
@@ -83,55 +72,8 @@ ul {
 }
 
 
-
-.nav a {
-    padding: .5em .8em;
-    color: rgba(255, 255, 255, 0.986);
-    position: relative;
-    text-decoration: none;
-    /* background-color: rgba(10, 6, 6, 0.5); */
-  }
   
-  .nav a::before,
-  .nav a::after {
-    content: '';
-    height: 14px;
-    width: 14px;
-    position: absolute;
-    transition: all .35s ease;
-    opacity: 0;
-    /* background-color: black; */
-  }
   
-  .nav a::before {
-    content: '';
-    right: 0;
-    top: 0;
-    border-top: 3px solid #3E8914;
-    border-right: 3px solid #2E640F;
-    transform: translate(-100%, 50%);
-    /* background-color: black; */
-  }
-  
-  .nav a:after {
-    content: '';
-    left: 0;
-    bottom: 0;
-    border-bottom: 3px solid #2E640F;
-    border-left: 3px solid #3E8914;
-    transform: translate(100%, -50%)
-  }
-  .nav a:hover:before,
-  .nav a:hover:after{
-    transform: translate(0,0);
-    opacity: 1;
-  }
-  
-  .nav a:hover {
-    color: #18ec5b;
-    background-color: black;
-  }
-    
 
 
 ::-webkit-scrollbar {
@@ -159,12 +101,7 @@ ul {
     overflow-y: scroll;
 }
 
-#about {
-    padding-top: 70px;
-    color: white;
-    border: 2px solid rgb(126, 98, 98);
-    background-image: url(./assets/textback/background.png);
-}
+
 
 .group-back {
     background-image: url(./assets/textback/background.png);
@@ -177,28 +114,10 @@ ul {
     background-color: black;
 }
 
-.wraped{
-    flex-direction: row;
-    max-width: fit-content;
-}
- .profile-pic{
-     width: 40%;
- }
+
 
 @media (max-width: 575.98px) {
-    .wraped {
-        font-size: 20px;
-        max-width:max-content;
-        width: 320px;
-    }
-   
-    .profile-pic {
-        position: relative;
-        /* left: 70px; */
-        width: 40vh;
-
-        max-width: max-content;
-    }
+  
    
     .spacing{
         text-align: center;
@@ -219,12 +138,12 @@ ul {
 }
 @media (max-width: 1200px) {
     .footer{
-        position: absolute;
+        position: relative;
     margin-top: 65%;
     display: flex;
     }
    
-    .wraped{
+    /* .wraped{
         font-size: 20px;
-    }
+    } */
 }

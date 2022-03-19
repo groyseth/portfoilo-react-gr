@@ -14,4 +14,12 @@ transform: rotateY(20deg);
  .spacing:hover p{
    text-shadow: 1px 1px 1px black;
  }
-       
+ .projectImg {
+  width: auto;
+  height: fit-content;
+  border: 2px solid black;
+  box-shadow: -3px -1px 9px 1px #050505;
+}
+#projects{
+  height: 100vh;
+}

@@ -1,7 +1,18 @@
 .home{
-    height: 100vh;
+    height: 50vh;
+    margin-top: 50vh;
 }
 .scrollcontainer{
     width: 100vh;
     height: 100vh;
+}
+@media (max-width: 764px) {
+    .home{
+    height: 300vh;
+    margin-top: 350vh;
+    }
+    .top{
+    height: 200vh;
+    /* margin-top: 50vh; */
+    }
 }

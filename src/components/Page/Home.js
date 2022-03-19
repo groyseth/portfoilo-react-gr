@@ -17,7 +17,7 @@ export default function Home() {
       
         <Navbar />
         
-        <div className="home">
+        <div className="top">
         <About />
        </div>
        

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./navtab.css"
 const style = {
   backcolor: {
     backgroundColor: 'black'
@@ -9,14 +9,13 @@ const style = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item test">
+    <ul className="nav  backgroundNav">
+      <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
          
           className= {currentPage === 'Home' ? 'nav-link active' : 'nav-link'} style={style.backcolor} 
-          
         >
           Home
         </a>

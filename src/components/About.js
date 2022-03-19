@@ -3,6 +3,7 @@ import { Col, Image, Row } from "react-bootstrap";
 // import { Image } from "react-bootstrap";
 // import Style from './mystyle.module.css'
 import pic from "../assets/projects/UpdatedProfile.jpg"
+import "./about.css"
 // const styles = {
 //   aboutTop: {
 //     width: '40%'
@@ -13,7 +14,7 @@ export default function About() {
   return (
     <section id="about" className=" ">
 
-      <Row>
+      {/* <Row> */}
         <Col>
           <div className="container moving">
             <h1 className=" ">Hello, My Name Is Grant!</h1>
@@ -28,7 +29,7 @@ export default function About() {
             <Image  src={pic} alt="Profile" className="profile-pic"></Image>
           </div>
         </Col>
-      </Row>
+      {/* </Row> */}
     </section>
   );
 }

@@ -9,9 +9,9 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 export default function Navbar() {
   return (
-    <header className="stat">
+    <header className="">
   
-  <div className="mb-2 color nav" style={{zIndex: '1'}}>
+  <div className="mb-2 stat" style={{zIndex: '1'}}>
     {['down'].map((direction) => (
       <DropdownButton 
         as={ButtonGroup}

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./group.css"
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 // import { Col } from "react-bootstrap";
@@ -14,7 +14,7 @@ export default function Projects() {
 
 
   return (
-    <section id="" className="">
+    <section id="groupStyle" className="">
       <div >
         <div className="box group-back">
           <h1>
