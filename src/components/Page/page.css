@@ -1,6 +1,6 @@
-/* .home{
-    margin: 0px 0px 40% 0px;
-} */
+.home{
+    height: 100vh;
+}
 .scrollcontainer{
     width: 100vh;
     height: 100vh;

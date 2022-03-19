@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../About";
-// import Contacts from "./components/Contacts";
+import Group from "./Group"
 // import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Projects from "../Projects";
@@ -19,8 +19,12 @@ export default function Home() {
         
         <div className="home">
         <About />
-        </div>
+       </div>
+       
         <Projects />
+        <div className="home">
+        <Group />
+        </div>
     </main>
     );
   }
