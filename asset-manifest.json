@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.1c41438a.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.d5f59750.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.416e345e.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.db42784f.js",
     "static/media/video.mp4": "/portfoilo-react-gr/static/media/video.8884ce28564fa1e59c52.mp4",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
     "static/media/Employee Tracker.png": "/portfoilo-react-gr/static/media/Employee Tracker.7c8b7c807158998e2fa9.png",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/UpdatedProfile.jpg": "/portfoilo-react-gr/static/media/UpdatedProfile.4c770f23b0cf423c92a6.jpg",
-    "static/media/Creative-Dev.png": "/portfoilo-react-gr/static/media/Creative-Dev.7967af46ec10ad746074.png",
+    "static/media/Creative-Dev.png": "/portfoilo-react-gr/static/media/Creative-Dev.b17a1e04edbf9066d53e.png",
     "static/media/DNR Project.png": "/portfoilo-react-gr/static/media/DNR Project.c9c39116ff6752ac28dc.png",
     "static/media/newnutron.png": "/portfoilo-react-gr/static/media/newnutron.64c1f06e2ab27f736f2b.png",
     "static/media/Coming Soon.png": "/portfoilo-react-gr/static/media/Coming Soon.7d28b85543228e697049.png",
@@ -16,14 +16,14 @@
     "static/media/Password.png": "/portfoilo-react-gr/static/media/Password.5e29369695e7a4eafac4.png",
     "static/media/Text-Editor.png": "/portfoilo-react-gr/static/media/Text-Editor.7c6e7975bf931bc80686.png",
     "static/media/background.png": "/portfoilo-react-gr/static/media/background.ff2e9711ac2f9e09d189.png",
-    "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.e1a9bcc500f4a0e1ca0f.pdf",
+    "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.1a2ec6944b4134f0c7db.pdf",
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
-    "main.1c41438a.css.map": "/portfoilo-react-gr/static/css/main.1c41438a.css.map",
-    "main.d5f59750.js.map": "/portfoilo-react-gr/static/js/main.d5f59750.js.map"
+    "main.416e345e.css.map": "/portfoilo-react-gr/static/css/main.416e345e.css.map",
+    "main.db42784f.js.map": "/portfoilo-react-gr/static/js/main.db42784f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c41438a.css",
-    "static/js/main.d5f59750.js"
+    "static/css/main.416e345e.css",
+    "static/js/main.db42784f.js"
   ]
 }
