@@ -8,7 +8,7 @@
 }
 @media (max-width: 764px) {
     .home{
-    height: 300vh;
+    height: 200vh;
     margin-top: 350vh;
     }
     .top{
@@ -18,5 +18,27 @@
     }
     .navBar{
         width: 9px;
+    }
+}
+
+@media (max-width: 300px) {
+   .middle{
+       height: 100vh;
+   }
+   .home{
+       top: 100px;
+       position: relative;
+   }
+}
+@media (max-width: 1024px) {
+    .home{
+        top: 500px;
+        position: relative;
+      
+    }
+    .middle{
+        top: 200px;
+        position: relative;
+
     }
 }

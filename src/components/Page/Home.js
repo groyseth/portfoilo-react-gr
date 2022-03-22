@@ -20,8 +20,9 @@ export default function Home() {
         <div className="top">
         <About />
        </div>
-       
+       <div className="middle">
         <Projects />
+        </div>
         <div className="home">
         <Group />
         </div>

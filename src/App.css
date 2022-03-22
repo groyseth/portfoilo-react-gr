@@ -26,9 +26,10 @@
 
 
 .footer {
-    position: absolute;
+    position: relative;
     margin-top: 50vh;
     left: 0;
+    
     width: 100%;
     /* bottom: -100%; */
     /* top: 0px; */
@@ -100,7 +101,11 @@ ul {
     color: rgb(255, 254, 254);
     background-color: black;
 }
-
+/* @media screen and (max-width: 359px) {
+    .footer{
+        margin-top: 300px;
+    }
+} */
 
 
 @media (max-width: 575.98px) {
@@ -110,6 +115,10 @@ ul {
         text-align: center;
     object-position: center;
     position: relative;
+    }
+    .footer{
+        /* position: relative; */
+        margin-top: 100px;
     }
 }
 
@@ -133,4 +142,10 @@ ul {
     /* .wraped{
         font-size: 20px;
     } */
+}
+@media (max-width: 1024px) {
+    .footer{
+    position: relative;
+    top: 437px;
+    }
 }
