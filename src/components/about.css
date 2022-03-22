@@ -22,32 +22,35 @@
  .profile-pic{
      /* width: 50%; */
      height: 45vh;
-     
+     right: -40%;
+     position: relative;
+     border: 2px solid;
  }
 
-@media (max-width: 750px) {
+ @media screen and (max-width: 750px) {
     #about{
-        height: 200vh;
-        width: 102%;
+        height: 178vh;
+        width: 111%;
     }
     .wraped {
         font-size: 20px;
         /* max-width:max-content; */
         
-        width: 350px;
+        width: 109.5%;
     }
    
     .profile-pic {
-        /* position: relative; */
-        
+        position: relative;
+        /* margin-right: 5%; */
         /* width: 40%; */
         /* height: 2vh; */
      /* order: 2;
      flex-direction: column; */
-
+     right: -11%;
         /* max-width: max-content; */
     }
     .moving{
-        /* width: 200%; */
+        width: 90%;
+        margin-left: 0px;
     }
 }

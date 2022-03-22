@@ -23,3 +23,13 @@ transform: rotateY(20deg);
 #projects{
   height: 100vh;
 }
+.row{
+  justify-content: center;
+}
+@media screen and (max-width: 960px) {
+  .row{
+    position: relative;
+    /* right: -3%; */
+    justify-content: center;
+  }
+}

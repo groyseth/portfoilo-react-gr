@@ -11,12 +11,6 @@
     width: 70%;
 }
 
-.stat {
-    position: fixed;
-    right: 0px;
-    /* z-index: 1; */
-    
-}
 
 
 
@@ -33,9 +27,11 @@
 
 .footer {
     position: absolute;
-    margin-top: 15%;
+    margin-top: 50vh;
     left: 0;
     width: 100%;
+    /* bottom: -100%; */
+    /* top: 0px; */
     background-color: rgb(8, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -60,16 +56,7 @@ ul {
     color: yellow;
 }
 
-#dropdown-button-drop-down{
-    background-color: rgba(132, 4, 4, .5);
-    box-shadow: 1px  1px #c6ecff;
-    border: none;
-}
 
-.menuColor{
-    background-color: black;
-    
-}
 
 
   
@@ -131,7 +118,7 @@ ul {
     .spacing{
         text-align: center;
         object-position: center;
-        margin: auto;
+        /* margin: auto; */
         position: relative;
     }
    

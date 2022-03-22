@@ -2,6 +2,9 @@
     height: 100vh;
     
 }
+.row{
+    justify-content: center;
+}
 @media (max-width: 764px) {
     #groupStyle{
         height: 300vh;

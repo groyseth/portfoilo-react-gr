@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
      
        
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#contact"
          
@@ -32,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Group Projects
         </a>
-      </li>
+      </li> */}
 
       <li className="nav-item">
         <a

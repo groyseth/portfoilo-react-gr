@@ -18,14 +18,15 @@ export default function Navbar() {
         key={direction}
         id={`dropdown-button-drop-${direction}`}
         drop={direction}
-        variant="primary"
+        // variant="primary"
         title={` Menu `}
         
         
       >
         <li className="menuColor">
-        <Dropdown.Item eventKey="1" a href="#about">about</Dropdown.Item>
+        <Dropdown.Item eventKey="1" a href="#about">About Me</Dropdown.Item>
         <Dropdown.Item eventKey="2" a href="#projects">Projects</Dropdown.Item>
+        <Dropdown.Item eventKey="2" a href="#groupProjects">Group Projects</Dropdown.Item>
         <Dropdown.Item eventKey="2" a href="#contact">Contact Me</Dropdown.Item>
         </li>
       </DropdownButton>

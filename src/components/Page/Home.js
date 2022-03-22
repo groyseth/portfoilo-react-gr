@@ -14,9 +14,9 @@ const FadeUp = batch(Fade(), Move(), Sticky());
 export default function Home() {
     return (
       <main>
-      
+      <div className="navBar">
         <Navbar />
-        
+        </div>
         <div className="top">
         <About />
        </div>

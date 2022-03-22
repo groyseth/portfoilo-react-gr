@@ -15,14 +15,14 @@ export default function Projects() {
       <div >
         <div className="box group-back">
           <h1>
-           Some Apps I've Built
+            Apps I've Built
           </h1>
           <p>
             Take a look a my projects!
           </p>
         </div>
         
-          <Container className="container ">
+          <Container >
           <div className="row  " style={{ margin: 'auto' }}>
 
             {projects.map((group) => (

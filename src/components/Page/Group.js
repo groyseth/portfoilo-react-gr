@@ -14,9 +14,9 @@ export default function Projects() {
 
 
   return (
-    <section id="groupStyle" className="">
+    <section id="groupStyle " className="">
       <div >
-        <div className="box group-back">
+        <div className="box group-back" id='groupProjects'>
           <h1>
             Group Apps I Helped Build
           </h1>
