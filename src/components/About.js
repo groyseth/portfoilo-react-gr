@@ -30,7 +30,8 @@ export default function About() {
           </div>
       
         </Col>
-        <Row className="aboutLink ">
+        <Row >
+          <div className="aboutLink ">
      <ul>
        <h1>Explore!</h1>
      <li >
@@ -41,6 +42,7 @@ export default function About() {
      </li>
 
      </ul>
+     </div>
    </Row>
     </section>
   );

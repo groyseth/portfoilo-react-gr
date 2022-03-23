@@ -33,17 +33,18 @@
   flex-direction: column;
   position: relative;
   top: -0px;
-  right: -12%;
+  left: -12%;
   display: inline-block;
   border: 2px solid ;
   width: 35%;
   text-align: center;
   height: 30vh;
   /* justify-content: center; */
-  margin: auto;
+  /* margin: auto; */
   background-image: url(../assets/cover/GeoMet.jpg);
   background-repeat: none;
   background-size:78vh;
+  
 }
 .aboutList{
     padding: 10px;
@@ -53,6 +54,7 @@
     text-transform: uppercase;
     border-right: 1px solid white;
 }
+
 h1{
     color: white;
 }
@@ -102,6 +104,9 @@ h1{
 .profile-pic{
     float: right;
 }
+.aboutLink{
+    padding: 10px;
+}
 
 }
 @media screen and (max-width: 1024px) {
@@ -119,6 +124,7 @@ h1{
        /* text-align: justify; */
        justify-content: space-between;
        position: relative;
+       
    }
    .aboutLink{
        width: 55%;
@@ -139,6 +145,6 @@ h1{
 @media screen and (min-width: 1280px) {
     .aboutLink{
         width: 50%;
-        left: 6%;
+        /* left: 6%; */
     }
 }
