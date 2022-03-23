@@ -18,7 +18,7 @@ export default function Projects() {
       <div >
         <div className="box group-back" id='groupProjects'>
           <h1>
-            Group Apps I Helped Build
+            Group Apps 
           </h1>
           <p>
             Take a look at the group projects!

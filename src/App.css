@@ -31,6 +31,7 @@
     left: 0;
     
     width: 100%;
+    
     /* bottom: -100%; */
     /* top: 0px; */
     background-color: rgb(8, 0, 0);
@@ -146,6 +147,7 @@ ul {
 @media (max-width: 1024px) {
     .footer{
     position: relative;
-    top: 437px;
+    top: 600px;
+    width: 100%;
     }
 }

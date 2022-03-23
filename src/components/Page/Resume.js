@@ -7,7 +7,7 @@ export default function EmbedRes(){
     return(
 
         <div style={{height: "600px"}}>
-     <embed src={resumes} type="application/pdf" width="100%" height="100%"></embed> 
+     <embed src={resumes} type="application/pdf" width="100%" height="100%" style={{marginTop: "40px"}}></embed> 
      </div>
     )
 }
