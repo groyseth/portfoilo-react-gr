@@ -33,10 +33,10 @@
   flex-direction: column;
   position: relative;
   top: -0px;
-  left: -12%;
+  left: -10%;
   display: inline-block;
   border: 2px solid ;
-  width: 35%;
+  /* width: 35%; */
   text-align: center;
   height: 30vh;
   /* justify-content: center; */
@@ -144,7 +144,7 @@ h1{
 
 @media screen and (min-width: 1280px) {
     .aboutLink{
-        width: 50%;
-        /* left: 6%; */
+        width: 40%;
+        left: -13%;
     }
 }
