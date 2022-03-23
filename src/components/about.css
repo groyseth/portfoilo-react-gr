@@ -33,24 +33,35 @@
   flex-direction: column;
   position: relative;
   top: -0px;
-  right: -7%;
+  right: -12%;
   display: inline-block;
   border: 2px solid ;
   width: 35%;
   text-align: center;
   height: 30vh;
   /* justify-content: center; */
+  margin: auto;
+  background-image: url(../assets/cover/GeoMet.jpg);
+  background-repeat: none;
+  background-size:78vh;
 }
 .aboutList{
     padding: 10px;
     position: relative;
     top: 70px;
-    
+    text-shadow: 5px 10px black ;
+    text-transform: uppercase;
+    border-right: 1px solid white;
 }
 h1{
     color: white;
 }
 
+@media screen and (min-width: 360px) {
+   .profile-pic{
+       height: 34vh;
+   }
+}
  @media screen and (max-width: 750px) {
     #about{
         height: 178vh;
@@ -101,5 +112,33 @@ h1{
        float: right;
        right: 43px;
    }
+   .aboutList{
+       top: 20px;
+       padding: 15px;
+       /* height: 2vh; */
+       /* text-align: justify; */
+       justify-content: space-between;
+       position: relative;
+   }
+   .aboutLink{
+       width: 55%;
+   }
+  
+}
+@media screen and (max-width: 912px) {
+.aboutLink{
+    margin-top: 50vh;
+    float: left;
+}
+.aboutList{
+    font-size: 25px;
 }
 
+}
+
+@media screen and (min-width: 1280px) {
+    .aboutLink{
+        width: 50%;
+        left: 6%;
+    }
+}

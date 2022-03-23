@@ -32,7 +32,7 @@ export default function About() {
         </Col>
         <Row className="aboutLink ">
      <ul>
-       <h1>quick links</h1>
+       <h1>Explore!</h1>
      <li >
         <a href="#about" className="aboutList" >About Me</a>
         <a href="#projects" className="aboutList">Projects</a>
