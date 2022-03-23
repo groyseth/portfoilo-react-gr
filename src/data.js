@@ -65,6 +65,6 @@ export const group = [
     subtitle: "React, Group Project, React-Boostrap, Updates In Progress",
     description: "An open source social media platform for developers to share projects, games, and applications with other devs to gain feedback and to network.",
     link: "https://github.com/groyseth/creative_dev",
-    live: "https://mysterious-cliffs-92833.herokuapp.com/"
+    live: "https://glacial-ravine-72346.herokuapp.com/"
   }
 ]
