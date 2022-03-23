@@ -28,8 +28,20 @@ export default function About() {
           <div >
             <Image  src={pic} alt="Profile" className="profile-pic"></Image>
           </div>
+      
         </Col>
-      {/* </Row> */}
+        <Row className="aboutLink ">
+     <ul>
+       <h1>quick links</h1>
+     <li >
+        <a href="#about" className="aboutList" >About Me</a>
+        <a href="#projects" className="aboutList">Projects</a>
+        <a href="#groupProjects" className="aboutList">Group Projects</a>
+        <a href="#contact" className="aboutList">Contact Me</a>
+     </li>
+
+     </ul>
+   </Row>
     </section>
   );
 }
