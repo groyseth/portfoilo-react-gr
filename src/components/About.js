@@ -24,12 +24,12 @@ export default function About() {
 
           </div>
         </Col>
-        <Col>
+        <Row>
           <div >
             <Image  src={pic} alt="Profile" className="profile-pic"></Image>
           </div>
       
-        </Col>
+        </Row>
         <Row >
           <div className="aboutLink ">
      <ul>

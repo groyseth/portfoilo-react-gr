@@ -27,6 +27,8 @@
      position: absolute;
      border: 2px solid;
     float: right;
+    display: inline;
+    
     
  }
 .aboutLink{
@@ -34,7 +36,7 @@
   position: relative;
   top: -0px;
   left: -10%;
-  display: inline-block;
+ 
   border: 2px solid ;
   /* width: 35%; */
   text-align: center;
@@ -145,6 +147,6 @@ h1{
 @media screen and (min-width: 1280px) {
     .aboutLink{
         width: 40%;
-        left: -13%;
+        /* left: -13%; */
     }
 }
