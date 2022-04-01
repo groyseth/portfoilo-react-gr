@@ -27,7 +27,4 @@ My profile page [GitHub](https://github.com/groyseth)
 
 Reach me at [Gmail](Groyseth@gmail.com)
 
-## Future Update 
-The media queries, but accidently made a collume
-
 
