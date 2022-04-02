@@ -1,16 +1,26 @@
-import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import { Col, Image, Row, Carousel } from "react-bootstrap";
 // import { Image } from "react-bootstrap";
 // import Style from './mystyle.module.css'
 import pic from "../assets/projects/UpdatedProfile.jpg"
 import "./about.css"
-// const styles = {
-//   aboutTop: {
-//     width: '40%'
-//   }
-// }
+
+
+
+
 
 export default function About() {
+
+ 
+    const [index, setIndex] = useState(0);
+  
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
+
+
+
+
   return (
     <section id="about" className=" ">
 
@@ -25,9 +35,33 @@ export default function About() {
           </div>
         </Col>
         <Row>
-          <div >
+          <div>
             <Image  src={pic} alt="Profile" className="profile-pic"></Image>
-          </div>
+</div>
+
+            {/* <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
+      <Carousel.Item className="carouselItem">
+        <img
+          className="d-block "
+          src={pic}
+          alt="First slide"
+          
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Second slide&bg=282c34"
+          alt="Second slide"
+        />
+
+        
+      </Carousel.Item>
+      
+    </Carousel> */}
+
+          
       
         </Row>
         <Row >

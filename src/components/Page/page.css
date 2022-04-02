@@ -1,6 +1,8 @@
 .home{
-    height: 50vh;
-    margin-top: 50vh;
+    height: 70vh;
+    margin-top: 155vh;
+    position: relative;
+    /* margin: auto; */
 }
 .scrollcontainer{
     width: 100vh;
@@ -33,7 +35,7 @@
 @media (max-width: 1024px) {
     .home{
         top: 500px;
-        position: relative;
+       /* padding-top: 100%; */
       
     }
     .middle{
@@ -41,4 +43,5 @@
         position: relative;
 
     }
+   
 }

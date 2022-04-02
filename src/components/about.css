@@ -27,7 +27,7 @@
      position: absolute;
      border: 2px solid;
     float: right;
-    display: inline;
+    /* display: none; */
     
     
  }
@@ -38,7 +38,7 @@
   left: -10%;
  
   border: 2px solid ;
-  /* width: 35%; */
+  width: 50%;
   text-align: center;
   height: 30vh;
   background-image: url(../assets/cover/GeoMet.jpg);
@@ -98,12 +98,31 @@
 h1{
     color: white;
 }
-
+/* .Carousel{
+    width: 6%;
+    float: right;
+} */
+.carousel{
+    width: 24%;
+    /* float: right; */
+    position: absolute;
+    top: 50%;
+    right: 7%;
+}
+.carouselItem img{
+    width: 100%;
+}
 @media screen and (min-width: 360px) {
    .profile-pic{
        height: 34vh;
+       /* display: inline; */
    }
+   /* .aboutLink{
+       display: none;
+   } */
+  
 }
+
  @media screen and (max-width: 750px) {
     #about{
         height: 178vh;
@@ -131,9 +150,9 @@ h1{
         width: 90%;
         margin-left: 0px;
     }
-    .aboutLink{
+    /* .aboutLink{
         display: none;
-    }
+    } */
 }
 @media screen and (max-width: 821px) {
 
@@ -142,6 +161,7 @@ h1{
 }
 .aboutLink{
     padding: 10px;
+    display: none;
 }
 
 }
@@ -164,6 +184,7 @@ h1{
    }
    .aboutLink{
        width: 55%;
+       /* display: block; */
    }
   
 }
@@ -171,16 +192,22 @@ h1{
 .aboutLink{
     margin-top: 50vh;
     float: left;
+    /* display: block; */
 }
 .aboutList{
     font-size: 25px;
 }
 
 }
-
+@media screen and (max-width: 1280px) {
+    .aboutLink{
+        /* display: block; */
+    }
+}
 @media screen and (min-width: 1280px) {
     .aboutLink{
         width: 40%;
         /* left: -13%; */
+        /* display: block; */
     }
 }
