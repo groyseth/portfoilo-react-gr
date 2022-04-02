@@ -42,13 +42,20 @@ export const projects = [
     link: "https://github.com/groyseth/Employee-Tracker-GR",
     live: "https://watch.screencastify.com/v/Xjh32kDMmF4Js0QVjNmA"
   },
+  {
+    title: "Piano Project",
+    subtitle: "MySQL, Express, Mongoose, Restful API",
+    description: "Be able to play the piano with users keyboard or click on the keys themselfs. Still more work I want to do like adding a log in feature and saving songs that are user made.",
+    link: "https://github.com/groyseth/Personal-PianoProject",
+    live: "https://powerful-thicket-42426.herokuapp.com/"
+  }
 
 ];
 
 export const group = [
   {
     title: "DNR Project",
-    subtitle: "Third Party API, HandleBars, Sequilize, Group Project",
+    subtitle: "Third Party API, HandleBars, Sequilize, Group Project, MySQL",
     description: "This project was a group project of 3 developers and is a DNR reference site. This site demonstrates the use of handlebars and sequilize with user input.",
     link: "https://github.com/groyseth/Project_2_uofm",
     live: "https://stormy-garden-90236.herokuapp.com/login"
@@ -62,9 +69,10 @@ export const group = [
   },
   {
     title: "Creative-Dev",
-    subtitle: "React, Group Project, React-Boostrap, Updates In Progress",
+    subtitle: "React, Group Project, React-Boostrap, Updates In Progress, NoSQL",
     description: "An open source social media platform for developers to share projects, games, and applications with other devs to gain feedback and to network.",
     link: "https://github.com/groyseth/creative_dev",
     live: "https://glacial-ravine-72346.herokuapp.com/"
   }
+ 
 ]

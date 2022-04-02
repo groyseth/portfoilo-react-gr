@@ -41,8 +41,6 @@
   /* width: 35%; */
   text-align: center;
   height: 30vh;
-  /* justify-content: center; */
-  /* margin: auto; */
   background-image: url(../assets/cover/GeoMet.jpg);
   background-repeat: none;
   background-size:78vh;
@@ -56,6 +54,46 @@
     text-transform: uppercase;
     border-right: 1px solid white;
 }
+
+.aboutHover a::before,
+.aboutHover a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+    color: black;
+}
+
+.aboutHover a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #000000;
+    border-right: 3px solid #2E640F;
+    transform: translate(-100%, 50%);
+  }
+  .aboutHover a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #000000;
+    border-left: 3px solid #3E8914;
+    transform: translate(100%, -50%);
+    
+    
+  }
+  .aboutHover a:hover:before,
+  .aboutHover a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  
+  .aboutHover a:hover {
+    color: #ffffff;
+    font-family: cursive;
+  }
 
 h1{
     color: white;
@@ -98,11 +136,7 @@ h1{
     }
 }
 @media screen and (max-width: 821px) {
-#about{
-    /* height: 4%; */
-    /* max-height: 100vh; */
-    
-}
+
 .profile-pic{
     float: right;
 }

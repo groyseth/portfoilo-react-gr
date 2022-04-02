@@ -34,7 +34,7 @@ export default function About() {
           <div className="aboutLink ">
      <ul>
        <h1>Explore!</h1>
-     <li >
+     <li className="aboutHover">
         <a href="#about" className="aboutList" >About Me</a>
         <a href="#projects" className="aboutList">Projects</a>
         <a href="#groupProjects" className="aboutList">Group Projects</a>

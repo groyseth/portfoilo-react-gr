@@ -11,9 +11,9 @@
 transition: all 0.65s;
 transform: rotateY(20deg);
  }
- .spacing:hover p{
+ /* .spacing:hover p{
    text-shadow: 1px 1px 1px black;
- }
+ } */
  .projectImg {
   width: auto;
   height: fit-content;
