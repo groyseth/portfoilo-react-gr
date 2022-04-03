@@ -211,3 +211,16 @@ h1{
         /* display: block; */
     }
 }
+@media (max-height: 396px) {
+    .aboutLink{
+        display: none;
+    }
+    .profile-pic{
+        width: 17%;
+        height: 50vh;
+        right: 10%;
+    }
+    #about{
+        height: 200vh;
+    }
+}

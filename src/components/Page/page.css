@@ -11,7 +11,7 @@
 @media (max-width: 764px) {
     .home{
     height: 200vh;
-    margin-top: 350vh;
+    margin-top: 400vh;
     }
     .top{
     height: 200vh;
@@ -44,4 +44,20 @@
 
     }
    
+}
+@media (max-height: 396px) {
+    .home{
+        margin-top: 500vh;
+        margin-bottom: 300vh;
+
+    }
+
+}
+@media (max-height: 366px) {
+    .home{
+        margin-top: 865vh;
+        margin-bottom: 300vh;
+
+    }
+
 }

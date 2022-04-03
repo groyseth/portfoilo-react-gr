@@ -6,6 +6,8 @@ import Group from './Page/Group';
 import Footer from './Footer';
 import Resume from './Page/Resume'
 import spaceVid from './video/video.mp4'
+import "./mainContainer.css"
+import spacePic from "../assets/cover/testPic.jpg"
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -26,6 +28,7 @@ export default function MainContainer() {
   return (
     <div>
     <video autoPlay loop muted 
+    className='videoClass'
     style={{
       position: "fixed",
 width:"100%",
@@ -40,6 +43,19 @@ zIndex: "-1"
     >
       <source src={spaceVid} type="video/mp4" />
     </video>
+
+    <img src={spacePic} className="testPic" style={{
+ position: "fixed",
+ width:"100%",
+ left: "50%",
+ top: "50%",
+ height: "100vh",
+ objectFit: "cover",
+ // backgroundSize: "cover",
+ transform: "translate(-50%, -50%)",
+ zIndex: "-1"
+
+    }}></img>
       
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
     

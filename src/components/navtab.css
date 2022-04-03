@@ -93,3 +93,15 @@
     top: 4px;
   }
   }
+  @media screen and (min-width: 1024px) {
+    .backgroundNav{
+    height: 7vh;
+
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .backgroundNav{
+      height: 5vh;
+    }
+  }
+    
