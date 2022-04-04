@@ -3,7 +3,7 @@
     color: white;
     border: 2px solid rgb(126, 98, 98);
     background-image: url(../assets/textback/background.png);
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     /* flex-direction: row; */
     position: relative;
@@ -23,10 +23,10 @@
  .profile-pic{
      /* width: 50%; */
      height: 45vh;
-     right: 20%;
-     position: absolute;
+     /* right: 20%; */
+     /* position: absolute; */
      border: 2px solid;
-    float: right;
+    /* float: right; */
     /* display: none; */
     
     
@@ -34,25 +34,30 @@
 .aboutLink{
   flex-direction: column;
   position: relative;
-  top: -0px;
-  left: -10%;
+  /* top: -0px;
+  left: -10%; */
  
   border: 2px solid ;
   width: 50%;
   text-align: center;
   height: 30vh;
-  background-image: url(../assets/cover/GeoMet.jpg);
-  background-repeat: none;
-  background-size:78vh;
+  background-size: cover;
+  background-image: url(../assets/cover/redGeo.jpg);
+  background-repeat:no-repeat;
+  /* background-size:78vh; */
   
 }
 .aboutList{
-    padding: 10px;
+    padding: 15px;
     position: relative;
     top: 70px;
-    text-shadow: 5px 10px black ;
+    text-shadow: 5px 10px 5px black ;
     text-transform: uppercase;
     border-right: 1px solid white;
+    
+}
+.explore{
+   text-shadow: 5px 5px 5px black;
 }
 
 .aboutHover a::before,
@@ -98,13 +103,10 @@
 h1{
     color: white;
 }
-/* .Carousel{
-    width: 6%;
-    float: right;
-} */
+
 .carousel{
     width: 24%;
-    /* float: right; */
+  
     position: absolute;
     top: 50%;
     right: 7%;
@@ -112,47 +114,169 @@ h1{
 .carouselItem img{
     width: 100%;
 }
-@media screen and (min-width: 360px) {
+
+@media (min-width:281px){
+#about{
+    /* width: 102vw; */
+    height: 220vh;
+}
+.aboutLink{
+    display: none;
+}
+.profile-pic{
+    margin-left: 25px;
+}
+}
+@media (min-width:320px){
+    #about{
+        /* width: 100%; */
+        height: 200vh;
+    }
+    .aboutLink{
+        display: none;
+    }
+}
+@media (min-width:360px){
+    #about{
+        height: 170vh;
+    }
+}
+@media (min-width:375px) {
+    #about{
+        height: 170vh;
+    }
+    .aboutLink{
+        display: none;
+    }
+}
+@media(min-width:390px){
+    #about{
+        height: 140vh;
+    }
+}
+@media (min-width:425px){
+    #about{
+        height: 160vh;
+    }
+    .aboutLink{
+        display: none;
+    }
+}
+@media(min-width:540px){
+    #about{
+     height: 140vh;
+    }
+}
+@media (min-width:768px){
+    #about{
+        height: 130vh;
+    }
+    .aboutLink{
+        display: block;
+        margin-left: 35%;
+        margin-top: -35%;
+        position: relative;
+        width: 50%;
+
+    }
+    .aboutList{
+        font-size: 13px;
+    }
+}
+@media (min-width:912px){
+    .aboutLink{
+width: 19%;
+    }
+    .aboutList{
+        flex-direction: column;
+        padding: 0%;
+        border: 0px;
+    }
+    #about{
+        height: 90vh;
+    }
+    .profile-pic{
+        margin-left: 10%;
+    }
+}
+@media(min-width:1024px){
+    #about{
+        height: 120vh;
+    }
+    .aboutLink{
+        margin-top: -25%;
+        width: 50%;
+        margin-left: 40%;
+    }
+    .aboutList{
+        padding: 2%;
+    position: relative;
+    top: 70px;
+    text-shadow: 5px 10px 5px black ;
+    text-transform: uppercase;
+    border-right: 1px solid white;
+    font-size: 15px;
+    }
+}
+
+@media(min-width:1280px){
+    #about{
+        height: 100vh;
+    }
+}
+@media(min-width:1440px){
+    .aboutLink{
+        margin-top: -20%;
+        margin-left: 30%;
+    }
+    .profile-pic{
+        margin-left: 10%;
+    }
+    /* #about{
+        height: 80vh;
+    } */
+}
+/* @media screen and (min-width: 360px) {
    .profile-pic{
        height: 34vh;
-       /* display: inline; */
+       right: 4%;
+      
    }
-   /* .aboutLink{
-       display: none;
-   } */
-  
+
+  #about{
+      height: 170vh;
+      width: 100%;
+  }
 }
 
  @media screen and (max-width: 750px) {
     #about{
-        height: 178vh;
+        height: 111vh;
         width: 111%;
     }
     .wraped {
         font-size: 20px;
-        /* max-width:max-content; */
-        
+          
         width: 109.5%;
     }
    
     .profile-pic {
         position: relative;
        float: right;
-        /* margin-right: 5%; */
-        /* width: 40%; */
-        /* height: 2vh; */
-     /* order: 2;
-     flex-direction: column; */
+      
      right: -11%;
-        /* max-width: max-content; */
+       
     }
     .moving{
         width: 90%;
         margin-left: 0px;
     }
-    /* .aboutLink{
-        display: none;
-    } */
+ 
+}
+@media screen and (min-width: 821px) {
+    #about{
+        height: 6%;
+    }
 }
 @media screen and (max-width: 821px) {
 
@@ -162,12 +286,15 @@ h1{
 .aboutLink{
     padding: 10px;
     display: none;
+   
 }
 
+
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
    #about{
-       height: 150vh;
+       height: 100vh;
+       
    }
    .profile-pic{
        float: right;
@@ -176,39 +303,33 @@ h1{
    .aboutList{
        top: 20px;
        padding: 15px;
-       /* height: 2vh; */
-       /* text-align: justify; */
+      
        justify-content: space-between;
        position: relative;
        
    }
    .aboutLink{
        width: 55%;
-       /* display: block; */
+      
    }
   
 }
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 912px) {
 .aboutLink{
-    margin-top: 50vh;
+    
     float: left;
-    /* display: block; */
+    
 }
 .aboutList{
     font-size: 25px;
 }
 
 }
-@media screen and (max-width: 1280px) {
-    .aboutLink{
-        /* display: block; */
-    }
-}
+
 @media screen and (min-width: 1280px) {
     .aboutLink{
         width: 40%;
-        /* left: -13%; */
-        /* display: block; */
+       
     }
 }
 @media (max-height: 396px) {
@@ -224,3 +345,34 @@ h1{
         height: 200vh;
     }
 }
+@media screen and (max-height: 360px) {
+    .profile-pic{
+        right: 22%;
+    }
+    #about{
+        height: 210vh;
+    }
+}
+@media screen and (min-width: 1380px) {
+    .profile-pic{
+        right: 10%;
+    }
+    #about{
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 1690px) {
+    .profile-pic{
+        right: 18%;
+    }
+} */
+/* @media screen and (max-width: 1712px) {
+    .profile-pic{
+        right: 17%;
+    }
+} */
+/* @media screen and (min-width: 1711px) {
+    .profile-pic{
+        right: 13%;
+    }
+} */

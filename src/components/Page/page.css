@@ -8,6 +8,7 @@
     width: 100vh;
     height: 100vh;
 }
+
 @media (max-width: 764px) {
     .home{
     height: 200vh;
@@ -57,6 +58,14 @@
     .home{
         margin-top: 865vh;
         margin-bottom: 300vh;
+
+    }
+
+}
+@media (min-width: 1400px) {
+    .home{
+        margin-top: 100vh;
+        /* margin-bottom: 300vh; */
 
     }
 

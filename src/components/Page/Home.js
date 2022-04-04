@@ -5,6 +5,7 @@ import Group from "./Group"
 import Navbar from "../Navbar";
 import Projects from "../Projects";
 import './page.css'
+import Parolax from "./Parolax"
 
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
@@ -23,6 +24,7 @@ export default function Home() {
        <div className="middle">
         <Projects />
         </div>
+        <Parolax />
         <div className="home">
         <Group />
         </div>

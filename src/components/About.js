@@ -67,7 +67,7 @@ export default function About() {
         <Row >
           <div className="aboutLink ">
      <ul>
-       <h1>Explore!</h1>
+       <h1 className="explore">Explore!</h1>
      <li className="aboutHover">
         <a href="#about" className="aboutList" >About Me</a>
         <a href="#projects" className="aboutList">Projects</a>

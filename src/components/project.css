@@ -7,10 +7,10 @@
      margin: 10px;
      
 }
- .spacing:hover{
+ /* .spacing:hover{
 transition: all 0.65s;
 transform: rotateY(20deg);
- }
+ } */
  /* .spacing:hover p{
    text-shadow: 1px 1px 1px black;
  } */

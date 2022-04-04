@@ -49,9 +49,9 @@ zIndex: "-1"
  width:"100%",
  left: "50%",
  top: "50%",
- height: "100vh",
+ height: "108vh",
  objectFit: "cover",
- // backgroundSize: "cover",
+ backgroundSize: "cover",
  transform: "translate(-50%, -50%)",
  zIndex: "-1"
 
