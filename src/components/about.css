@@ -149,6 +149,7 @@ h1{
         display: none;
     }
 }
+
 @media(min-width:390px){
     #about{
         height: 140vh;
@@ -167,20 +168,53 @@ h1{
      height: 140vh;
     }
 }
+@media(min-height:667px){
+    .aboutLink{
+        margin-top: -30%;
+    }
+}
+@media(min-width:740px){
+#about{
+    height: 220vh;
+}
+.profile-pic{
+    margin-left: 40%;
+}
+}
 @media (min-width:768px){
     #about{
         height: 130vh;
     }
     .aboutLink{
         display: block;
-        margin-left: 35%;
-        margin-top: -35%;
+        margin-left: 47%;
+        margin-top: -38%;
         position: relative;
         width: 50%;
 
     }
     .aboutList{
         font-size: 13px;
+    }
+    .profile-pic{
+        margin-left: 10%;
+    }
+}
+
+@media(min-width:844px){
+    #about{
+        height: 200vh;
+    }
+    .profile-pic{
+        margin-left: 10%;
+    }
+    .aboutLink{
+        margin-top: -20%;
+        margin-left: 21%;
+        width: 60vw;
+    }
+    .aboutList{
+        top: 10px;
     }
 }
 @media (min-width:912px){
@@ -191,12 +225,25 @@ width: 19%;
         flex-direction: column;
         padding: 0%;
         border: 0px;
+        font-size: 17px;
     }
     #about{
         height: 90vh;
     }
     .profile-pic{
         margin-left: 10%;
+    }
+}
+
+@media(min-height:1024px){
+    .aboutLink{
+        margin-top: -50%;
+        width: 40vw;
+        margin-right: -3%;
+    }
+    .aboutList{
+        font-size: 15px;
+        padding: 10px;
     }
 }
 @media(min-width:1024px){
@@ -218,10 +265,31 @@ width: 19%;
     font-size: 15px;
     }
 }
-
+@media(min-height:1180px){
+    .aboutLink{
+        width: 30%;
+    }
+    .aboutList{
+        font-size: 30px;
+        border: none;
+    }
+    .profile-pic{
+        margin-left: 8%;
+    }
+}
 @media(min-width:1280px){
     #about{
         height: 100vh;
+    }
+}
+@media(min-height:1368px){
+    .profile-pic{
+        width: 40vw;
+        height: 40vh;
+        margin-left: 12%;
+    }
+    .aboutLink{
+        margin-right: -23%;
     }
 }
 @media(min-width:1440px){
@@ -235,6 +303,37 @@ width: 19%;
     /* #about{
         height: 80vh;
     } */
+}
+@media(min-width:1630px){
+    .profile-pic{
+        margin-left: 13%;
+    }
+    .aboutLink{
+        margin-right: 9%;
+    }
+}
+@media(min-width:1764px){
+    .aboutLink{
+        margin-left: 40%;
+        height: 20vh;
+        width: 55vh;
+    }
+    .profile-pic{
+        margin-left: 15%;
+    }
+}
+@media(min-width:1850px){
+    .aboutLink{
+        width: 40vw;
+        height: 30vh;
+    }
+    .profile-pic{
+        margin-left: 20%;
+    }
+    .aboutList{
+        font-size: 19px;
+    }
+
 }
 /* @media screen and (min-width: 360px) {
    .profile-pic{
