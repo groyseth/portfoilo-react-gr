@@ -29,7 +29,7 @@ export default function About() {
           <div className="container moving">
             <h1 className=" ">Hello, My Name Is Grant!</h1>
             <h1>About Me:</h1>
-            <p className="wraped">Full stack web developer and a U.S National Guard vet ready to get out there. Fresh out of the University of Minnesota and earning a certificate in full stack development with newly developed skills in Javascript, CSS, Html, Node.js and Bootstrap responsive designs. Very motivated to solve problems with a focused mindset and ultimately love to be creative with designs. Worked in a team of 3 to develop a DNR app to find information about specific natural areas for outdoor enthusiasts. Made sure to implement friendly UI and UX aspects when developing a design for an app. Ready to learn new things and meet people, as a part of the technical workforce!
+            <p className="wraped">Full Stack Web developer and a U.S National Guard vet ready to get out there. Received a certificate in Full Stack Web Development University of Minnesota with skills in Javascript, CSS, Html, Node.js and Bootstrap responsive designs. Very motivated to solve problems with a focused mindset and ultimately love to be creative with designs. Worked in a team of 3 to develop a Department of Natural Resources app to find information about specific natural areas for outdoor enthusiasts. Made sure to implement friendly UI and UX aspects when developing a design for an app. Ready to learn new things and meet people, as a part of the technical workforce!
             </p>
 
           </div>
