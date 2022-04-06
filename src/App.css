@@ -25,21 +25,7 @@
 
 
 
-.footer {
-    position: relative;
-    margin-top: 50vh;
-    left: 0;
-    
-    width: 100%;
-    
-    /* bottom: -100%; */
-    /* top: 0px; */
-    background-color: rgb(8, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    box-shadow: -7px -1px 11px 10px #c6ecff;
-    display: flex;
-}
+
 
 a {
     color: rgb(255, 255, 255);
@@ -117,10 +103,10 @@ ul {
     object-position: center;
     position: relative;
     }
-    .footer{
-        /* position: relative; */
+    /* .footer{
+       
         margin-top: 100px;
-    }
+    } */
 }
 
 @media (max-width: 992px) {
@@ -134,20 +120,20 @@ ul {
    
 }
 @media (max-width: 1200px) {
-    .footer{
+    /* .footer{
         position: relative;
     margin-top: 65%;
     display: flex;
-    }
+    } */
    
     /* .wraped{
         font-size: 20px;
     } */
 }
 @media (max-width: 1024px) {
-    .footer{
+    /* .footer{
     position: relative;
     top: 600px;
     width: 100%;
-    }
+    } */
 }

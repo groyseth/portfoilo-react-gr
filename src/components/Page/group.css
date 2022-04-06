@@ -5,6 +5,11 @@
 .row{
     justify-content: center;
 }
+@media(min-height:390px){
+    #groupStyle{
+        margin-top: 379vh;
+    }
+}
 @media (max-width: 764px) {
     #groupStyle{
         height: 300vh;

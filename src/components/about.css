@@ -234,6 +234,11 @@ width: 19%;
         margin-left: 10%;
     }
 }
+@media(min-width:1059px){
+    .aboutLink{
+    margin-left: 31%;
+    }
+}
 
 @media(min-height:1024px){
     .aboutLink{
@@ -275,6 +280,11 @@ width: 19%;
     }
     .profile-pic{
         margin-left: 8%;
+    }
+}
+@media(min-width:1228px){
+    .aboutLink{
+        margin-left: 31%;
     }
 }
 @media(min-width:1280px){

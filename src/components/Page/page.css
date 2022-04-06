@@ -2,21 +2,74 @@
     height: 70vh;
     margin-top: 155vh;
     position: relative;
-    /* margin: auto; */
 }
 .scrollcontainer{
     width: 100vh;
     height: 100vh;
 }
 
-@media (max-width: 764px) {
+@media(min-width:320px){
+    .middle{
+    height: 500vh;
+    }
+}
+@media(min-width:360px){
+    .middle{
+        height: 200vh;
+    }
+}
+/* @media(min-height:360px){
+    .middle{
+        height: 1020vh;
+    }
+} */
+@media(min-width:375px){
+    .middle{
+        height: 260vh;
+    }
+}
+
+
+@media(min-height:390px){
+    .home{
+        margin-top: 379vh;
+    }
+}
+@media(min-width:390px){
+    .middle{
+        height: 121vh;
+    }
+}
+@media(min-width:425px){
+    .middle{
+        height: 260vh;
+    }
+}
+@media(min-width:768px){
+    .middle{
+        height: 0vh;
+    }
+}
+@media(min-width:1024px){
+    .middle{
+        height: 120vh;
+    }
+    .home{
+        margin-top: 150vh;
+    }
+}
+@media(min-width:1440px){
+    .middle{
+        height: 0vh;
+    }
+}
+/* @media (max-width: 764px) {
     .home{
     height: 200vh;
     margin-top: 400vh;
     }
     .top{
     height: 200vh;
-    /* margin-top: 50vh; */
     width: 90%;
     }
     .navBar{
@@ -36,7 +89,6 @@
 @media (max-width: 1024px) {
     .home{
         top: 500px;
-       /* padding-top: 100%; */
       
     }
     .middle{
@@ -65,8 +117,7 @@
 @media (min-width: 1400px) {
     .home{
         margin-top: 100vh;
-        /* margin-bottom: 300vh; */
 
     }
 
-}
+} */

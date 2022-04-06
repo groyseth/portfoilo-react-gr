@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./footer.css"
 import resumes from '../assets/projects/MyResume.pdf'
 
 export default function footer() {
