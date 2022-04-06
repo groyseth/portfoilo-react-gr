@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.6a446544.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.1af2ded6.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.71150f05.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.f925de77.js",
     "static/media/video.mp4": "/portfoilo-react-gr/static/media/video.8884ce28564fa1e59c52.mp4",
     "static/media/testPic.jpg": "/portfoilo-react-gr/static/media/testPic.1e9f3ee6a0a18e277552.jpg",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
@@ -10,6 +10,7 @@
     "static/media/UpdatedProfile.jpg": "/portfoilo-react-gr/static/media/UpdatedProfile.4c770f23b0cf423c92a6.jpg",
     "static/media/Creative-Dev.png": "/portfoilo-react-gr/static/media/Creative-Dev.b17a1e04edbf9066d53e.png",
     "static/media/redGeo.jpg": "/portfoilo-react-gr/static/media/redGeo.ae41a918f9a2afff4423.jpg",
+    "static/media/Tech Blog.png": "/portfoilo-react-gr/static/media/Tech Blog.c89fc3627e3cde352a1a.png",
     "static/media/DNR Project.png": "/portfoilo-react-gr/static/media/DNR Project.c9c39116ff6752ac28dc.png",
     "static/media/newnutron.png": "/portfoilo-react-gr/static/media/newnutron.64c1f06e2ab27f736f2b.png",
     "static/media/Coming Soon.png": "/portfoilo-react-gr/static/media/Coming Soon.7d28b85543228e697049.png",
@@ -23,11 +24,11 @@
     "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.3c11222b014da054b7b6.pdf",
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "index.html": "/portfoilo-react-gr/index.html",
-    "main.6a446544.css.map": "/portfoilo-react-gr/static/css/main.6a446544.css.map",
-    "main.1af2ded6.js.map": "/portfoilo-react-gr/static/js/main.1af2ded6.js.map"
+    "main.71150f05.css.map": "/portfoilo-react-gr/static/css/main.71150f05.css.map",
+    "main.f925de77.js.map": "/portfoilo-react-gr/static/js/main.f925de77.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a446544.css",
-    "static/js/main.1af2ded6.js"
+    "static/css/main.71150f05.css",
+    "static/js/main.f925de77.js"
   ]
 }
