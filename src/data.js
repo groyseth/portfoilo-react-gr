@@ -2,7 +2,7 @@ export const projects = [
 
   {
     title: "Text-Editor",
-    subtitle: "PWA",
+    subtitle: "PWA, WebPack, Bable, Workbox",
     description: "This text editor demonstrates the use of PWA(Progressive Web Application) and wepacks. User will be able to type code into the body, the code will be cashed into an IndexDb and the application will work offline. User will also be able to download the application!",
     link: "https://github.com/groyseth/text-editor-GR",
     live: "https://nameless-meadow-70824.herokuapp.com/"
