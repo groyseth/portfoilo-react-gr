@@ -26,6 +26,9 @@ transform: rotateY(20deg);
 .row{
   justify-content: center;
 }
+.githubStyle{
+  text-decoration: underline;
+}
 @media screen and (max-width: 960px) {
   .row{
     position: relative;

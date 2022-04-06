@@ -18,7 +18,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p>
-            Take a look a my projects!
+            More projects on <a href="https://github.com/groyseth" className="githubStyle">GitHub</a>!
           </p>
         </div>
         
