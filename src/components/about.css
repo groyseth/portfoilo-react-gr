@@ -325,8 +325,8 @@ width: 19%;
 @media(min-width:1764px){
     .aboutLink{
         margin-left: 40%;
-        height: 20vh;
-        width: 55vh;
+        /* height: 20vh; */
+        width: 80vh;
     }
     .profile-pic{
         margin-left: 15%;
@@ -336,6 +336,7 @@ width: 19%;
     .aboutLink{
         width: 40vw;
         height: 30vh;
+        margin-left: 31%;
     }
     .profile-pic{
         margin-left: 20%;
