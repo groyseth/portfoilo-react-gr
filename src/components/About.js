@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useEffect} from "react";
 import { Col, Image, Row, Carousel } from "react-bootstrap";
-// import { Image } from "react-bootstrap";
-// import Style from './mystyle.module.css'
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import pic from "../assets/projects/UpdatedProfile.jpg"
 import "./about.css"
 
@@ -12,13 +12,15 @@ import "./about.css"
 export default function About() {
 
  
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
   
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
+    // const handleSelect = (selectedIndex, e) => {
+    //   setIndex(selectedIndex);
+    // };
 
-
+    useEffect(() =>{
+      AOS.init({ duration:2000, anchorPlacement: 'center-bottom'  });
+    }, []);
 
 
   return (
@@ -36,8 +38,9 @@ export default function About() {
         </Col>
         <Row>
           <div>
-            <Image  src={pic} alt="Profile" className="profile-pic"></Image>
+            <Image  src={pic} alt="Profile" className="profile-pic" data-aos="flip-left" ></Image>
 </div>
+
 
             {/* <Carousel activeIndex={index} onSelect={handleSelect} className="carousel">
       <Carousel.Item className="carouselItem">
@@ -65,7 +68,7 @@ export default function About() {
       
         </Row>
         <Row >
-          <div className="aboutLink ">
+          <div className="aboutLink " data-aos="zoom-in" >
      <ul>
        <h1 className="explore">Explore!</h1>
      <li className="aboutHover">
@@ -73,6 +76,7 @@ export default function About() {
         <a href="#projects" className="aboutList">Projects</a>
         <a href="#groupProjects" className="aboutList">Group Projects</a>
         <a href="#contact" className="aboutList">Contact Me</a>
+        
      </li>
 
      </ul>

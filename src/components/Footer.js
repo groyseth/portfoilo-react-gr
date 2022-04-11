@@ -1,24 +1,31 @@
-import React from "react";
+import React, {useEffect} from "react";
+import { FaMailBulk, FaGithub, FaLinkedin} from 'react-icons/fa';
+
 import "./footer.css"
 import resumes from '../assets/projects/MyResume.pdf'
 
-export default function footer() {
+export default function Footer() {
+ 
+  // const test = () =>{}
+
+
+
   return (
 
 
     <container className="footer" id="contact">
-      <div class="container">
+      <div  class="container" >
 
-        <ul class=" d-flex-row ">
+        <ul class=" d-flex listStyle " >
 
           <li>
-            <a href="mailto:groyseth@gmail.com">groyseth@gmail.com</a>
+            <a href="mailto:groyseth@gmail.com"  ><FaMailBulk /></a>
           </li>
           <li >
-            <a href="https://github.com/groyseth/Portfoilo-GR">GitHub</a>
+            <a href="https://github.com/groyseth/Portfoilo-GR"><FaGithub /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/grant-royseth-83b08b220/">Linkedin</a>
+            <a href="https://www.linkedin.com/in/grant-royseth-83b08b220/"><FaLinkedin /></a>
           </li>
           
 

@@ -1,26 +1,26 @@
 export const projects = [
 
-  {
-    title: "Text-Editor",
-    subtitle: "PWA, WebPack, Bable, Workbox",
-    description: "This text editor demonstrates the use of PWA(Progressive Web Application) and wepacks. User will be able to type code into the body, the code will be cashed into an IndexDb and the application will work offline. User will also be able to download the application!",
-    link: "https://github.com/groyseth/text-editor-GR",
-    live: "https://nameless-meadow-70824.herokuapp.com/"
-  },
-  {
-    title: "Workday",
-    subtitle: "Node.js, Javascript, Moment",
-    description: "I started with utalizing bootstrap to get my containers with the time, textarea and save button postion. I added the hours to the time blocks for an average work schedule from 9 to 5. I moved on the my 'work.js' folder to work on the javascript. I made a clock showing the current time on the top of the page. The text blocks are color coded to the current time. There is a save button to save your text and when you reload the page the text remains.",
-    link: "https://github.com/groyseth/Work-Planner-GR",
-    live: "https://groyseth.github.io/Work-Planner-GR/"
-  },
-  {
-    title: "Weather",
-    subtitle: "Third Party API, Javascript",
-    description: "I made a weather app using JavaScript, moment.js, localstorage and a third party API. The app uses user input from a search bar and finds a city along with the weather. It calls the openweathermap API and shows current weather with city,  date, temperature, windspeed, humidity, and a uv index that changes color based on favorable conditions. Also includes a 5 day forcast with the date, temperature, windspeed and humidity. The users history is saved and loaded when the page refreshes.",
-    link: "https://github.com/groyseth/Weather-Dash-GR",
-    live: "https://groyseth.github.io/Weather-Dash-GR/"
-  },
+  // {
+  //   title: "Text-Editor",
+  //   subtitle: "PWA, WebPack, Bable, Workbox",
+  //   description: "This text editor demonstrates the use of PWA(Progressive Web Application) and wepacks. User will be able to type code into the body, the code will be cashed into an IndexDb and the application will work offline. User will also be able to download the application!",
+  //   link: "https://github.com/groyseth/text-editor-GR",
+  //   live: "https://nameless-meadow-70824.herokuapp.com/"
+  // },
+  // {
+  //   title: "Workday",
+  //   subtitle: "Node.js, Javascript, Moment",
+  //   description: "I started with utalizing bootstrap to get my containers with the time, textarea and save button postion. I added the hours to the time blocks for an average work schedule from 9 to 5. I moved on the my 'work.js' folder to work on the javascript. I made a clock showing the current time on the top of the page. The text blocks are color coded to the current time. There is a save button to save your text and when you reload the page the text remains.",
+  //   link: "https://github.com/groyseth/Work-Planner-GR",
+  //   live: "https://groyseth.github.io/Work-Planner-GR/"
+  // },
+  // {
+  //   title: "Weather",
+  //   subtitle: "Third Party API, Javascript",
+  //   description: "I made a weather app using JavaScript, moment.js, localstorage and a third party API. The app uses user input from a search bar and finds a city along with the weather. It calls the openweathermap API and shows current weather with city,  date, temperature, windspeed, humidity, and a uv index that changes color based on favorable conditions. Also includes a 5 day forcast with the date, temperature, windspeed and humidity. The users history is saved and loaded when the page refreshes.",
+  //   link: "https://github.com/groyseth/Weather-Dash-GR",
+  //   live: "https://groyseth.github.io/Weather-Dash-GR/"
+  // },
   {
     title: "Password",
     subtitle: "Node.js, Javascript",

@@ -13,6 +13,17 @@
     box-shadow: -7px -1px 11px 10px #c6ecff;
     display: flex;
 }
+.listStyle{
+    justify-content: center;
+}
+.listStyle li{
+    width: 6%;
+    font-size: 55px;
+}
+.listStyle li :hover{
+    color: red;
+}
+
 @media(min-height:360px){
     .footer{
         margin-top: 423vh;
@@ -26,6 +37,15 @@
 @media(min-width:390px){
     .footer{
         margin-top: 145vh;
+    }
+}
+@media (min-width: 360px){
+    .listStyle li{
+        /* width: 10%; */
+        margin-inline: 26px;
+    }
+    .footer{
+        width: 101vw;
     }
 }
 @media (min-width: 390px){
