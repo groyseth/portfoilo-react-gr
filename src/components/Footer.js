@@ -22,7 +22,7 @@ export default function Footer() {
             <a href="mailto:groyseth@gmail.com"  ><FaMailBulk /></a>
           </li>
           <li >
-            <a href="https://github.com/groyseth/Portfoilo-GR"><FaGithub /></a>
+            <a href="https://github.com/groyseth"><FaGithub /></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/grant-royseth-83b08b220/"><FaLinkedin /></a>
