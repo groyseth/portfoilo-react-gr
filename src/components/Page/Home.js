@@ -16,7 +16,7 @@ export default function Home() {
     return (
       <main>
       <div className="navBar">
-        <Navbar />
+        {/* <Navbar /> */}
         </div>
         <div className="top">
         <About />

@@ -20,7 +20,10 @@ export default function MainContainer() {
     if (currentPage === 'Group Projects') {
       return <Group />;
     }
+    if(currentPage === 'resume'){
+    
     return <Resume />
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

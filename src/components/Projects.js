@@ -1,19 +1,25 @@
 
-import React from "react";
+import React, {useEffect} from "react";
 import { Container, Row } from "react-bootstrap";
 import { projects } from "../data";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import "./project.css"
 
 
 export default function Projects() {
 
 
+  useEffect(() =>{
+    AOS.init({ duration:1500  });
+  }, []);
+
   return (
     <section id="projects" className="py-5">
       <div >
-        <div className="box group-back">
+        <div className="box group-back" data-aos="zoom">
           <h1>
             Apps I've Built
           </h1>
@@ -22,12 +28,12 @@ export default function Projects() {
           </p>
         </div>
         
-          <Container >
-          <div className="row  " style={{ margin: 'auto' }}>
+          <Container data-aos="zoom-in-down">
+          <div className="row  " style={{ margin: 'auto' }} >
 
             {projects.map((group) => (
 
-              <Card style={{ width: '18rem' }} className="spacing">
+              <Card style={{ width: '18rem' }} className="spacing" >
 
                 <Card.Img variant="top" src={require(`../assets/projects/${group.title}.png`)} className="projectImg" />
 

@@ -19,7 +19,7 @@ export default function About() {
     // };
 
     useEffect(() =>{
-      AOS.init({ duration:2000, anchorPlacement: 'center-bottom'  });
+      AOS.init({ duration:2000  });
     }, []);
 
 

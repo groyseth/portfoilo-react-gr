@@ -6,27 +6,45 @@
     z-index: 1;
     
 }
-.stat {
+.navbar {
   position: fixed;
-  right: -1px;
-  /* z-index: 1; */
-  color: #18ec5b;
+  z-index: 1;
+  width: 100vw;
+  /* background-color: black; */
 }
-#dropdown-button-drop-down{
-  background-color: rgba(218, 12, 12, 0.5);
-  border: none;
-  float: right;
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(249, 194, 194, 0.9);
 }
-#primary.dropdown-toggle:focus {
-  box-shadow: black;
-}
-.dropdown-menu {
-  background-color: black;
-  border: 2px solid ;
+.navbar-light .navbar-nav .nav-link {
+  color: white;
 }
 
-.dropdown-item{
+.navbar-light .navbar-nav .nav-link.nav-link:hover{
   color: white;
+  font-display:unset;
+}
+.navbar-nav .dropdown-menu {
+  /* position: static; */
+  background-color: black;
+  box-shadow: 2px 2px 2px black;
+
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 100, 100, 100.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
+  border: 1px white solid;
+  border-radius: 2px 8px;
+}
+
+
+.dropdown-menu {
+  /* background-color: black; */
+  border: 2px solid ;
+}
+a.dropdown-item{
+  color: white;
+}
+a.dropdown-item:hover{
+  background-color: black;
 }
 
 .nav a {
@@ -46,12 +64,14 @@
     position: absolute;
     transition: all .35s ease;
     opacity: 0;
-    color: black;
+    /* color: white; */
+    /* color: black; */
     /* background-color: black; */
 }
 .nav-link:focus, .nav-link:hover{
-  color: white;
+  /* color: white; */
   font-family:cursive;
+  /* background-color: #18ec5b; */
 }
 .nav a::before {
     content: '';
@@ -60,6 +80,7 @@
     border-top: 3px solid #3E8914;
     border-right: 3px solid #2E640F;
     transform: translate(-100%, 50%);
+    /* color: white; */
     /* background-color: black; */
   }
   .nav a:after {
@@ -69,18 +90,19 @@
     border-bottom: 3px solid #2E640F;
     border-left: 3px solid #3E8914;
     transform: translate(100%, -50%);
-    
+    /* color: white; */
     
   }
   .nav a:hover:before,
   .nav a:hover:after{
     transform: translate(0,0);
     opacity: 1;
+    /* color: white; */
   }
   
   .nav a:hover {
     color: #18ec5b;
-    background-color: black;
+    /* background-color: black; */
   }
   /* @media screen and (max-width: 960px) {
     .backgroundNav{
