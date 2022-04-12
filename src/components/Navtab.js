@@ -35,8 +35,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           My Resume
         </Nav.Link>
 </div>
-        <NavDropdown title="Menu" id="basic-nav-dropdown float right resumeNav">
-        <NavDropdown.Item href="#home">Home</NavDropdown.Item>
+        <NavDropdown title="Menu" id="basic-nav-dropdown float right">
+        <NavDropdown.Item href="#about">About Me</NavDropdown.Item>
         <NavDropdown.Item href="#projects">Projects</NavDropdown.Item>
         <NavDropdown.Item href="#groupProjects">Group Projects</NavDropdown.Item>
         <NavDropdown.Divider />
