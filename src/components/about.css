@@ -9,9 +9,6 @@
     position: relative;
 }
 .wraped{
-    /* flex-direction: column; */
-    /* max-width: fit-content; */
-    /* width: 105%; */
     font-size: 20px;
     background-color: black;
     border: 2px solid rgb(240, 239, 239);
@@ -335,6 +332,7 @@ width: 19%;
     }
     .aboutLink{
         margin-right: 9%;
+        margin-top: -15%;
     }
 }
 @media(min-width:1764px){
@@ -361,143 +359,3 @@ width: 19%;
     }
 
 }
-/* @media screen and (min-width: 360px) {
-   .profile-pic{
-       height: 34vh;
-       right: 4%;
-      
-   }
-
-  #about{
-      height: 170vh;
-      width: 100%;
-  }
-}
-
- @media screen and (max-width: 750px) {
-    #about{
-        height: 111vh;
-        width: 111%;
-    }
-    .wraped {
-        font-size: 20px;
-          
-        width: 109.5%;
-    }
-   
-    .profile-pic {
-        position: relative;
-       float: right;
-      
-     right: -11%;
-       
-    }
-    .moving{
-        width: 90%;
-        margin-left: 0px;
-    }
- 
-}
-@media screen and (min-width: 821px) {
-    #about{
-        height: 6%;
-    }
-}
-@media screen and (max-width: 821px) {
-
-.profile-pic{
-    float: right;
-}
-.aboutLink{
-    padding: 10px;
-    display: none;
-   
-}
-
-
-}
-@media screen and (min-width: 1024px) {
-   #about{
-       height: 100vh;
-       
-   }
-   .profile-pic{
-       float: right;
-       right: 43px;
-   }
-   .aboutList{
-       top: 20px;
-       padding: 15px;
-      
-       justify-content: space-between;
-       position: relative;
-       
-   }
-   .aboutLink{
-       width: 55%;
-      
-   }
-  
-}
-@media screen and (min-width: 912px) {
-.aboutLink{
-    
-    float: left;
-    
-}
-.aboutList{
-    font-size: 25px;
-}
-
-}
-
-@media screen and (min-width: 1280px) {
-    .aboutLink{
-        width: 40%;
-       
-    }
-}
-@media (max-height: 396px) {
-    .aboutLink{
-        display: none;
-    }
-    .profile-pic{
-        width: 17%;
-        height: 50vh;
-        right: 10%;
-    }
-    #about{
-        height: 200vh;
-    }
-}
-@media screen and (max-height: 360px) {
-    .profile-pic{
-        right: 22%;
-    }
-    #about{
-        height: 210vh;
-    }
-}
-@media screen and (min-width: 1380px) {
-    .profile-pic{
-        right: 10%;
-    }
-    #about{
-        height: 100vh;
-    }
-}
-@media screen and (min-width: 1690px) {
-    .profile-pic{
-        right: 18%;
-    }
-} */
-/* @media screen and (max-width: 1712px) {
-    .profile-pic{
-        right: 17%;
-    }
-} */
-/* @media screen and (min-width: 1711px) {
-    .profile-pic{
-        right: 13%;
-    }
-} */
