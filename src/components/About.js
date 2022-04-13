@@ -2,7 +2,7 @@ import React, { useEffect} from "react";
 import { Col, Image, Row, Carousel } from "react-bootstrap";
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import pic from "../assets/projects/UpdatedProfile.jpg"
+import pic from "../assets/profile/ProfilePic.png"
 import "./about.css"
 
 
@@ -38,7 +38,7 @@ export default function About() {
         </Col>
         <Row>
           <div>
-            <Image  src={pic} alt="Profile" className="profile-pic" data-aos="flip-left" ></Image>
+            <Image  src={pic} alt="Profile" className="profile-pic styleBehind" data-aos="flip-left" ></Image>
 </div>
 
 
