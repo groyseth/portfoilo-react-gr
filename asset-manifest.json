@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfoilo-react-gr/static/css/main.276a182a.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.f0a6d9f8.js",
+    "main.js": "/portfoilo-react-gr/static/js/main.62deda6d.js",
     "static/media/video.mp4": "/portfoilo-react-gr/static/media/video.8884ce28564fa1e59c52.mp4",
     "static/media/ProfilePic.png": "/portfoilo-react-gr/static/media/ProfilePic.5cbe76703c8a63508bfe.png",
     "static/media/testPic.jpg": "/portfoilo-react-gr/static/media/testPic.1e9f3ee6a0a18e277552.jpg",
@@ -22,15 +22,15 @@
     "static/media/sat.jpg": "/portfoilo-react-gr/static/media/sat.98bb7758b5c978d754ba.jpg",
     "static/media/Text-Editor.png": "/portfoilo-react-gr/static/media/Text-Editor.7c6e7975bf931bc80686.png",
     "static/media/background.png": "/portfoilo-react-gr/static/media/background.ff2e9711ac2f9e09d189.png",
-    "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.d9911b2a00f03d506716.pdf",
+    "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.6d83dd90f4c3cc3319c7.pdf",
     "static/media/nutronStar.png": "/portfoilo-react-gr/static/media/nutronStar.65cad67e27ded336e8e2.png",
     "static/media/test2.jpg": "/portfoilo-react-gr/static/media/test2.7e6146f94c3cc371c4bb.jpg",
     "index.html": "/portfoilo-react-gr/index.html",
     "main.276a182a.css.map": "/portfoilo-react-gr/static/css/main.276a182a.css.map",
-    "main.f0a6d9f8.js.map": "/portfoilo-react-gr/static/js/main.f0a6d9f8.js.map"
+    "main.62deda6d.js.map": "/portfoilo-react-gr/static/js/main.62deda6d.js.map"
   },
   "entrypoints": [
     "static/css/main.276a182a.css",
-    "static/js/main.f0a6d9f8.js"
+    "static/js/main.62deda6d.js"
   ]
 }
