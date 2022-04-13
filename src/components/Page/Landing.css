@@ -44,9 +44,15 @@ container{
     .title{
         width: 47%;
     }
+    .imageClass{
+        width: 60%;
+    }
 }
 @media(min-width: 1000px){
 container{
     top: 15%;
+}
+.imageClass{
+    width: 43%;
 }
 }
