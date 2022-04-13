@@ -1,6 +1,9 @@
+:root{
+    --text-color:white;
+}
 #about {
     padding-top: 70px;
-    color: white;
+    color: var(--text-color);
     border: 2px solid rgb(126, 98, 98);
     background-image: url(../assets/textback/background.png);
     width: 100vw;
@@ -11,9 +14,9 @@
 .wraped{
     font-size: 20px;
     background-color: black;
-    border: 2px solid rgb(240, 239, 239);
+    border: 2px solid var(--text-color);
     padding: 10px;
-    box-shadow: 2px 2px 2px #fbfbfb;
+    box-shadow: 2px 2px 2px var(--text-color);
 }
 .moving{
     text-align: center;
@@ -22,7 +25,7 @@
      /* width: 50%; */
      height: 45vh;
      border: 2px solid;
-    box-shadow: 2px 2px 2px #fbfbfb;
+    box-shadow: 2px 2px 2px var(--text-color);
     background-image: url(../assets/cover/test2.jpg);
     
  }
@@ -43,7 +46,7 @@
   background-image: url(../assets/cover/redGeo.jpg);
   background-repeat:no-repeat;
   /* background-size:78vh; */
-  box-shadow: 2px 2px 2px #fbfbfb;
+  box-shadow: 2px 2px 2px var(--text-color);
   /* animation-name: links ; */
   animation-duration: 2s;
 }
@@ -57,7 +60,7 @@
     top: 70px;
     text-shadow: 5px 10px 5px black ;
     text-transform: uppercase;
-    border-right: 1px solid white;
+    border-right: 1px solid var(--text-color);
     
 }
 .explore{
@@ -100,12 +103,12 @@
   }
   
   .aboutHover a:hover {
-    color: #ffffff;
+    color: var(--text-color);
     font-family: cursive;
   }
 
 h1{
-    color: white;
+    color: var(--text-color);
 }
 
 .carousel{

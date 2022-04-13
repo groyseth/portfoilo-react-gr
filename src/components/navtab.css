@@ -1,3 +1,6 @@
+:root{
+  --text-color:white;
+}
 .backgroundNav{
     background-color: black;
     width: 100%;
@@ -17,11 +20,11 @@
   color: rgba(249, 194, 194, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: var(--text-color);
 }
 
 .navbar-light .navbar-nav .nav-link.nav-link:hover{
-  color: white;
+  color: var(--text-color);
   font-display:unset;
 }
 .navbar-nav .dropdown-menu {
@@ -42,25 +45,26 @@
   border: 2px solid ;
 }
 a.dropdown-item{
-  color: white;
+  color: var(--text-color);
 }
 a.dropdown-item:hover{
   background-color: black;
+  color: red;
 }
 a.dropdown-item::after{
   /* background-color: black; */
-  color: white;
+  color: var(--text-color);
 }
 #basic-nav-dropdown{
-  color: white;
+  color: var(--text-color);
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   /* color: rgba(0,0,0,.7); */
-  color: white;
+  color: var(--text-color);
 }
 .nav a {
     padding: .5em .8em;
-    color: rgba(255, 255, 255, 0.986);
+    color: var(--text-color);
     position: relative;
     text-decoration: none;
     /* background-color: rgba(10, 6, 6, 0.5); */
@@ -75,15 +79,12 @@ a.dropdown-item::after{
     position: absolute;
     transition: all .35s ease;
     opacity: 0;
-    /* color: white; */
-    /* color: black; */
-    /* background-color: black; */
 }
 .nav-link:focus, .nav-link:hover{
   /* color: white; */
   font-family:cursive;
-  /* background-color: #18ec5b; */
 }
+
 .nav a::before {
     content: '';
     right: 0;
@@ -91,8 +92,6 @@ a.dropdown-item::after{
     border-top: 3px solid #3E8914;
     border-right: 3px solid #2E640F;
     transform: translate(-100%, 50%);
-    /* color: white; */
-    /* background-color: black; */
   }
   .nav a:after {
     content: '';
@@ -101,19 +100,16 @@ a.dropdown-item::after{
     border-bottom: 3px solid #2E640F;
     border-left: 3px solid #3E8914;
     transform: translate(100%, -50%);
-    /* color: white; */
-    
+
   }
   .nav a:hover:before,
   .nav a:hover:after{
     transform: translate(0,0);
     opacity: 1;
-    /* color: white; */
   }
   
   .nav a:hover {
     color: #18ec5b;
-    /* background-color: black; */
   }
  
   @media(min-width:320px){

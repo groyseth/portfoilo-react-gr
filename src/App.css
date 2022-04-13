@@ -1,3 +1,7 @@
+:root{
+    --text-color:white;
+    
+}
 .box {
     width: 80%;
     text-align: center;
@@ -28,15 +32,12 @@
 
 
 a {
-    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px black;
-    /* text-decoration: none; */
 }
 
 a,
 a:hover {
-    /* text-decoration: none !important; */
-    color: white;
+    color: var(--text-color);
 }
 
 ul {
@@ -55,10 +56,6 @@ ul {
     width: 5px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -85,14 +82,10 @@ ul {
 }
 
 .buttons button {
-    color: rgb(255, 254, 254);
+    color: var(--text-color);
     background-color: black;
 }
-/* @media screen and (max-width: 359px) {
-    .footer{
-        margin-top: 300px;
-    }
-} */
+
 
 
 @media (max-width: 575.98px) {
@@ -118,22 +111,4 @@ ul {
         position: relative;
     }
    
-}
-@media (max-width: 1200px) {
-    /* .footer{
-        position: relative;
-    margin-top: 65%;
-    display: flex;
-    } */
-   
-    /* .wraped{
-        font-size: 20px;
-    } */
-}
-@media (max-width: 1024px) {
-    /* .footer{
-    position: relative;
-    top: 600px;
-    width: 100%;
-    } */
 }
