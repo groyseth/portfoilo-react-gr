@@ -114,25 +114,9 @@ a.dropdown-item::after{
     color: #18ec5b;
     /* background-color: black; */
   }
-  /* @media screen and (max-width: 960px) {
-    .backgroundNav{
-    height: 5.5vh;
-      left: -5px;
-      width: 102%;
-      position: relative;
-  }
-  .stat{
-    right: 26px;
-    top: 4px;
-  }
-  } */
+ 
   @media(min-width:320px){
-    /* .backgroundNav{
-      width: 92%;
-    } */
-    .dropdown{
-      /* left: -20px; */
-    }
+    
   }
   @media screen and (min-height: 360px) {
     .backgroundNav{

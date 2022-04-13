@@ -8,6 +8,7 @@ import Resume from './Page/Resume'
 import spaceVid from './video/video.mp4'
 import "./mainContainer.css"
 import spacePic from "../assets/cover/testPic.jpg"
+// import Recon from './Recon';
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -65,7 +66,7 @@ zIndex: "-1"
       {renderPage()}
 
         
-
+    
        <Footer />
     </div>
     
