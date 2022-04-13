@@ -5,8 +5,8 @@ import Group from "./Group"
 import Navbar from "../Navbar";
 import Projects from "../Projects";
 import './page.css'
-import Parolax from "./Parolax"
-import Recon from "../Recon";
+// import Parolax from "./Parolax"
+import Recon from "./Landing";
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
@@ -15,8 +15,8 @@ const FadeUp = batch(Fade(), Move(), Sticky());
 export default function Home() {
     return (
       <main>
-      <div className="navBar">
-        {/* <Navbar /> */}
+      <div >
+        <Recon />
         </div>
         <div className="top">
         <About />
@@ -24,7 +24,7 @@ export default function Home() {
        <div className="middle">
         <Projects />
         </div>
-        <Parolax />
+        {/* <Parolax /> */}
         <div className="home">
         <Group />
         </div>

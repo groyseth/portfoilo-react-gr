@@ -1,0 +1,52 @@
+.landingStyle{
+    width: 100vw;
+    height: 100vh;
+}
+container{
+   
+}
+/* container h1{
+    text-align-last: center;
+    background-color: black;
+} */
+.title{
+    margin-top: -22%;
+    margin-left: -18%;
+    background-color: black;
+    width: 39%;
+    height: 117px;
+    text-align: center;
+    opacity: 0.9;
+    border: 2px #f3eded solid;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+}
+.imageClass{
+    width: 43%;
+    margin-left: 37%;
+}
+ @keyframes profile {
+    from {margin-left: 400%;}
+    to {margin-right: -500px;}
+}
+.Sat{
+    animation-name: profile;
+    animation-direction: normal;
+    animation-duration: 5s;
+    margin-top: -14%;
+    width: 23%;
+}
+@media(min-width: 200px){
+   
+    container{
+        top: 33%;
+    position: absolute;
+    }
+    .title{
+        width: 47%;
+    }
+}
+@media(min-width: 1000px){
+container{
+    top: 15%;
+}
+}
