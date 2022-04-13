@@ -1,40 +1,52 @@
 import React from "react";
-import Nav from 'react-bootstrap/Nav';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
+
+import "./navtab.css"
+import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
+
+const style = {
+  backcolor: {
+    backgroundColor: 'black'
+    
+  }
+}
 
 
-
-
-export default function Navbar() {
+export default function NavBar({ currentPage, handlePageChange }) {
   return (
-    <header className="">
-  
-  <div className="mb-2 stat" style={{zIndex: '1'}}>
-    {['down'].map((direction) => (
-      <DropdownButton 
-        as={ButtonGroup}
-        key={direction}
-        id={`dropdown-button-drop-${direction}`}
-        drop={direction}
-        // variant="primary"
-        title={` Menu `}
+   <Navbar bg='black' expand="lg">
+    <Container>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+  <Nav className="me-auto">
+    <div className='nav'>
+        <Nav.Link
+          href="#home"
+          onClick={() => handlePageChange('Home')}
+         
+          className= {currentPage === 'Home' ? 'nav-link active' : 'nav-link'} 
+        >
+          Home
+          </Nav.Link>
+      </div >
+      <div className='nav'>
+        <Nav.Link
+          href="#resume"
+           
+          onClick={() => handlePageChange('resume')}
+          className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'} 
+        >
+          My Resume
+        </Nav.Link>
+        </div>
+        </Nav>
+    
+    </Navbar.Collapse>
+</Container>
+</Navbar>
         
-        
-      >
-        <li className="menuColor">
-        <Dropdown.Item eventKey="1" a href="#about">About Me</Dropdown.Item>
-        <Dropdown.Item eventKey="2" a href="#projects">Projects</Dropdown.Item>
-        <Dropdown.Item eventKey="2" a href="#groupProjects">Group Projects</Dropdown.Item>
-        <Dropdown.Item eventKey="2" a href="#contact">Contact Me</Dropdown.Item>
-        </li>
-      </DropdownButton>
-      
-    ))}
-  </div>
 
-    </header>
+
+    
 
 
   );

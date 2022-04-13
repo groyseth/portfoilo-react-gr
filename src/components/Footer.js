@@ -1,8 +1,8 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { FaMailBulk, FaGithub, FaLinkedin} from 'react-icons/fa';
 // import logo from "./video/GR.mp4"
 import "./footer.css"
-import resumes from '../assets/projects/MyResume.pdf'
+// import resumes from '../assets/projects/MyResume.pdf'
 
 export default function Footer() {
  

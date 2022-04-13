@@ -48,7 +48,7 @@ zIndex: "-1"
       <source src={spaceVid} type="video/mp4" />
     </video>
 
-    <img src={spacePic} className="testPic" style={{
+    <img src={spacePic} className="testPic" alt='earth' style={{
  position: "fixed",
  width:"100%",
  left: "50%",

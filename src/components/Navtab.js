@@ -9,6 +9,7 @@ const style = {
   }
 }
 
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
    <Navbar bg='black' expand="lg">
@@ -35,6 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           My Resume
         </Nav.Link>
+        
 </div>
         <NavDropdown title="Menu" id="basic-nav-dropdown float right">
         <NavDropdown.Item href="#about">About Me</NavDropdown.Item>

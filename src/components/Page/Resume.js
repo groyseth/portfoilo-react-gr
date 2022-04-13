@@ -1,7 +1,7 @@
 import React from "react";
 import resumes from '../../assets/projects/MyResume.pdf'
 import "./Resume.css"
-
+// import NavBar from "../Navbar";
 export default function EmbedRes(){
 
     return(

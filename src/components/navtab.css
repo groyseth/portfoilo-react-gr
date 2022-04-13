@@ -12,6 +12,7 @@
   width: 100vw;
   /* background-color: black; */
 }
+
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
   color: rgba(249, 194, 194, 0.9);
 }
