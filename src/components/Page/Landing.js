@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react'
-import { Col, Row } from 'react-bootstrap'
+import {  Row } from 'react-bootstrap'
 import "./Landing.css"
 import Pic from "../../assets/textback/noght.png"
-import Sat from "../../assets/textback/sat.jpg"
+// import Sat from "../../assets/textback/sat.jpg"
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
@@ -18,7 +18,7 @@ export default function Recon() {
     <div className='landingStyle'>
       <container>
         <Row>
-        <img src={Pic} className='imageClass'></img>
+        <img src={Pic} className='imageClass' alt='astro'></img>
       <h1 className='title'>Hello Im<br /> Grant Royseth</h1>
       </Row>
       </container>

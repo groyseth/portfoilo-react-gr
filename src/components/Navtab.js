@@ -2,12 +2,12 @@ import React from 'react';
 import "./navtab.css"
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 
-const style = {
-  backcolor: {
-    backgroundColor: 'black'
+// const style = {
+//   backcolor: {
+//     backgroundColor: 'black'
     
-  }
-}
+//   }
+// }
 
 
 function NavTabs({ currentPage, handlePageChange }) {
