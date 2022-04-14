@@ -21,13 +21,7 @@ export const projects = [
     link: "https://github.com/groyseth/Weather-Dash-GR",
     live: "https://groyseth.github.io/Weather-Dash-GR/"
   },
-  // {
-  //   title: "Password",
-  //   subtitle: "Node.js, Javascript",
-  //   description: "I utalized JavaScript and a random number generator to make the Password Generator. The password generator creates a randomly generated, password with paramiters of the users choice. You can choose between 8 and 128 characters and if you want lowercase, uppercase, numbers and special characters. ",
-  //   link: "https://github.com/groyseth/Passwork-Genorator-GR",
-  //   live: "https://groyseth.github.io/Passwork-Genorator-GR/"
-  // },
+ 
   {
     title: "E-Commerce",
     subtitle: "MySQL, Javascript",
@@ -84,3 +78,11 @@ export const group = [
   }
  
 ]
+
+ // {
+  //   title: "Password",
+  //   subtitle: "Node.js, Javascript",
+  //   description: "I utalized JavaScript and a random number generator to make the Password Generator. The password generator creates a randomly generated, password with paramiters of the users choice. You can choose between 8 and 128 characters and if you want lowercase, uppercase, numbers and special characters. ",
+  //   link: "https://github.com/groyseth/Passwork-Genorator-GR",
+  //   live: "https://groyseth.github.io/Passwork-Genorator-GR/"
+  // },
