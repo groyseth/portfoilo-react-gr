@@ -45,7 +45,7 @@ export const projects = [
  
   {
     title: "Piano Project",
-    subtitle: "MySQL, Express, Mongoose, Restful API",
+    subtitle: "React",
     description: "Be able to play the piano with users keyboard or click on the keys themselfs. Still more work I want to do like adding a log in feature and saving songs that are user made.",
     link: "https://github.com/groyseth/react-piano",
     live: "https://piano-project-11229.herokuapp.com/"
