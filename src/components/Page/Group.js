@@ -26,11 +26,11 @@ export default function Projects() {
         </div>
         <Container className="container">
           <div className="row  my-5" style={{ margin: 'auto' }}>
-
+{console.log(group)}
             {group.map((group) => (
-
-              <Card style={{ width: '18rem' }} className="spacing ">
-
+ 
+              <Card style={{ width: '18rem' }} className="spacing " key={group._id}>
+               
                 <Card.Img variant="top" src={require(`../../assets/projects/${group.title}.png`)} className="projectImg" />
 
                 <Card.Body>

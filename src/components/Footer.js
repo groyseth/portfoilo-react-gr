@@ -13,10 +13,10 @@ export default function Footer() {
   return (
 
 
-    <container className="footer" id="contact">
-      <div  class="container" >
+    <section className="footer" id="contact">
+      <div  className="container" >
 
-        <ul class=" d-flex listStyle " >
+        <ul className=" d-flex listStyle " >
 
           <li>
             <a href="mailto:groyseth@gmail.com"  ><FaMailBulk /></a>
@@ -36,7 +36,7 @@ export default function Footer() {
 
 
       </div>
-    </container>
+    </section>
   )
 
 }

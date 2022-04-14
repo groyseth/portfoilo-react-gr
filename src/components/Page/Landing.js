@@ -16,12 +16,12 @@ export default function Recon() {
 
   return (
     <div className='landingStyle'>
-      <container>
+      <section>
         <Row>
         <img src={Pic} className='imageClass' alt='astro'></img>
       <h1 className='title'>Grant Royseth<br /> Front-End Developer</h1>
       </Row>
-      </container>
+      </section>
       {/* <img src={Sat} className='Sat'></img> */}
     </div>
   )

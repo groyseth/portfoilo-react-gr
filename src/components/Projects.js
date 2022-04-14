@@ -23,9 +23,9 @@ export default function Projects() {
           <h1>
             Apps I've Built
           </h1>
-          <p>
+          <p1>
             More projects on <a href="https://github.com/groyseth" className="githubStyle">GitHub</a>!
-          </p>
+          </p1>
         </div>
         
           <Container data-aos="zoom-in-down">
@@ -34,6 +34,7 @@ export default function Projects() {
             {projects.map((group) => (
 
               <Card style={{ width: '18rem' }} className="spacing" >
+                {/* {console.log(group._id)} */}
 
                 <Card.Img variant="top" src={require(`../assets/projects/${group.title}.png`)} className="projectImg" />
 
@@ -41,9 +42,9 @@ export default function Projects() {
                   <Card.Title>{group.title}</Card.Title>
                   <p1><strong>{group.subtitle}</strong></p1>
                   <Card.Text>
-                    <p>
+                    <p1>
                     {group.description}
-                    </p>
+                    </p1>
                   </Card.Text>
                   <div className='buttons'>
                     <a href={group.link}>
