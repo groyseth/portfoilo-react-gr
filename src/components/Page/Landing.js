@@ -19,7 +19,7 @@ export default function Recon() {
       <container>
         <Row>
         <img src={Pic} className='imageClass' alt='astro'></img>
-      <h1 className='title'>Hello Im<br /> Grant Royseth</h1>
+      <h1 className='title'>Grant Royseth<br /> Front-End Developer</h1>
       </Row>
       </container>
       {/* <img src={Sat} className='Sat'></img> */}

@@ -1,12 +1,12 @@
 export const projects = [
 
-  // {
-  //   title: "Text-Editor",
-  //   subtitle: "PWA, WebPack, Bable, Workbox",
-  //   description: "This text editor demonstrates the use of PWA(Progressive Web Application) and wepacks. User will be able to type code into the body, the code will be cashed into an IndexDb and the application will work offline. User will also be able to download the application!",
-  //   link: "https://github.com/groyseth/text-editor-GR",
-  //   live: "https://nameless-meadow-70824.herokuapp.com/"
-  // },
+  {
+    title: "Text-Editor",
+    subtitle: "PWA, WebPack, Bable, Workbox",
+    description: "This text editor demonstrates the use of PWA(Progressive Web Application) and wepacks. User will be able to type code into the body, the code will be cashed into an IndexDb and the application will work offline. User will also be able to download the application!",
+    link: "https://github.com/groyseth/text-editor-GR",
+    live: "https://nameless-meadow-70824.herokuapp.com/"
+  },
   // {
   //   title: "Workday",
   //   subtitle: "Node.js, Javascript, Moment",
@@ -47,16 +47,16 @@ export const projects = [
     title: "Piano Project",
     subtitle: "MySQL, Express, Mongoose, Restful API",
     description: "Be able to play the piano with users keyboard or click on the keys themselfs. Still more work I want to do like adding a log in feature and saving songs that are user made.",
-    link: "https://github.com/groyseth/Personal-PianoProject",
-    live: "https://powerful-thicket-42426.herokuapp.com/"
+    link: "https://github.com/groyseth/react-piano",
+    live: "https://piano-project-11229.herokuapp.com/"
   },
-  {
-    title: "Tech Blog",
-    subtitle: "MySQL, Express, Sequilize, Restful API",
-    description: "This app demonstrates the use of RestFul API's and MySQL. User is able to make a post or leave a comment, only if logged in. User has a dashboard of posts and comments made, which user will have the option to delete. Updating a post or comment is the next thing to be worked on.",
-    link: "https://github.com/groyseth/Tech-Blog-GR",
-    live: "https://mysterious-crag-93080.herokuapp.com/"
-  }
+  // {
+  //   title: "Tech Blog",
+  //   subtitle: "MySQL, Express, Sequilize, Restful API",
+  //   description: "This app demonstrates the use of RestFul API's and MySQL. User is able to make a post or leave a comment, only if logged in. User has a dashboard of posts and comments made, which user will have the option to delete. Updating a post or comment is the next thing to be worked on.",
+  //   link: "https://github.com/groyseth/Tech-Blog-GR",
+  //   live: "https://mysterious-crag-93080.herokuapp.com/"
+  // }
 
 ];
 
