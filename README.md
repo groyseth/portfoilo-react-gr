@@ -13,18 +13,22 @@ This is my react portfoilo. I utilized react-bootstrap and react to help create 
 
 - [Credits](#credits)
 - [Questions](#questions)
-
+- [ScreenShot](#screenshot)
 
 
 
 ## Credits
 Made by Grant Royseth!
-[My Resume](https://docs.google.com/document/d/1ZHIeX9uVSAQfJT23beA5R-I18rstNErQgYE41jauBlw/edit)
 
+
+## ScreenShot
+
+![Screenshot (66)](https://user-images.githubusercontent.com/90479839/163841740-e3b5f6a0-a2db-4330-9a59-762e4055e1b9.png)
 
 ## Questions
 My profile page [GitHub](https://github.com/groyseth)
 
 Reach me at [Gmail](Groyseth@gmail.com)
+
 
 
