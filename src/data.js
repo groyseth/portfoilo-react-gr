@@ -14,13 +14,13 @@ export const projects = [
   //   link: "https://github.com/groyseth/Work-Planner-GR",
   //   live: "https://groyseth.github.io/Work-Planner-GR/"
   // },
-  // {
-  //   title: "Weather",
-  //   subtitle: "Third Party API, Javascript",
-  //   description: "I made a weather app using JavaScript, moment.js, localstorage and a third party API. The app uses user input from a search bar and finds a city along with the weather. It calls the openweathermap API and shows current weather with city,  date, temperature, windspeed, humidity, and a uv index that changes color based on favorable conditions. Also includes a 5 day forcast with the date, temperature, windspeed and humidity. The users history is saved and loaded when the page refreshes.",
-  //   link: "https://github.com/groyseth/Weather-Dash-GR",
-  //   live: "https://groyseth.github.io/Weather-Dash-GR/"
-  // },
+  {
+    title: "Weather",
+    subtitle: "Third Party API, Javascript",
+    description: "I made a weather app using JavaScript, moment.js, localstorage and a third party API. The app uses user input from a search bar and finds a city along with the weather. It calls the openweathermap API and shows current weather with city,  date, temperature, windspeed, humidity, and a uv index that changes color based on favorable conditions. Also includes a 5 day forcast with the date, temperature, windspeed and humidity. The users history is saved and loaded when the page refreshes.",
+    link: "https://github.com/groyseth/Weather-Dash-GR",
+    live: "https://groyseth.github.io/Weather-Dash-GR/"
+  },
    {
     title: "Password",
     subtitle: "Node.js, Javascript",

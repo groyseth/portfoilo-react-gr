@@ -29,10 +29,7 @@
     background-image: url(../assets/cover/test2.jpg);
     
  }
- /* @keyframes profile {
-    from {margin-left: 100%;}
-    to {margin-right: 0px;}
-} */
+
 .aboutLink{
   flex-direction: column;
   position: relative;
@@ -50,10 +47,7 @@
   /* animation-name: links ; */
   animation-duration: 2s;
 }
-/* @keyframes links {
-    from {margin-left: 100%;}
-    to {margin-right: 0px;}
-} */
+
 .aboutList{
     padding: 15px;
     position: relative;
@@ -122,14 +116,6 @@ h1{
     width: 100%;
 }
 
-
-
-/* [data-aos] {
-    visibility: hidden;
-  }
-  [data-aos].animated {
-    visibility: visible;
-  } */
 @media (min-width:281px){
 #about{
     /* width: 102vw; */

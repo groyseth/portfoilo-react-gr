@@ -44,9 +44,14 @@
     .title{
         width: 47%;
         height: 19vh;
+        position: relative;
+        top: 142px;
+    
     }
     .imageClass{
         width: 60%;
+        position: relative;
+        top: 144px;
     }
 }
 @media(min-width: 1000px){

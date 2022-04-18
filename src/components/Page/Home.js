@@ -7,7 +7,7 @@ import Group from "./Group"
 import Projects from "../Projects";
 import './page.css'
 // import Parolax from "./Parolax"
-import Recon from "./Landing";
+import Landing from "./Landing";
 // import { batch, Fade, FadeIn, Move,  Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
@@ -17,7 +17,7 @@ export default function Home() {
     return (
       <main>
       <div >
-        <Recon />
+        <Landing />
         </div>
         
         <div className="top">
@@ -26,11 +26,9 @@ export default function Home() {
        <div className="middle">
         <Projects />
         </div>
-        {/* <Parolax /> */}
         <div className="home">
         <Group />
         </div>
-        {/* <Recon /> */}
     </main>
     );
   }
