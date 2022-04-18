@@ -1,12 +1,7 @@
 .footer {
     position: relative;
     margin-top: 220vh;
-    /* left: 0; */
-    
     width: 100%;
-    
-    /* bottom: -100%; */
-    /* top: 0px; */
     background-color: rgb(8, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -23,7 +18,6 @@
 .listStyle li :hover{
     color: red;
 }
-
 @media(min-height:360px){
     .footer{
         margin-top: 423vh;
@@ -41,7 +35,6 @@
 }
 @media (min-width: 360px){
     .listStyle li{
-        /* width: 10%; */
         margin-inline: 26px;
     }
     .footer{

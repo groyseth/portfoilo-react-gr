@@ -1,5 +1,6 @@
 :root{
     --text-color:white;
+    --black-color:black;
 }
 #about {
     padding-top: 70px;
@@ -8,12 +9,11 @@
     background-image: url(../assets/textback/background.png);
     width: 100vw;
     height: 100vh;
-    /* flex-direction: row; */
     position: relative;
 }
 .wraped{
     font-size: 20px;
-    background-color: black;
+    background-color: var(--black-color);
     border: 2px solid var(--text-color);
     padding: 10px;
     box-shadow: 2px 2px 2px var(--text-color);
@@ -22,19 +22,15 @@
     text-align: center;
 }
  .profile-pic{
-     /* width: 50%; */
      height: 45vh;
      border: 2px solid;
     box-shadow: 2px 2px 2px var(--text-color);
     background-image: url(../assets/cover/test2.jpg);
-    
  }
 
 .aboutLink{
   flex-direction: column;
   position: relative;
-  /* top: -0px;
-  left: -10%; */
   border: 2px solid ;
   width: 50%;
   text-align: center;
@@ -42,9 +38,7 @@
   background-size: cover;
   background-image: url(../assets/cover/redGeo.jpg);
   background-repeat:no-repeat;
-  /* background-size:78vh; */
   box-shadow: 2px 2px 2px var(--text-color);
-  /* animation-name: links ; */
   animation-duration: 2s;
 }
 
@@ -52,13 +46,12 @@
     padding: 15px;
     position: relative;
     top: 70px;
-    text-shadow: 5px 10px 5px black ;
+    text-shadow: 5px 10px 5px var(--black-color);
     text-transform: uppercase;
     border-right: 1px solid var(--text-color);
-    
 }
 .explore{
-   text-shadow: 5px 5px 5px black;
+   text-shadow: 5px 5px 5px var(--black-color);
 }
 
 .aboutHover a::before,
@@ -69,14 +62,14 @@
     position: absolute;
     transition: all .35s ease;
     opacity: 0;
-    color: black;
+    color: var(--black-color);
 }
 
 .aboutHover a::before {
     content: '';
     right: 0;
     top: 0;
-    border-top: 3px solid #000000;
+    border-top: 3px solid var(--black-color);
     border-right: 3px solid #2E640F;
     transform: translate(-100%, 50%);
   }
@@ -84,30 +77,24 @@
     content: '';
     left: 0;
     bottom: 0;
-    border-bottom: 3px solid #000000;
+    border-bottom: 3px solid var(--black-color);
     border-left: 3px solid #3E8914;
     transform: translate(100%, -50%);
-    
-    
   }
   .aboutHover a:hover:before,
   .aboutHover a:hover:after{
     transform: translate(0,0);
     opacity: 1;
   }
-  
   .aboutHover a:hover {
     color: var(--text-color);
     font-family: cursive;
   }
-
 h1{
     color: var(--text-color);
 }
-
 .carousel{
     width: 24%;
-  
     position: absolute;
     top: 50%;
     right: 7%;
@@ -115,10 +102,8 @@ h1{
 .carouselItem img{
     width: 100%;
 }
-
 @media (min-width:281px){
 #about{
-    /* width: 102vw; */
     height: 220vh;
 }
 .aboutLink{
@@ -130,7 +115,6 @@ h1{
 }
 @media (min-width:320px){
     #about{
-        /* width: 100%; */
         height: 200vh;
     }
     .aboutLink{
@@ -192,7 +176,6 @@ h1{
         margin-top: -38%;
         position: relative;
         width: 50%;
-
     }
     .aboutList{
         font-size: 13px;
@@ -201,7 +184,6 @@ h1{
         margin-left: 10%;
     }
 }
-
 @media(min-width:844px){
     #about{
         height: 200vh;
@@ -265,9 +247,7 @@ width: 19%;
         padding: 2%;
     position: relative;
     top: 70px;
-    text-shadow: 5px 10px 5px black ;
-    text-transform: uppercase;
-    border-right: 1px solid white;
+    border-right: 1px solid var(--text-color);
     font-size: 15px;
     }
 }
@@ -311,9 +291,6 @@ width: 19%;
     .profile-pic{
         margin-left: 10%;
     }
-    /* #about{
-        height: 80vh;
-    } */
 }
 @media(min-width:1630px){
     .profile-pic{
@@ -327,7 +304,6 @@ width: 19%;
 @media(min-width:1764px){
     .aboutLink{
         margin-left: 40%;
-        /* height: 20vh; */
         width: 80vh;
     }
     .profile-pic{
@@ -346,5 +322,4 @@ width: 19%;
     .aboutList{
         font-size: 19px;
     }
-
 }

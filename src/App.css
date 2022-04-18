@@ -1,38 +1,29 @@
 :root{
     --text-color:white;
-    
+    --black-color: black;
 }
 .box {
     width: 80%;
     text-align: center;
     object-position: center;
     margin: auto;
-    color: #c6ecff;
-    box-shadow: #c6ecff 2px;
+    color: var(--text-color);
+    box-shadow: var(--text-color) 2px;
 }
 
 .center {
     width: 70%;
 }
-
-
-
-
 .spacing {
     padding: 14px;
     
     display: flex;
-    border: 2px solid black;
-    box-shadow: -3px -1px 9px 1px #050505;
+    border: 2px solid var(--black-color);
+    box-shadow: -3px -1px 9px 1px var(--black-color);
     text-align: center;
 }
-
-
-
-
-
 a {
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px var(--black-color);
 }
 
 a,
@@ -45,24 +36,14 @@ ul {
     color: yellow;
 }
 
-
-
-
-  
-  
-
-
 ::-webkit-scrollbar {
     width: 5px;
 }
 
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
@@ -73,8 +54,6 @@ ul {
     overflow-y: scroll;
 }
 
-
-
 .group-back {
     background-image: url(./assets/textback/background.png);
     align-items: center;
@@ -83,23 +62,17 @@ ul {
 
 .buttons button {
     color: var(--text-color);
-    background-color: black;
+    background-color: var(--black-color);
 }
 
 
 
 @media (max-width: 575.98px) {
-  
-   
     .spacing{
         text-align: center;
     object-position: center;
     position: relative;
     }
-    /* .footer{
-       
-        margin-top: 100px;
-    } */
 }
 
 @media (max-width: 992px) {

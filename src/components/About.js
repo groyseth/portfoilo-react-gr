@@ -5,10 +5,6 @@ import 'aos/dist/aos.css';
 import pic from "../assets/profile/ProfilePic.png"
 import "./about.css"
 
-
-
-
-
 export default function About() {
 
  
@@ -24,9 +20,7 @@ export default function About() {
 
 
   return (
-    <section id="about" className=" ">
-
-      {/* <Row> */}
+    <section id="about" >
         <Col>
           <div className="container moving">
             

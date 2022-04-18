@@ -4,13 +4,8 @@
     left: "50%";
     top: "50%";
     height: "100%";
-    /* objectFit: "cover"; */
-    /* // backgroundSize: "cover"; */
-    /* transform: "translate(-50%, -50%)"; */
     z-index: -1;
 }
-
-
 @media screen and (max-width: 540px) {
 
 .videoClass{

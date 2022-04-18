@@ -1,3 +1,6 @@
+:root{
+  --black-color:black;
+}
 
 .spacing:hover {
     background: #ffffff;
@@ -11,8 +14,8 @@
  .projectImg {
   width: auto;
   height: fit-content;
-  border: 2px solid black;
-  box-shadow: -3px -1px 9px 1px #050505;
+  border: 2px solid var(--black-color);
+  box-shadow: -3px -1px 9px 1px var(--black-color);
 }
 #projects{
   height: 100vh;
