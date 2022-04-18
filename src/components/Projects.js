@@ -34,7 +34,7 @@ export default function Projects() {
             {projects.map((group) => (
 
               <Card style={{ width: '18rem' }} className="spacing" >
-                {/* {console.log(group._id)} */}
+               
 
                 <Card.Img variant="top" src={require(`../assets/projects/${group.title}.png`)} className="projectImg" />
 
