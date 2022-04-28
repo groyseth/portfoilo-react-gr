@@ -23,28 +23,28 @@ export default function Projects() {
           <h1>
             Apps I've Built
           </h1>
-          <p1>
+          <p>
             More projects on <a href="https://github.com/groyseth" className="githubStyle">GitHub</a>!
-          </p1>
+          </p>
         </div>
         
           <Container data-aos="zoom-in-down">
           <div className="row  " style={{ margin: 'auto' }} >
 
-            {projects.map((group) => (
+            {projects.map((group, key) => (
 
-              <Card style={{ width: '18rem' }} className="spacing" >
+              <Card style={{ width: '18rem' }} className="spacing" key={key}>
                
 
                 <Card.Img variant="top" src={require(`../assets/projects/${group.title}.png`)} className="projectImg" />
 
                 <Card.Body className="scrolled">
                   <Card.Title>{group.title}</Card.Title>
-                  <p1><strong>{group.subtitle}</strong></p1>
+                  <p><strong>{group.subtitle}</strong></p>
                   <Card.Text>
-                    <p1>
+                    
                     {group.description}
-                    </p1>
+                    
                   </Card.Text>
                   <div className='buttons'>
                     <a href={group.link}>

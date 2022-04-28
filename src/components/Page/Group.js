@@ -27,15 +27,15 @@ export default function Projects() {
         <Container className="container">
           <div className="row  my-5" style={{ margin: 'auto' }}>
 
-            {group.map((group) => (
+            {group.map((group, key) => (
  
-              <Card style={{ width: '18rem' }} className="spacing " key={group._id}>
+              <Card style={{ width: '18rem' }} className="spacing " key={key}>
                
                 <Card.Img variant="top" src={require(`../../assets/projects/${group.title}.png`)} className="projectImg" />
 
                 <Card.Body>
                   <Card.Title>{group.title}</Card.Title>
-                  <p1><strong>{group.subtitle}</strong></p1>
+                  <p><strong>{group.subtitle}</strong></p>
                   <Card.Text>
                     {group.description}
                   </Card.Text>
