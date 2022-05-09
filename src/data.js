@@ -40,18 +40,18 @@ export const projects = [
  
   {
     title: "Piano Project",
-    subtitle: "React",
+    subtitle: "React, XML",
     description: "Be able to play the piano with users keyboard or click on the keys themselfs. Still more work I want to do like adding a log in feature and saving songs that are user made.",
     link: "https://github.com/groyseth/react-piano",
     live: "https://piano-project-11229.herokuapp.com/"
   },
-  // {
-  //   title: "Tech Blog",
-  //   subtitle: "MySQL, Express, Sequilize, Restful API",
-  //   description: "This app demonstrates the use of RestFul API's and MySQL. User is able to make a post or leave a comment, only if logged in. User has a dashboard of posts and comments made, which user will have the option to delete. Updating a post or comment is the next thing to be worked on.",
-  //   link: "https://github.com/groyseth/Tech-Blog-GR",
-  //   live: "https://mysterious-crag-93080.herokuapp.com/"
-  // }
+  {
+    title: "Children's Quiz",
+    subtitle: "React, GraphQl, MongoDB",
+    description: "This app is make to make learning fun with your kids. There are colors and sounds to keep children engaged and most importantly, keeping it fun!",
+    link: "https://github.com/groyseth/child-quiz",
+    live: "https://child-quiz.herokuapp.com/"
+  }
 
 ];
 
