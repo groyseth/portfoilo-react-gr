@@ -2,7 +2,7 @@
 
 ## Description  
 
-This is my react portfoilo. I utilized react-bootstrap and react to help create my resume. I also love the way it looks, enjoy!
+This is my react portfoilo. I utilized react-bootstrap and react to help create my portfolio. I also love the way it looks, enjoy!
 
 
 [Live Link](https://grant-royseths-portfolio1132.herokuapp.com/)
