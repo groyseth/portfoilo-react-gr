@@ -23,7 +23,8 @@ This portfoilo was inspired by my wonder with outer space. I have included my po
 
 ### Screenshot
 
-![Screenshot (66)](https://user-images.githubusercontent.com/90479839/163841740-e3b5f6a0-a2db-4330-9a59-762e4055e1b9.png)
+
+![Screenshot (82)](https://user-images.githubusercontent.com/90479839/170352396-a7f34c78-bb6b-48d1-8ae5-be2627970325.png)
 
 
 ### Links
