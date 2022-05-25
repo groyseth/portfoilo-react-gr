@@ -3,7 +3,7 @@ import NavTabs from './Navtab';
 import Home from './Page/Home';
 import Footer from './Footer';
 import Resume from './Page/Resume'
-import spaceVid from './video/video.mp4'
+// import spaceVid from './video/video.mp4'
 import "./mainContainer.css"
 import spacePic from "../assets/cover/testPic.jpg"
 
