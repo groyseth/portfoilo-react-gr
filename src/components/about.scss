@@ -1,3 +1,7 @@
+$phone: 200px;
+$tablet: 700px;
+$deskTop:1020px;
+$deskTopLarge:1440px;
 :root{
     --text-color:white;
     --black-color:black;
@@ -8,8 +12,16 @@
     border: 2px solid rgb(126, 98, 98);
     background-image: url(../assets/textback/background.png);
     /* width: 100vw; */
-    height: 100vh;
+    // height: 100vh;
     position: relative;
+    @media (min-width:$phone) {
+            // height: 160vh;
+    }
+    @media (min-width:$tablet) {
+       
+        // height: 126vh;
+        
+    }
 }
 .wraped{
     font-size: 20px;
@@ -25,7 +37,15 @@
      height: 45vh;
      border: 2px solid;
     box-shadow: 2px 2px 2px var(--text-color);
-    background-image: url(../assets/cover/test2.jpg);
+    @media (min-width:$phone) {
+            margin-left: 25px;
+    }
+    @media (min-width:$tablet) {
+        margin-left: 36px;
+    }
+    @media (min-width:$deskTopLarge) {
+        margin-left: 85px;
+    }
  }
 
 .aboutLink{
@@ -34,12 +54,23 @@
   border: 2px solid ;
   width: 50%;
   text-align: center;
-  height: 30vh;
+//   height: 30vh;
   background-size: cover;
   background-image: url(../assets/cover/redGeo.jpg);
   background-repeat:no-repeat;
   box-shadow: 2px 2px 2px var(--text-color);
   animation-duration: 2s;
+  @media (min-width:$phone) {
+        display: none;
+  }
+  @media (min-width:$tablet) {
+    left: 164px;
+    top: -269px;
+            // margin-top: -38%;
+            position: relative;
+            width: 50%;
+        
+  }
 }
 
 .aboutList{
@@ -101,225 +132,4 @@ h1{
 }
 .carouselItem img{
     width: 100%;
-}
-@media (min-width:281px){
-#about{
-    height: 220vh;
-}
-.aboutLink{
-    display: none;
-}
-.profile-pic{
-    margin-left: 25px;
-}
-}
-@media (min-width:320px){
-    #about{
-        height: 167vh;
-    }
-    .aboutLink{
-        display: none;
-    }
-}
-@media (min-width:360px){
-    #about{
-        height: 170vh;
-    }
-}
-@media (min-width:375px) {
-    #about{
-        height: 170vh;
-    }
-    .aboutLink{
-        display: none;
-    }
-}
-
-@media(min-width:390px){
-    #about{
-        height: 140vh;
-    }
-}
-@media (min-width:425px){
-    #about{
-        height: 160vh;
-    }
-    .aboutLink{
-        display: none;
-    }
-}
-@media(min-width:540px){
-    #about{
-     height: 140vh;
-    }
-}
-@media(min-height:667px){
-    .aboutLink{
-        margin-top: -30%;
-    }
-}
-@media(min-width:740px){
-#about{
-    height: 220vh;
-}
-.profile-pic{
-    margin-left: 40%;
-}
-}
-@media (min-width:768px){
-    #about{
-        height: 130vh;
-    }
-    .aboutLink{
-        display: block;
-        margin-left: 47%;
-        margin-top: -38%;
-        position: relative;
-        width: 50%;
-    }
-    .aboutList{
-        font-size: 13px;
-    }
-    .profile-pic{
-        margin-left: 10%;
-    }
-}
-@media(min-width:844px){
-    #about{
-        height: 200vh;
-    }
-    .profile-pic{
-        margin-left: 10%;
-    }
-    .aboutLink{
-        margin-top: -20%;
-        margin-left: 21%;
-        width: 60vw;
-    }
-    .aboutList{
-        top: 10px;
-    }
-}
-@media (min-width:912px){
-    .aboutLink{
-width: 19%;
-    }
-    .aboutList{
-        flex-direction: column;
-        padding: 0%;
-        border: 0px;
-        font-size: 17px;
-    }
-    #about{
-        height: 90vh;
-    }
-    .profile-pic{
-        margin-left: 10%;
-    }
-}
-@media(min-width:1059px){
-    .aboutLink{
-    margin-left: 31%;
-    }
-}
-
-@media(min-height:1024px){
-    .aboutLink{
-        margin-top: -50%;
-        width: 40vw;
-        margin-right: -3%;
-    }
-    .aboutList{
-        font-size: 15px;
-        padding: 10px;
-    }
-}
-@media(min-width:1024px){
-    #about{
-        height: 120vh;
-    }
-    .aboutLink{
-        margin-top: -25%;
-        width: 50%;
-        margin-left: 40%;
-    }
-    .aboutList{
-        padding: 2%;
-    position: relative;
-    top: 70px;
-    border-right: 1px solid var(--text-color);
-    font-size: 15px;
-    }
-}
-@media(min-height:1180px){
-    .aboutLink{
-        width: 30%;
-    }
-    .aboutList{
-        font-size: 30px;
-        border: none;
-    }
-    .profile-pic{
-        margin-left: 8%;
-    }
-}
-@media(min-width:1228px){
-    .aboutLink{
-        margin-left: 31%;
-    }
-}
-@media(min-width:1280px){
-    #about{
-        height: 100vh;
-    }
-}
-@media(min-height:1368px){
-    .profile-pic{
-        width: 40vw;
-        height: 40vh;
-        margin-left: 12%;
-    }
-    .aboutLink{
-        margin-right: -23%;
-    }
-}
-@media(min-width:1440px){
-    .aboutLink{
-        margin-top: -20%;
-        margin-left: 30%;
-    }
-    .profile-pic{
-        margin-left: 10%;
-    }
-}
-@media(min-width:1630px){
-    .profile-pic{
-        margin-left: 13%;
-    }
-    .aboutLink{
-        margin-right: 9%;
-        margin-top: -15%;
-    }
-}
-@media(min-width:1764px){
-    .aboutLink{
-        margin-left: 40%;
-        width: 80vh;
-    }
-    .profile-pic{
-        margin-left: 15%;
-    }
-}
-@media(min-width:1850px){
-    .aboutLink{
-        width: 40vw;
-        height: 30vh;
-        margin-left: 31%;
-    }
-    .profile-pic{
-        margin-left: 20%;
-    }
-    .aboutList{
-        font-size: 19px;
-    }
 }

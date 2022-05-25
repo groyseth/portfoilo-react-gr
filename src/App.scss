@@ -1,6 +1,18 @@
+$phone: 426px;
+$tablet: 821px;
 :root{
     --text-color:white;
     --black-color: black;
+}
+.testPic{
+    background-image: url(./assets/cover/picBackGround.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    @media (max-width:$phone) {
+        width: 123vw;
+    }
 }
 .box {
     width: 80%;

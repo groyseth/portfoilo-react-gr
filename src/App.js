@@ -1,4 +1,3 @@
-import "./components/mainContainer.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainContainer from "./components/MainContainer";
 
