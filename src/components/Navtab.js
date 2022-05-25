@@ -34,11 +34,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         
 </div>
         <NavDropdown title="Menu" id="basic-nav-dropdown float right">
-        <NavDropdown.Item href="#about">About Me</NavDropdown.Item>
-        <NavDropdown.Item href="#projects">Projects</NavDropdown.Item>
-        <NavDropdown.Item href="#groupProjects">Group Projects</NavDropdown.Item>
+        <NavDropdown.Item href="#about" onClick={() => handlePageChange('Home')}>About Me</NavDropdown.Item>
+        <NavDropdown.Item href="#projects" onClick={() => handlePageChange('Home')}>Projects</NavDropdown.Item>
+        <NavDropdown.Item href="#groupProjects" onClick={() => handlePageChange('Home')}>Group Projects</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#contact">Contact</NavDropdown.Item>
+        <NavDropdown.Item href="#contact" onClick={() => handlePageChange('Home')}>Contact</NavDropdown.Item>
       </NavDropdown>
   
    
