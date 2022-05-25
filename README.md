@@ -19,7 +19,7 @@
 
 ### Description 
 
-This portfoilo was inspired by my wonder with outer space. I have included my porjects 
+This portfoilo was inspired by my wonder with outer space. I took what I learned from other projects and came back to use my new found skills to incorperate in my portfolio.
 
 ### Screenshot
 
