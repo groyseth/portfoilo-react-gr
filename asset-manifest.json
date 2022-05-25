@@ -1,11 +1,9 @@
 {
   "files": {
     "main.css": "/portfoilo-react-gr/static/css/main.b43f8146.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.6d3da911.js",
-    "static/media/testPic.jpg": "/portfoilo-react-gr/static/media/testPic.1e9f3ee6a0a18e277552.jpg",
+    "main.js": "/portfoilo-react-gr/static/js/main.11d4fff7.js",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
     "static/media/Employee Tracker.png": "/portfoilo-react-gr/static/media/Employee Tracker.7c8b7c807158998e2fa9.png",
-    "static/media/noght.png": "/portfoilo-react-gr/static/media/noght.03ac86a117c776e3ffb8.png",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/Creative-Dev.png": "/portfoilo-react-gr/static/media/Creative-Dev.b17a1e04edbf9066d53e.png",
     "static/media/picBackGround.jpg": "/portfoilo-react-gr/static/media/picBackGround.afc1739c4441fac6bb9f.jpg",
@@ -25,10 +23,10 @@
     "index.html": "/portfoilo-react-gr/index.html",
     "static/media/icon-hamburger.svg": "/portfoilo-react-gr/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
     "main.b43f8146.css.map": "/portfoilo-react-gr/static/css/main.b43f8146.css.map",
-    "main.6d3da911.js.map": "/portfoilo-react-gr/static/js/main.6d3da911.js.map"
+    "main.11d4fff7.js.map": "/portfoilo-react-gr/static/js/main.11d4fff7.js.map"
   },
   "entrypoints": [
     "static/css/main.b43f8146.css",
-    "static/js/main.6d3da911.js"
+    "static/js/main.11d4fff7.js"
   ]
 }
