@@ -1,4 +1,4 @@
-# Grant Royseth's Porfoilo 
+# Grant Royseth's Porfolio 
 
 
 ## Table of contents
