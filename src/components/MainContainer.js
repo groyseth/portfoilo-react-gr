@@ -7,8 +7,6 @@ import Resume from './Page/Resume'
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
-
-  
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
@@ -18,9 +16,7 @@ export default function MainContainer() {
     return <Resume />
     }
   };
-
   const handlePageChange = (page) => setCurrentPage(page);
-
   return (
     <div>      
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

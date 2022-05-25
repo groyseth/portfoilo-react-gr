@@ -1,8 +1,6 @@
 import React from "react";
 import { FaMailBulk, FaGithub, FaLinkedin} from 'react-icons/fa';
 import "./footer.scss"
-
-
 export default function Footer() {
 
   return (

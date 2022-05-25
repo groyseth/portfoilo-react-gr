@@ -4,8 +4,6 @@ import Group from "./Group"
 import Projects from "../Projects";
 import './page.scss'
 import Landing from "./Landing";
-
-
 export default function Home() {
     return (
       <main>

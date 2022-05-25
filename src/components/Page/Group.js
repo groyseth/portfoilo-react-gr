@@ -2,17 +2,9 @@ import React from 'react';
 import "./group.css"
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-// import { Col } from "react-bootstrap";
-// import {removeHyphensAndCapitalize} from '../utils/helpers'
 import { Container } from "react-bootstrap";
 import { group } from "../../data";
-
-
-
 export default function Projects() {
-  // const { title, subtitle,  description } = projects;
-
-
   return (
     <section id="groupStyle " className="">
       <div >
@@ -26,13 +18,9 @@ export default function Projects() {
         </div>
         <Container className="container">
           <div className="row  my-5" style={{ margin: 'auto' }}>
-
             {group.map((group, key) => (
- 
               <Card style={{ width: '18rem' }} className="spacing " key={key}>
-               
                 <Card.Img variant="top" src={require(`../../assets/projects/${group.title}.png`)} className="projectImg" />
-
                 <Card.Body>
                   <Card.Title>{group.title}</Card.Title>
                   <p><strong>{group.subtitle}</strong></p>
@@ -48,13 +36,8 @@ export default function Projects() {
                     </a>
                   </div>
                 </Card.Body>
-
               </Card>
-
-
-
             ))}
-
           </div>
         </Container>
       </div>

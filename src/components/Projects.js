@@ -7,11 +7,7 @@ import { Button } from "react-bootstrap";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import "./project.css"
-
-
 export default function Projects() {
-
-
   useEffect(() =>{
     AOS.init({ duration:1500  });
   }, []);
@@ -27,15 +23,12 @@ export default function Projects() {
             More projects on <a href="https://github.com/groyseth" className="githubStyle">GitHub</a>!
           </p>
         </div>
-        
           <Container data-aos="zoom-in-down">
           <div className="row  " style={{ margin: 'auto' }} >
 
             {projects.map((group, key) => (
 
               <Card style={{ width: '18rem' }} className="spacing" key={key}>
-               
-
                 <Card.Img variant="top" src={require(`../assets/projects/${group.title}.png`)} className="projectImg" />
 
                 <Card.Body className="scrolled">
@@ -57,11 +50,7 @@ export default function Projects() {
                 </Card.Body>
 
               </Card>
-
-
-
             ))}
-
           </div>
         </Container>
       </div>

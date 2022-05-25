@@ -2,7 +2,7 @@ $phone: 200px;
 $tablet: 700px;
 $deskTop:1020px;
 .landingStyle{
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     @media (max-width:$tablet) {
         height: 125vh;

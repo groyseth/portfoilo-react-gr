@@ -6,18 +6,9 @@ import pic from "../assets/profile/ProfilePic.png"
 import "./about.scss"
 
 export default function About() {
-
- 
-    // const [index, setIndex] = useState(0);
-  
-    // const handleSelect = (selectedIndex, e) => {
-    //   setIndex(selectedIndex);
-    // };
-
     useEffect(() =>{
       AOS.init({ duration:2000  });
     }, []);
-
 
   return (
     <section id="about" >
