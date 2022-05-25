@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.f2a9fedc.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.7d5e2f91.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.1ba563b5.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.17a409cd.js",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
     "static/media/Employee Tracker.png": "/portfoilo-react-gr/static/media/Employee Tracker.7c8b7c807158998e2fa9.png",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
@@ -19,11 +19,11 @@
     "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.0d4e8fd095267930c920.pdf",
     "index.html": "/portfoilo-react-gr/index.html",
     "static/media/icon-hamburger.svg": "/portfoilo-react-gr/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
-    "main.f2a9fedc.css.map": "/portfoilo-react-gr/static/css/main.f2a9fedc.css.map",
-    "main.7d5e2f91.js.map": "/portfoilo-react-gr/static/js/main.7d5e2f91.js.map"
+    "main.1ba563b5.css.map": "/portfoilo-react-gr/static/css/main.1ba563b5.css.map",
+    "main.17a409cd.js.map": "/portfoilo-react-gr/static/js/main.17a409cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2a9fedc.css",
-    "static/js/main.7d5e2f91.js"
+    "static/css/main.1ba563b5.css",
+    "static/js/main.17a409cd.js"
   ]
 }
