@@ -40,6 +40,7 @@ This portfoilo was inspired by my wonder with outer space. I took what I learned
 - XML
 - Mobile-first workflow
 - React-Bootstrap
+- AOS
 
 
 
