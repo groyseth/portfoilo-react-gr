@@ -37,99 +37,24 @@ $deskTopLarge:1440px;
      height: 45vh;
      border: 2px solid;
     box-shadow: 2px 2px 2px var(--text-color);
+    // @media (min-width:$phone) {
+    //         margin-left: 25px;
+    // }
+    // @media (min-width:$tablet) {
+    //     margin-left: 36px;
+    // }
+    // @media (min-width:$deskTopLarge) {
+    //     margin-left: 85px;
+    // }
+ }
+ .imagePlace{
+    margin: auto;
+    width: 100px;
     @media (min-width:$phone) {
-            margin-left: 25px;
+        width: 200px;
     }
     @media (min-width:$tablet) {
-        margin-left: 36px;
-    }
-    @media (min-width:$deskTopLarge) {
-        margin-left: 85px;
+        width: 250px;
     }
  }
 
-.aboutLink{
-  flex-direction: column;
-  position: relative;
-  border: 2px solid ;
-  width: 50%;
-  text-align: center;
-//   height: 30vh;
-  background-size: cover;
-  background-image: url(../assets/cover/redGeo.jpg);
-  background-repeat:no-repeat;
-  box-shadow: 2px 2px 2px var(--text-color);
-  animation-duration: 2s;
-  @media (min-width:$phone) {
-        display: none;
-  }
-  @media (min-width:$tablet) {
-    left: 164px;
-    top: -269px;
-            // margin-top: -38%;
-            position: relative;
-            width: 50%;
-        
-  }
-}
-
-.aboutList{
-    padding: 15px;
-    position: relative;
-    top: 70px;
-    text-shadow: 5px 10px 5px var(--black-color);
-    text-transform: uppercase;
-    border-right: 1px solid var(--text-color);
-}
-.explore{
-   text-shadow: 5px 5px 5px var(--black-color);
-}
-
-.aboutHover a::before,
-.aboutHover a::after {
-    content: '';
-    height: 14px;
-    width: 14px;
-    position: absolute;
-    transition: all .35s ease;
-    opacity: 0;
-    color: var(--black-color);
-}
-
-.aboutHover a::before {
-    content: '';
-    right: 0;
-    top: 0;
-    border-top: 3px solid var(--black-color);
-    border-right: 3px solid #2E640F;
-    transform: translate(-100%, 50%);
-  }
-  .aboutHover a:after {
-    content: '';
-    left: 0;
-    bottom: 0;
-    border-bottom: 3px solid var(--black-color);
-    border-left: 3px solid #3E8914;
-    transform: translate(100%, -50%);
-  }
-  .aboutHover a:hover:before,
-  .aboutHover a:hover:after{
-    transform: translate(0,0);
-    opacity: 1;
-  }
-  .aboutHover a:hover {
-    color: var(--text-color);
-    font-family: cursive;
-  }
-h1{
-    color: var(--text-color);
-}
-.carousel{
-    width: 24%;
-    position: absolute;
-    top: 50%;
-    right: 7%;
-}
-.carouselItem img{
-    width: 100%;
-}
