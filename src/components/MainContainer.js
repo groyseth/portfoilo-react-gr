@@ -26,7 +26,7 @@ export default function MainContainer() {
 
   return (
     <div>
-    <video autoPlay loop muted 
+    {/* <video autoPlay loop muted 
     className='videoClass'
     style={{
       position: "fixed",
@@ -41,7 +41,7 @@ zIndex: "-1"
     }}
     >
       <source src={spaceVid} type="video/mp4" />
-    </video>
+    </video> */}
 
     <img src={spacePic} className="testPic" alt='earth' style={{
  position: "fixed",

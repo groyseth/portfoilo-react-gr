@@ -6,7 +6,7 @@
     height: "100%";
     z-index: -1;
 }
-@media screen and (max-width: 540px) {
+/* @media screen and (max-width: 540px) {
 
 .videoClass{
 display: none;
@@ -19,4 +19,4 @@ display: none;
     .testPic{
         display: none;
     }
-}
+} */
