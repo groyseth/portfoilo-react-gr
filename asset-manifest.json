@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.a3a325e3.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.0279418b.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.b43f8146.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.6d3da911.js",
     "static/media/testPic.jpg": "/portfoilo-react-gr/static/media/testPic.1e9f3ee6a0a18e277552.jpg",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
     "static/media/Employee Tracker.png": "/portfoilo-react-gr/static/media/Employee Tracker.7c8b7c807158998e2fa9.png",
     "static/media/noght.png": "/portfoilo-react-gr/static/media/noght.03ac86a117c776e3ffb8.png",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/Creative-Dev.png": "/portfoilo-react-gr/static/media/Creative-Dev.b17a1e04edbf9066d53e.png",
+    "static/media/picBackGround.jpg": "/portfoilo-react-gr/static/media/picBackGround.afc1739c4441fac6bb9f.jpg",
     "static/media/Children's Quiz.png": "/portfoilo-react-gr/static/media/Children's Quiz.4f32772b0e9418c23d95.png",
     "static/media/redGeo.jpg": "/portfoilo-react-gr/static/media/redGeo.ae41a918f9a2afff4423.jpg",
     "static/media/ProfilePic.png": "/portfoilo-react-gr/static/media/ProfilePic.0e5e7842839300e03de1.png",
@@ -22,11 +23,12 @@
     "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.0d4e8fd095267930c920.pdf",
     "static/media/test2.jpg": "/portfoilo-react-gr/static/media/test2.7e6146f94c3cc371c4bb.jpg",
     "index.html": "/portfoilo-react-gr/index.html",
-    "main.a3a325e3.css.map": "/portfoilo-react-gr/static/css/main.a3a325e3.css.map",
-    "main.0279418b.js.map": "/portfoilo-react-gr/static/js/main.0279418b.js.map"
+    "static/media/icon-hamburger.svg": "/portfoilo-react-gr/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
+    "main.b43f8146.css.map": "/portfoilo-react-gr/static/css/main.b43f8146.css.map",
+    "main.6d3da911.js.map": "/portfoilo-react-gr/static/js/main.6d3da911.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a325e3.css",
-    "static/js/main.0279418b.js"
+    "static/css/main.b43f8146.css",
+    "static/js/main.6d3da911.js"
   ]
 }
