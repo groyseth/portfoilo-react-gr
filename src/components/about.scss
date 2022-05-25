@@ -11,17 +11,7 @@ $deskTopLarge:1440px;
     color: var(--text-color);
     border: 2px solid rgb(126, 98, 98);
     background-image: url(../assets/textback/background.png);
-    /* width: 100vw; */
-    // height: 100vh;
     position: relative;
-    @media (min-width:$phone) {
-            // height: 160vh;
-    }
-    @media (min-width:$tablet) {
-       
-        // height: 126vh;
-        
-    }
 }
 .wraped{
     font-size: 20px;
@@ -37,15 +27,6 @@ $deskTopLarge:1440px;
      height: 45vh;
      border: 2px solid;
     box-shadow: 2px 2px 2px var(--text-color);
-    // @media (min-width:$phone) {
-    //         margin-left: 25px;
-    // }
-    // @media (min-width:$tablet) {
-    //     margin-left: 36px;
-    // }
-    // @media (min-width:$deskTopLarge) {
-    //     margin-left: 85px;
-    // }
  }
  .imagePlace{
     margin: auto;

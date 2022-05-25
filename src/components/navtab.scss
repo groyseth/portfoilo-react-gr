@@ -1,38 +1,45 @@
 $phone: 200px;
 $tablet: 700px;
-:root{
-  --text-color:white;
+
+:root {
+  --text-color: white;
   --black-color: black;
 }
-.backgroundNav{
-    background-color: var(--black-color);
-    width: 100%;
-    height: 5vh;
-    position: fixed;
-    z-index: 1;
-    
+
+.backgroundNav {
+  background-color: var(--black-color);
+  width: 100%;
+  height: 5vh;
+  position: fixed;
+  z-index: 1;
+
 }
+
 .navbar {
   position: fixed;
   z-index: 1;
   width: 99%;
   top: 0px;
+
   @media (min-width:$phone) {
     width: 97.5%;
   }
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
   color: rgba(249, 194, 194, 0.9);
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: var(--text-color);
 }
 
-.navbar-light .navbar-nav .nav-link.nav-link:hover{
+.navbar-light .navbar-nav .nav-link.nav-link:hover {
   color: var(--text-color);
-  font-display:unset;
+  font-display: unset;
 }
+
 .navbar-nav .dropdown-menu {
   background-color: var(--black-color);
   box-shadow: 2px 2px 2px var(--black-color);
@@ -40,94 +47,102 @@ $tablet: 700px;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url(../assets/cover/icon-hamburger.svg
-  );
-  // border: 1px white solid;
-  // border-radius: 2px 8px;
+);
 }
+
 .dropdown-menu {
-  border: 2px solid ;
+  border: 2px solid;
 }
-a.dropdown-item{
+
+a.dropdown-item {
   color: var(--text-color);
 }
-a.dropdown-item:hover{
+
+a.dropdown-item:hover {
   background-color: var(--black-color);
   color: red;
 }
-a.dropdown-item::after{
+
+a.dropdown-item::after {
   color: var(--text-color);
 }
-#basic-nav-dropdown{
+
+#basic-nav-dropdown {
   color: var(--text-color);
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
   color: var(--text-color);
 }
+
 .nav a {
-    padding: .5em .8em;
-    color: var(--text-color);
-    position: relative;
-    text-decoration: none;
-    text-align: right;
-  }
+  padding: .5em .8em;
+  color: var(--text-color);
+  position: relative;
+  text-decoration: none;
+  text-align: right;
+}
 
 .nav a::before,
 .nav a::after {
-    content: '';
-    height: 14px;
-    width: 14px;
-    position: absolute;
-    transition: all .35s ease;
-    opacity: 0;
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
 }
-.nav-link:focus, .nav-link:hover{
-  font-family:cursive;
-}
-.nav a::before {
-    content: '';
-    right: 0;
-    top: 0;
-    border-top: 3px solid #3E8914;
-    border-right: 3px solid #2E640F;
-    transform: translate(-100%, 50%);
-  }
-  .nav a:after {
-    content: '';
-    left: 0;
-    bottom: 0;
-    border-bottom: 3px solid #2E640F;
-    border-left: 3px solid #3E8914;
-    transform: translate(100%, -50%);
 
+.nav-link:focus,
+.nav-link:hover {
+  font-family: cursive;
+}
+
+.nav a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%);
+
+}
+
+.nav a:hover:before,
+.nav a:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: #18ec5b;
+}
+
+@media screen and (min-height: 360px) {
+  .backgroundNav {
+    height: 6%;
   }
-  .nav a:hover:before,
-  .nav a:hover:after{
-    transform: translate(0,0);
-    opacity: 1;
-  }
-  
-  .nav a:hover {
-    color: #18ec5b;
-  }
- 
-  @media(min-width:320px){
-    
-  }
-  @media screen and (min-height: 360px) {
-    .backgroundNav{
-      height: 6%;
-    }
-  }
-  @media screen and (min-width: 1024px) {
-    .backgroundNav{
+}
+
+@media screen and (min-width: 1024px) {
+  .backgroundNav {
     height: 6vh;
 
-    }
   }
-  @media screen and (min-width: 1280px) {
-    .backgroundNav{
-      height: 5vh;
-    }
+}
+
+@media screen and (min-width: 1280px) {
+  .backgroundNav {
+    height: 5vh;
   }
- 
-    
+}

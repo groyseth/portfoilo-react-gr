@@ -1,5 +1,5 @@
 import React, { useEffect} from "react";
-import { Col, Image, Row } from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import pic from "../assets/profile/ProfilePic.png"

@@ -22,8 +22,6 @@ export default function MainContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
        <Footer />
-      
     </div>
-    
   );
 }
