@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.94d30495.css",
+    "main.css": "/portfoilo-react-gr/static/css/main.f2a9fedc.css",
     "main.js": "/portfoilo-react-gr/static/js/main.23ce4a61.js",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
     "static/media/Employee Tracker.png": "/portfoilo-react-gr/static/media/Employee Tracker.7c8b7c807158998e2fa9.png",
@@ -20,11 +20,11 @@
     "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.0d4e8fd095267930c920.pdf",
     "index.html": "/portfoilo-react-gr/index.html",
     "static/media/icon-hamburger.svg": "/portfoilo-react-gr/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
-    "main.94d30495.css.map": "/portfoilo-react-gr/static/css/main.94d30495.css.map",
+    "main.f2a9fedc.css.map": "/portfoilo-react-gr/static/css/main.f2a9fedc.css.map",
     "main.23ce4a61.js.map": "/portfoilo-react-gr/static/js/main.23ce4a61.js.map"
   },
   "entrypoints": [
-    "static/css/main.94d30495.css",
+    "static/css/main.f2a9fedc.css",
     "static/js/main.23ce4a61.js"
   ]
 }
