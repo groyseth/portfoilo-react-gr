@@ -1,0 +1,32 @@
+$phone: 200px;
+$tablet: 700px;
+$deskTop:1020px;
+.footer {
+    position: relative;
+    margin-top: 220vh;
+    width: 100%;
+    background-color: rgb(8, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: -7px -1px 11px 10px #c6ecff;
+    display: flex;
+    place-content: center;
+    margin-bottom: -20px;
+    @media (min-width:$phone) {
+        margin-top: 1612px;
+    }
+    @media (min-width:$deskTop) {
+        margin-top: 576px;
+    }
+}
+.listStyle{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+}
+.listStyle li{
+    width: 6%;
+    font-size: 55px;
+}
+.listStyle li :hover{
+    color: red;
+}

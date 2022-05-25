@@ -2,7 +2,7 @@ import React from "react";
 import About from "../About";
 import Group from "./Group"
 import Projects from "../Projects";
-import './page.css'
+import './page.scss'
 import Landing from "./Landing";
 
 

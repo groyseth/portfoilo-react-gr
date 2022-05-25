@@ -1,14 +1,14 @@
 import React from "react";
 import { FaMailBulk, FaGithub, FaLinkedin} from 'react-icons/fa';
-import "./footer.css"
+import "./footer.scss"
 
 
 export default function Footer() {
 
   return (
     <section className="footer" id="contact">
-      <div  className="container" >
-        <ul className=" d-flex listStyle " >
+      <div  className="" >
+        <ul className=" listStyle " >
           <li>
             <a href="mailto:groyseth@gmail.com"  ><FaMailBulk /></a>
           </li>

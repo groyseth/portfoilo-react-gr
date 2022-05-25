@@ -4,8 +4,9 @@ import Home from './Page/Home';
 import Footer from './Footer';
 import Resume from './Page/Resume'
 // import spaceVid from './video/video.mp4'
-import "./mainContainer.css"
+import "./mainContainer.scss"
 import spacePic from "../assets/cover/testPic.jpg"
+import backGround from "../assets/cover/picBackGround.jpg"
 
 
 export default function MainContainer() {
@@ -42,8 +43,8 @@ zIndex: "-1"
     >
       <source src={spaceVid} type="video/mp4" />
     </video> */}
-
-    <img src={spacePic} className="testPic" alt='earth' style={{
+{/* 
+    <img src={backGround} className="testPic" alt='earth' style={{
  position: "fixed",
  width:"100%",
  left: "50%",
@@ -54,11 +55,13 @@ zIndex: "-1"
  transform: "translate(-50%, -50%)",
  zIndex: "-1"
 
-    }}></img>
+    }}></img> */}
+   
       
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
        <Footer />
+      
     </div>
     
   );

@@ -1,0 +1,85 @@
+$phone: 200px;
+$tablet: 700px;
+$deskTop:1020px;
+.landingStyle{
+    width: 100vw;
+    height: 100vh;
+    @media (max-width:$tablet) {
+        height: 125vh;
+    }
+}
+
+.title{
+    // margin-top: -22%;
+    // margin-left: -18%;
+    background-color: black;
+    width: 58%;
+    height: 136px;
+    text-align: center;
+    top: 392px;
+    position: relative;
+    opacity: 0.9;
+    padding-top: 12px;
+    margin: auto;
+    border: 2px #f3eded solid;
+    /* font-family: 'Yuji Hentaigana Akari', cursive; */
+    @media (min-width:$phone) {
+        position: relative;
+        top: 293px;
+        height: 129px;
+        left: 43px;
+        width: 95%;
+        padding-top: 22px;
+    }
+    @media (min-width:$tablet) {
+        position: relative;
+        top: 300px;
+    height: 134px;
+    width: 400px;
+    padding-top: 22px;
+    left: 0px;
+    }
+    @media (min-width:$deskTop) {
+        left: 0px;
+        width: 590px;
+    padding-top: 12px;
+    }
+}
+.imageClass{
+    width: 43%;
+    margin-left: 37%;
+}
+ @keyframes profile {
+    from {margin-left: 400%;}
+    to {margin-right: -500px;}
+}
+
+@media(min-width: 200px){
+   
+    container{
+        top: 33%;
+    position: absolute;
+    }
+    // .title{
+    //     width: 78%;
+    //     height: 19vh;
+    //     position: relative;
+    //     top: 376px;
+    //     margin: auto;
+    //     padding: 10px;
+    
+    // }
+    .imageClass{
+        width: 60%;
+        position: relative;
+        top: 144px;
+    }
+}
+@media(min-width: 1000px){
+container{
+    top: 15%;
+}
+.imageClass{
+    width: 43%;
+}
+}

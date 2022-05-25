@@ -3,7 +3,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import pic from "../assets/profile/ProfilePic.png"
-import "./about.css"
+import "./about.scss"
 
 export default function About() {
 

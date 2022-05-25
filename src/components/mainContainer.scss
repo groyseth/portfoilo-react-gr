@@ -1,0 +1,19 @@
+$phone: 426px;
+$tablet: 821px;
+.testPic{
+    background-image: url(../assets/cover/picBackGround.jpg);
+    background-position:center;
+    /* position: fixed; */
+    // width:100vw;
+   
+    background-size: cover;
+    /* backgroundSize: cover; */
+    /* transform: translate(-50%, -50%); */
+    background-attachment: fixed;
+    /* zIndex: -1; */
+    z-index: 1;
+    @media (max-width:$phone) {
+        width: 123vw;
+    }
+}
+

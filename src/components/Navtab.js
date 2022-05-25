@@ -1,5 +1,5 @@
 import React from 'react';
-import "./navtab.css"
+import "./navtab.scss"
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 
 
