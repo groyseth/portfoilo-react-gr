@@ -1,9 +1,10 @@
-$phone: 426px;
-$tablet: 821px;
 :root{
     --text-color:white;
     --black-color: black;
 }
+$phone: 426px;
+$tablet: 821px;
+
 .testPic{
     background-image: url(./assets/cover/picBackGround.jpg);
     background-position:center;
