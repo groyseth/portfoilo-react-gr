@@ -15,7 +15,7 @@ $tablet: 821px;
     z-index: 1;
     @media (max-width:$phone) {
         width: 123vw;
-        // background-image: url(./assets/cover/pexels-pixabay-2150.jpg);
+        background-attachment:local ;
     }
 }
 .box {
