@@ -1,21 +1,21 @@
 
-import React, {useEffect} from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { projects } from "../data";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import AOS from "aos";
-import 'aos/dist/aos.css';
+// import AOS from "aos";
+// import 'aos/dist/aos.css';
 import "./project.css"
 export default function Projects() {
-  useEffect(() =>{
-    AOS.init({ duration:1500  });
-  }, []);
+  // useEffect(() =>{
+  //   AOS.init({ duration:1500  });
+  // }, []);
 
   return (
     <section id="projects" className="py-5">
       <div >
-        <div className="box group-back" data-aos="zoom">
+        <div className="box group-back" >
           <h1>
             Apps I've Built
           </h1>
@@ -23,7 +23,7 @@ export default function Projects() {
             More projects on <a href="https://github.com/groyseth" className="githubStyle">GitHub</a>!
           </p>
         </div>
-          <Container data-aos="zoom-in-down">
+          <Container >
           <div className="row  " style={{ margin: 'auto' }} >
 
             {projects.map((group, key) => (

@@ -1,14 +1,9 @@
-import React, { useEffect} from "react";
+import React from "react";
 import { Col, Image } from "react-bootstrap";
-import AOS from "aos";
-import 'aos/dist/aos.css';
 import pic from "../assets/profile/ProfilePic.png"
 import "./about.scss"
 
 export default function About() {
-    useEffect(() =>{
-      AOS.init({ duration:2000  });
-    }, []);
 
   return (
     <section id="about" >
@@ -21,7 +16,7 @@ export default function About() {
           </div>
         </Col>
           <div className="imagePlace">
-            <Image  src={pic} alt="Profile" className="profile-pic styleBehind" data-aos="flip-left" ></Image>
+            <Image  src={pic} alt="Profile" className="profile-pic styleBehind"  ></Image>
 </div>
     </section>
   );
