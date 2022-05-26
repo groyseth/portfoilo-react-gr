@@ -6,14 +6,16 @@ $phone: 426px;
 $tablet: 821px;
 
 .testPic{
-    background-image: url(./assets/cover/BackGround.jpg);
+    background-image: url(./assets/cover/pexels-pixabay-2150.jpg);
     // background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    
     z-index: 1;
     @media (max-width:$phone) {
         width: 123vw;
+        // background-image: url(./assets/cover/pexels-pixabay-2150.jpg);
     }
 }
 .box {
