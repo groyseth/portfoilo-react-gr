@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Container, Button } from 'react-bootstrap'
 import { challenge } from '../../data'
-
+import "./group.scss"
 export default function Challenge() {
   return (
     <section id="challenge" className="py-5">
@@ -13,7 +13,7 @@ export default function Challenge() {
       
       </div>
         <Container >
-        <div className="row  " style={{ margin: 'auto', top:'30px' }} >
+        <div className="challengePlace " style={{ margin: 'auto' }} >
 
           {challenge.map((group, key) => (
 

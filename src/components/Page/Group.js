@@ -1,5 +1,5 @@
 import React from 'react';
-import "./group.css"
+import "./group.scss"
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Container } from "react-bootstrap";

@@ -1,0 +1,31 @@
+$phone:426px;
+#groupStyle{
+    height: 100vh;
+    
+}
+.row{
+    justify-content: center;
+}
+.challengePlace{
+    top: 55px;
+    position: relative;
+    text-align: -webkit-center;
+    display: grid;
+    grid-template-columns: 301px 321px;
+    margin: auto;
+    /* grid-gap: 183px; */
+    place-content: center;
+    @media (max-width:$phone) {
+        grid: none;
+    }
+}
+@media(min-height:390px){
+    #groupStyle{
+        margin-top: 379vh;
+    }
+}
+@media (max-width: 764px) {
+    #groupStyle{
+        height: 300vh;
+    }
+}

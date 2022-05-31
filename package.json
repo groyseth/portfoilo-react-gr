@@ -1,7 +1,7 @@
 {
   "name": "portfoilo-react-gr",
   "version": "0.1.0",
-  "homepage": "http://groyseth.github.io/portfoilo-react-gr",
+  "homepage": "https://groyseth.github.io/portfoilo-react-gr/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
