@@ -26,6 +26,18 @@ $tablet: 821px;
     color: var(--text-color);
     box-shadow: var(--text-color) 2px;
 }
+.challenge-box{
+    width: 80%;
+    padding-top: 6px;
+    height: 9vh;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    object-position: center;
+    margin: auto;
+    color: var(--text-color);
+    box-shadow: var(--text-color) 2px;
+}
 
 .center {
     width: 70%;
@@ -71,6 +83,11 @@ ul {
 }
 
 .group-back {
+    background-image: url(./assets/textback/background.png);
+    align-items: center;
+    justify-content: center;
+}
+.challenge-back{
     background-image: url(./assets/textback/background.png);
     align-items: center;
     justify-content: center;

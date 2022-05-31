@@ -79,3 +79,12 @@ export const group = [
  
 ]
 
+export const challenge=[
+  {
+    title: "Space-Website",
+    subtitle: "React, SCSS, Figma",
+    description: "A challenge taken from Frontend Montour where I started with the basic files like pictures and context.",
+    link: "https://github.com/groyseth/space-tourism-website",
+    live: "https://groyseth.github.io/space-tourism-website/"
+  }
+]

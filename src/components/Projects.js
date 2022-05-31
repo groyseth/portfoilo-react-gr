@@ -1,9 +1,7 @@
 
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Button, Card } from "react-bootstrap";
 import { projects } from "../data";
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 // import AOS from "aos";
 // import 'aos/dist/aos.css';
 import "./project.css"
