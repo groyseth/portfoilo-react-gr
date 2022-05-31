@@ -3,6 +3,7 @@ import NavTabs from './Navtab';
 import Home from './Page/Home';
 import Footer from './Footer';
 import Resume from './Page/Resume'
+import Challenge from './Page/Challenge';
 
 
 export default function MainContainer() {
@@ -15,6 +16,10 @@ export default function MainContainer() {
     
     return <Resume />
     }
+    if(currentPage === 'challenge'){
+    
+      return <Challenge />
+      }
   };
   const handlePageChange = (page) => setCurrentPage(page);
   return (

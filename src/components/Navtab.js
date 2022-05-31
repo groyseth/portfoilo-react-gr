@@ -30,6 +30,19 @@ function NavTabs({ currentPage, handlePageChange }) {
               </Nav.Link>
 
             </div>
+            <div className='nav'>
+              <Nav.Link
+                href="#challenge"
+
+                onClick={() => handlePageChange('challenge')}
+                className={currentPage === 'challenge' ? 'nav-link active' : 'nav-link'}
+              >
+                Challenges
+              </Nav.Link>
+
+            </div>
+
+
             <NavDropdown title="Menu" id="basic-nav-dropdown float right">
               <NavDropdown.Item href="#about" onClick={() => handlePageChange('Home')}>About Me</NavDropdown.Item>
               <NavDropdown.Item href="#projects" onClick={() => handlePageChange('Home')}>Projects</NavDropdown.Item>

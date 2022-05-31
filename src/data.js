@@ -52,7 +52,6 @@ export const projects = [
     link: "https://github.com/groyseth/child-quiz",
     live: "https://child-quiz.herokuapp.com/"
   }
-
 ];
 
 export const group = [
