@@ -11,10 +11,10 @@ export default function Projects() {
       <div >
         <div className="group-box challenge-back" id='group'>
           <h1>
-            Group Apps 
+            GROUP APPS
           </h1>
           <p>
-            Take a look at the group projects!
+            GROUP PROJECTS I'VE BEEN APART OF
           </p>
         </div>
         <Container className="container">

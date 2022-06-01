@@ -3,7 +3,10 @@ import "./navtab.scss"
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 
 function NavTabs({ currentPage, handlePageChange }) {
+
+
   return (
+    
     <Navbar bg='black' expand="lg">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

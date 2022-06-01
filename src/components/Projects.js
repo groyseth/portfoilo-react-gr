@@ -15,7 +15,7 @@ export default function Projects() {
       <div >
         <div className="box group-back" >
           <h1>
-            Apps I've Built
+            APPS I'VE BUILT
           </h1>
           <p>
             More projects on <a href="https://github.com/groyseth" className="githubStyle">GitHub</a>!
