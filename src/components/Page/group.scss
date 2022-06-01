@@ -19,6 +19,39 @@ $phone:426px;
         grid: none;
     }
 }
+.groupPlace{
+    margin: auto;
+    position: relative;
+    top: 100px;
+    text-align: -webkit-center;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-template-columns: 301px 321px;
+    @media (max-width:$phone) {
+        grid: none;
+    }
+}
+.group-box{
+    width: 80%;
+    padding-top: 6px;
+    height: 15vh;
+    text-align: center;
+    position: relative;
+    top: 88px;
+    object-position: center;
+    margin: auto;
+    color: var(--text-color);
+    box-shadow: var(--text-color) 2px;
+}
+.challengeFooter{
+    margin-top: 219px;
+    margin-bottom: -50px;
+}
+.groupFooter{
+    margin-top: 219px;
+    margin-bottom: -50px;
+}
 @media(min-height:390px){
     #groupStyle{
         margin-top: 379vh;

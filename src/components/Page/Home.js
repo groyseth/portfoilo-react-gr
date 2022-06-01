@@ -4,6 +4,7 @@ import Group from "./Group"
 import Projects from "../Projects";
 import './page.scss'
 import Landing from "./Landing";
+import Footer from "../Footer";
 export default function Home() {
     return (
       <main>
@@ -14,8 +15,8 @@ export default function Home() {
        <div className="middle">
         <Projects />
         </div>
-        <div className="home">
-        <Group />
+        <div className='homeFooter'>
+        <Footer  />
         </div>
     </main>
     );

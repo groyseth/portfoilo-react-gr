@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Container, Button } from 'react-bootstrap'
 import { challenge } from '../../data'
+import Footer from '../Footer'
 import "./group.scss"
 export default function Challenge() {
   return (
@@ -42,6 +43,9 @@ export default function Challenge() {
           ))}
         </div>
       </Container>
+    </div>
+    <div className='challengeFooter'>
+      <Footer />
     </div>
   </section>
   )

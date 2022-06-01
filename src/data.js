@@ -83,15 +83,15 @@ export const challenge=[
   {
     title: "Space-Website",
     subtitle: "React, SCSS, Figma",
-    description: "A challenge taken from Frontend Montour where I started with the basic files like pictures and context.",
+    description: "A challenge taken from Frontend Montour where I started with the basic files that included pictures and context. This includes a mobile friendly design and interactive navigation ",
     link: "https://github.com/groyseth/space-tourism-website",
     live: "https://groyseth.github.io/space-tourism-website/"
   },
   {
-    title: "Space-Website",
-    subtitle: "React, SCSS, Figma",
-    description: "A challenge taken from Frontend Montour where I started with the basic files like pictures and context.",
-    link: "https://github.com/groyseth/space-tourism-website",
-    live: "https://groyseth.github.io/space-tourism-website/"
+    title: "Interactive-Rating-Component",
+    subtitle: "HTML, CSS, Figma",
+    description: "A challenge taken from Frontend Montour where I started with the basic files like pictures and context. This utilizes local storage to display the number selected",
+    link: "https://github.com/groyseth/Interactive-Rating-Component",
+    live: "https://groyseth.github.io/Interactive-Rating-Component/"
   }
 ]

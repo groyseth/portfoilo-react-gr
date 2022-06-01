@@ -1,9 +1,9 @@
-$phone: 200px;
+$phone: 460px;
 $tablet: 700px;
-$deskTop:1020px;
+$deskTop:1200px;
 .footer {
-    position: relative;
-    margin-top: 220vh;
+    // position: relative;
+    // margin-top: 220vh;
     width: 100%;
     background-color: rgb(8, 0, 0);
     color: rgb(255, 255, 255);
@@ -11,13 +11,14 @@ $deskTop:1020px;
     box-shadow: -7px -1px 11px 10px #c6ecff;
     display: flex;
     place-content: center;
-    margin-bottom: -20px;
-    @media (min-width:$phone) {
-        margin-top: 1984px;
-    }
-    @media (min-width:$deskTop) {
-        margin-top: 576px;
-    }
+    // margin-bottom: -20px;
+    // @media (max-width:$phone) {
+    //     margin-top: 2008px
+    // }
+    // @media (max-width:$tablet) {
+        
+    // }
+   
 }
 .listStyle{
     display: grid;

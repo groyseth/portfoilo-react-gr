@@ -4,11 +4,12 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { group } from "../../data";
+import Footer from '../Footer';
 export default function Projects() {
   return (
     <section id="groupStyle " className="">
       <div >
-        <div className="box group-back" id='groupProjects'>
+        <div className="group-box challenge-back" id='group'>
           <h1>
             Group Apps 
           </h1>
@@ -17,11 +18,11 @@ export default function Projects() {
           </p>
         </div>
         <Container className="container">
-          <div className="row  my-5" style={{ margin: 'auto' }}>
+          <div className="groupPlace" style={{ margin: 'auto' }}>
             {group.map((group, key) => (
               <Card style={{ width: '18rem' }} className="spacing " key={key}>
                 <Card.Img variant="top" src={require(`../../assets/projects/${group.title}.png`)} className="projectImg" />
-                <Card.Body>
+                <Card.Body className='scrolled'>
                   <Card.Title>{group.title}</Card.Title>
                   <p><strong>{group.subtitle}</strong></p>
                   <Card.Text>
@@ -40,6 +41,9 @@ export default function Projects() {
             ))}
           </div>
         </Container>
+      </div>
+      <div className='groupFooter'>
+        <Footer />
       </div>
     </section>
 

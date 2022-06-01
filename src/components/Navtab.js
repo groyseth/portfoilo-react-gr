@@ -18,18 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               >
                 Home
               </Nav.Link>
-            </div >
-             <div className='nav'>
-              <Nav.Link
-                href="#challenge"
-
-                onClick={() => handlePageChange('challenge')}
-                className={currentPage === 'challenge' ? 'nav-link active' : 'nav-link'}
-              >
-                Challenges
-              </Nav.Link>
-
-            </div>
+           </div>
             <div className='nav'>
               <Nav.Link
                 href="#resume"
@@ -45,11 +34,12 @@ function NavTabs({ currentPage, handlePageChange }) {
 
 
             <NavDropdown title="Menu" id="basic-nav-dropdown float right">
-              <NavDropdown.Item href="#about" onClick={() => handlePageChange('Home')}>About Me</NavDropdown.Item>
-              <NavDropdown.Item href="#projects" onClick={() => handlePageChange('Home')}>Projects</NavDropdown.Item>
-              <NavDropdown.Item href="#groupProjects" onClick={() => handlePageChange('Home')}>Group Projects</NavDropdown.Item>
+              <NavDropdown.Item href="#about" onClick={() => handlePageChange('Home')}>ABOUT ME</NavDropdown.Item>
+              <NavDropdown.Item href="#projects" onClick={() => handlePageChange('Home')}>PROJECTS</NavDropdown.Item>
+              <NavDropdown.Item href="#contact" onClick={() => handlePageChange('Home')}>CONTACT</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#contact" onClick={() => handlePageChange('Home')}>Contact</NavDropdown.Item>
+              <NavDropdown.Item href='#challenge' onClick={() => handlePageChange('challenge')}>CHALLENGES</NavDropdown.Item>
+              <NavDropdown.Item href="#groupProjects" onClick={() => handlePageChange('group')}>GROUP PROJECTS</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
