@@ -1,5 +1,7 @@
 $phone: 200px;
+$newPhone:450px;
 $tablet: 700px;
+$newTab:800px;
 $deskTop:1020px;
 .landingStyle{
     width: 99vw;
@@ -7,8 +9,36 @@ $deskTop:1020px;
     @media (max-width:$tablet) {
         height: 125vh;
     }
+    
 }
-
+.astro{
+    position: absolute;
+    top: 236px;
+    left: 67vw;
+    width: 255px;
+    animation-name: astroKey;
+    animation-duration: 2s;
+    @media (max-width:$newTab) {
+        top: 200px;
+    left: 67vw;
+    width: 217px;
+    }
+    @media (max-width:$newPhone) {
+        top: 466px;
+    left: 37vw;
+    width: 217px;
+    animation: none;
+    }
+}
+@keyframes astroKey {
+    from{
+        left: -400px;
+    }
+    to{
+        left: 67vw;
+    }
+  
+}
 .title{
     background-color: black;
     width: 58%;
