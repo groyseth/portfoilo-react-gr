@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../About";
 import Group from "./Group"
+import ProjectTest from "../ProjectTest";
 import Projects from "../Projects";
 import './page.scss'
 import Landing from "./Landing";

@@ -2,13 +2,10 @@
 import React from "react";
 import { Container, Button, Card } from "react-bootstrap";
 import { projects } from "../data";
-// import AOS from "aos";
-// import 'aos/dist/aos.css';
-import "./project.css"
+import pic from "../assets/textback/planetY.png"
+import "./project.scss"
 export default function Projects() {
-  // useEffect(() =>{
-  //   AOS.init({ duration:1500  });
-  // }, []);
+
 
   return (
     <section id="projects" className="py-5">
@@ -52,6 +49,7 @@ export default function Projects() {
           </div>
         </Container>
       </div>
+     
     </section>
 
   );

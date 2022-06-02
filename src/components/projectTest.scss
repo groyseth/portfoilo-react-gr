@@ -1,0 +1,68 @@
+:root{
+    --black-color:black;
+  }
+  
+ .projectBack{
+     border: 3px rgb(0, 0, 0) solid;
+     width: 80vw;
+     height: 48vh;
+     background-repeat: no-repeat;
+     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.68) 100%);
+     mix-blend-mode: normal;
+     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+ }
+ .grid{
+    display: grid;
+    grid-template-rows: 190px 199px 120px;
+    grid-gap: 259px;
+ }
+ .img{
+    width: 492px;
+    height: 331px;
+ }
+ .discriptPro{
+    width: 306px;
+    text-align: -webkit-center;
+    position: relative;
+    left: 20px;
+    height: 276px;
+    top: 121px;
+ }
+ .titleSub{
+    position: relative;
+    left: 30px;
+    text-align: center;
+    float: left;
+    border-bottom: 2px white solid;
+    margin-bottom: -119px;
+    width: 300px;
+ }
+ .but{
+    float: right;
+    position: relative;
+    top: -264px;
+    // display: grid;
+    // grid-template-rows: 194px 48px 100px;
+    left: -67px;
+ }
+  #projects{
+    height: 100vh;
+  }
+  .row{
+    justify-content: center;
+  }
+  .githubStyle{
+    text-decoration: underline;
+  }
+  p{
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .row{
+      position: relative;
+      /* right: -3%; */
+      justify-content: center;
+    }
+  }

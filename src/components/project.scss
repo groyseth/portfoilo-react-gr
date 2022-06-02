@@ -1,0 +1,63 @@
+:root{
+  --black-color:black;
+}
+
+.spacing:hover {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 0, 0, 0.38) 100%);
+  mix-blend-mode: normal;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+ .spacing {
+     transform: rotateX(20deg);
+     margin: 10px;
+     
+}
+.planetY{
+  position: relative;
+  top: -512px;
+  width: 10px;
+  animation-name: planetYkey;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.card{
+  background: linear-gradient(180deg, #A40808 0%, rgba(0, 0, 0, 0.75) 100%);
+mix-blend-mode: normal;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+@keyframes planetYkey {
+  from{
+    left: 300px;
+  }
+  to{
+    left: 0px;
+  }
+}
+ .projectImg {
+  width: auto;
+  height: fit-content;
+  border: 2px solid var(--black-color);
+  box-shadow: -3px -1px 9px 1px var(--black-color);
+}
+#projects{
+  height: 100vh;
+}
+.row{
+  justify-content: center;
+}
+.githubStyle{
+  text-decoration: underline;
+}
+p{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .row{
+    position: relative;
+    /* right: -3%; */
+    justify-content: center;
+  }
+}

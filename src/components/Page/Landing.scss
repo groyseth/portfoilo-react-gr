@@ -24,10 +24,11 @@ $deskTop:1020px;
     width: 217px;
     }
     @media (max-width:$newPhone) {
-        top: 466px;
-    left: 37vw;
-    width: 217px;
-    animation: none;
+    //     top: 466px;
+    // left: 37vw;
+    // width: 217px;
+    // animation: none;
+    display: none;
     }
 }
 @keyframes astroKey {
@@ -44,6 +45,7 @@ $deskTop:1020px;
     width: 58%;
     height: 136px;
     text-align: center;
+    font-family: 'Bellefair';
     top: 392px;
     position: relative;
     opacity: 0.9;
