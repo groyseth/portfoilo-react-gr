@@ -23,8 +23,7 @@ This portfoilo was inspired by my wonder with outer space. I took what I learned
 
 ### Screenshot
 
-
-![Screenshot (82)](https://user-images.githubusercontent.com/90479839/170352396-a7f34c78-bb6b-48d1-8ae5-be2627970325.png)
+![Screenshot (84)](https://user-images.githubusercontent.com/90479839/171747732-cf349d05-397d-44a8-a50f-c3077797dafb.png)
 
 
 ### Links
