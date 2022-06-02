@@ -4,12 +4,16 @@ $tablet: 700px;
 $newTab:800px;
 $deskTop:1020px;
 .landingStyle{
+    background-image: url(../../assets/cover/pexels-pixabay-2150.jpg);
     width: 99vw;
     height: 100vh;
+   
     @media (max-width:$tablet) {
         height: 125vh;
     }
-    
+     @media (max-width:$newPhone) {
+        height: 100vh;
+    }
 }
 .astro{
     position: absolute;
@@ -58,7 +62,7 @@ $deskTop:1020px;
         position: relative;
         top: 293px;
         height: 129px;
-        left: 43px;
+        left: 0px;
         width: 95%;
         padding-top: 22px;
     }

@@ -1,11 +1,10 @@
 import React from 'react'
 import { Card, Container, Button } from 'react-bootstrap'
 import { challenge } from '../../data'
-import Footer from '../Footer'
 import "./group.scss"
 export default function Challenge() {
   return (
-    <section id="challenge" className="py-5">
+    <section id="challenge" className="py-5 challengeBack">
     <div >
       <div className="challenge-box challenge-back" >
         <h1>
@@ -44,9 +43,7 @@ export default function Challenge() {
         </div>
       </Container>
     </div>
-    <div className='challengeFooter'>
-      <Footer />
-    </div>
+  
   </section>
   )
 }

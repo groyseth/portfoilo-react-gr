@@ -13,6 +13,10 @@
      margin: 10px;
      
 }
+#projects{
+  background-image: url(../assets/cover/pexels-pixabay-2150.jpg);
+  background-size: cover;
+}
 .planetY{
   position: relative;
   top: -512px;
@@ -41,9 +45,9 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: 2px solid var(--black-color);
   box-shadow: -3px -1px 9px 1px var(--black-color);
 }
-#projects{
-  height: 100vh;
-}
+// #projects{
+//   height: 100vh;
+// }
 .row{
   justify-content: center;
 }

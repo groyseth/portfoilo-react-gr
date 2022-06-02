@@ -1,13 +1,10 @@
 import React from 'react';
 import "./group.scss"
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
-import { Container } from "react-bootstrap";
+import { Card, Button, Container } from "react-bootstrap";
 import { group } from "../../data";
-import Footer from '../Footer';
 export default function Projects() {
   return (
-    <section id="groupStyle " className="">
+    <section id="groupStyle " className="groupBack">
       <div >
         <div className="group-box challenge-back" id='group'>
           <h1>
@@ -42,9 +39,7 @@ export default function Projects() {
           </div>
         </Container>
       </div>
-      <div className='groupFooter'>
-        <Footer />
-      </div>
+     
     </section>
 
   );

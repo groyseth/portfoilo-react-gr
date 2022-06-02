@@ -1,7 +1,28 @@
 $phone:426px;
+$tablet:800px;
 #groupStyle{
     height: 100vh;
     
+}
+.groupBack{
+    background-image: url(../../assets/cover/pexels-pixabay-2150.jpg);
+    background-size: cover;
+    height: 147vh;
+    @media (max-width:$tablet) {
+        height: 199vh;
+    }
+    @media (max-width:$phone) {
+        height: 300vh;
+    }
+}
+.challengeBack{
+    background-image: url(../../assets/cover/pexels-pixabay-2150.jpg);
+    background-size: cover;
+    height: 100vh;
+    @media (max-width:$phone) {
+        height: 200vh;
+    }
+   
 }
 .row{
     justify-content: center;

@@ -1,9 +1,7 @@
-
 import React from "react";
 import { Container, Button, Card } from "react-bootstrap";
 import { projects } from "../data";
-import pic from "../assets/textback/planetY.png"
-import "./project.scss"
+import "../styles/project.scss"
 export default function Projects() {
 
 

@@ -1,0 +1,108 @@
+$desktop: 1400px;
+$tablet: 821px;
+$phone: 426px;
+$smphone: 321px;
+
+:root {
+    --text-color: white;
+    --black-color: black;
+}
+
+#about {
+    padding-top: 70px;
+    color: var(--text-color);
+    border: 2px solid rgb(126, 98, 98);
+    background-image: url(../assets/textback/background.png);
+    position: relative;
+    height: 100vh;
+
+    @media (max-width:$tablet) {
+        height: 115vh;
+    }
+
+    @media (max-width:$phone) {
+        height: 155vh;
+    }
+}
+
+.wraped {
+    font-size: 20px;
+    background-color: var(--black-color);
+    border: 2px solid var(--text-color);
+    padding: 10px;
+    box-shadow: 2px 2px 2px var(--text-color);
+
+    @media (max-width:$phone) {
+        font-size: 16px;
+    }
+}
+
+.moving {
+    text-align: center;
+    width: 1041px;
+
+    @media (max-width:$phone) {
+        width: 100%;
+    }
+}
+
+.profile-pic {
+    height: 45vh;
+    border: 2px solid;
+    box-shadow: 2px 2px 2px var(--text-color);
+}
+
+.imagePlace {
+    margin: auto;
+    width: 283px;
+    text-align-last: center;
+   
+    @media (max-width:$tablet) {
+        width: 403px;
+    }
+     @media (max-width:$phone) {
+        width: 225px;
+    }
+}
+
+.linkedIn {
+    width: 16px;
+    height: 8px;
+    position: relative;
+    left: 248px;
+    top: -398px;
+    margin: auto;
+    font-size: 78px;
+
+    @media (max-width:$tablet) {
+        width: 92px;
+        height: 8px;
+        position: relative;
+        left: -276px;
+        top: -332px;
+        margin: auto;
+        font-size: 73px;
+        text-align: -webkit-center;
+    }
+    @media (max-width:$phone) {
+        width: 246px;
+        height: 8px;
+        position: relative;
+        left: 0px;
+        top: 52px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 90px 91px 99px;
+        font-size: 78px;
+        place-content: center;
+    }
+    @media (max-width:$smphone) {
+        font-size: 46px;
+    top: 26px;
+    place-content: center;
+    }
+}
+
+.linkedIn :hover {
+    color: red;
+}

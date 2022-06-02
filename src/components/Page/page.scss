@@ -1,11 +1,9 @@
 $tablet: 821px;
 $phone: 426px;
 $smphone: 321px;
-.home{
-    height: 70vh;
-    // margin-top: 155vh;
-    position: relative;
-   
+.middle{
+    background-image: url(../../assets/cover/pexels-pixabay-2150.jpg);
+    background-size: cover;
 }
 .scrollcontainer{
     width: 100vh;
@@ -16,7 +14,7 @@ $smphone: 321px;
     margin-top: 164px;
 }
 .resBack{
-    // background-image: url(../../assets/textback/background.png);
+    background-image: url(../../assets/cover/pexels-pixabay-2150.jpg);
     height: 922px;
     width: 100%;
 }

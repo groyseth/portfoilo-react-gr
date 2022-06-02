@@ -1,8 +1,8 @@
-import MainContainer from "./components/MainContainer";
+import ProjectContainer from "./components/ProjectContainer"
 const App = () =>{
 return(
     <div className='testPic' >
-<MainContainer />
+<ProjectContainer />
 </div>
 )
 }
