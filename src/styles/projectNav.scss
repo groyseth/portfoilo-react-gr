@@ -1,4 +1,4 @@
-$desktop:1000px;
+$desktop:1025px;
 $tablet: 821px;
 $phone: 426px;
 $smphone:321px;
@@ -6,6 +6,10 @@ $smphone:321px;
     display: grid;
     grid-template-rows: 99px 99px 98px 99px 99px 99px;
     place-items: center;
+    @media (max-width:$desktop) {
+    position: relative;
+    top: -95px;
+    }
     @media (max-width:$tablet) {
         display: none;
     }

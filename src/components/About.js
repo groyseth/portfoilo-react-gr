@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Image } from "react-bootstrap";
 import pic from "../assets/profile/ProfilePic.png"
+import army from "../assets/profile/GR-army.jpg"
 import "../styles/about.scss"
 import { FaMailBulk, FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function About() {
@@ -16,7 +17,8 @@ export default function About() {
         </div>
       </Col>
       <div className="imagePlace">
-        <Image src={pic} alt="Profile" className="profile-pic styleBehind"  ></Image>
+        <Image src={pic} alt="Profile" className="profile-pic styleBehind"  />
+        <Image src={army} alt="" className="army-pic " />
       </div>
       <div className="linkedIn">
         <a href="https://www.linkedin.com/in/grant-royseth-83b08b220/"><FaLinkedin /></a>

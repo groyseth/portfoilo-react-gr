@@ -1,4 +1,5 @@
 $desktop: 1400px;
+$smdesk:1025px;
 $tablet: 821px;
 $phone: 426px;
 $smphone: 321px;
@@ -15,7 +16,9 @@ $smphone: 321px;
     background-image: url(../assets/textback/background.png);
     position: relative;
     height: 100vh;
-
+@media (max-width:$smdesk) {
+    height: 128vh;
+}
     @media (max-width:$tablet) {
         height: 115vh;
     }
@@ -40,7 +43,9 @@ $smphone: 321px;
 .moving {
     text-align: center;
     width: 1041px;
-
+@media (max-width:$smdesk) {
+    width: 832px;
+}
     @media (max-width:$phone) {
         width: 100%;
     }
@@ -51,14 +56,23 @@ $smphone: 321px;
     border: 2px solid;
     box-shadow: 2px 2px 2px var(--text-color);
 }
+.army-pic{
+    height: 299px;
+    width: 238px;
+    @media (max-width:$phone) {
+        display: none;
+    }
+}
 
 .imagePlace {
     margin: auto;
     width: 283px;
     text-align-last: center;
-   
+    display: grid;
+    grid-template-columns: 313px 1px;
     @media (max-width:$tablet) {
         width: 403px;
+        grid-template-columns: 292px 1px;
     }
      @media (max-width:$phone) {
         width: 225px;
@@ -69,11 +83,13 @@ $smphone: 321px;
     width: 16px;
     height: 8px;
     position: relative;
-    left: 248px;
+    left: -369px;
     top: -398px;
     margin: auto;
     font-size: 78px;
-
+@media (max-width:$smdesk) {
+    top: -330px;
+}
     @media (max-width:$tablet) {
         width: 92px;
         height: 8px;

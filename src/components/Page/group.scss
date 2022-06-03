@@ -1,5 +1,6 @@
 $phone:426px;
 $tablet:800px;
+$desktop:1025px;
 #groupStyle{
     height: 100vh;
     
@@ -8,6 +9,9 @@ $tablet:800px;
     background-image: url(../../assets/cover/pexels-pixabay-2150.jpg);
     background-size: cover;
     height: 147vh;
+@media (max-width:$desktop) {
+    height: 220vh;
+}
     @media (max-width:$tablet) {
         height: 199vh;
     }
