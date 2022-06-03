@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build",
     "deploy": "gh-pages -d build",
-    "build-prod": "webpack -p --env production"
+    "build-prod": "npm run build -- --profile"
   },
   "eslintConfig": {
     "extends": [

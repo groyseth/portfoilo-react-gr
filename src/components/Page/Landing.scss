@@ -5,9 +5,8 @@ $newTab:800px;
 $deskTop:1020px;
 .landingStyle{
     background-image: url(../../assets/cover/pexels-pixabay-2150.jpg);
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
-   
     @media (max-width:$tablet) {
         height: 125vh;
     }
