@@ -11,7 +11,7 @@ export default function Landing() {
      
     </div>
     <div >
-    <img src={pic} className='astro'></img>
+    <img src={pic} className='astro' alt=''></img>
     </div>
     </>
   )
