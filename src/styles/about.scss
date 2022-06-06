@@ -46,6 +46,9 @@ $smphone: 321px;
 @media (max-width:$smdesk) {
     width: 832px;
 }
+@media (max-width:$tablet) {
+    width: 758px;
+}
     @media (max-width:$phone) {
         width: 100%;
     }
@@ -84,7 +87,7 @@ $smphone: 321px;
     height: 8px;
     position: relative;
     left: -369px;
-    top: -398px;
+    top: -345px;
     margin: auto;
     font-size: 78px;
 @media (max-width:$smdesk) {
