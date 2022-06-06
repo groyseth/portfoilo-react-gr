@@ -1,29 +1,32 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.1ba563b5.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.17a409cd.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.f454be6c.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.705038dd.js",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
     "static/media/Employee Tracker.png": "/portfoilo-react-gr/static/media/Employee Tracker.7c8b7c807158998e2fa9.png",
+    "static/media/noght.png": "/portfoilo-react-gr/static/media/noght.03ac86a117c776e3ffb8.png",
     "static/media/DnD Project.png": "/portfoilo-react-gr/static/media/DnD Project.e38a9da558f7b8152e4e.png",
     "static/media/Creative-Dev.png": "/portfoilo-react-gr/static/media/Creative-Dev.b17a1e04edbf9066d53e.png",
-    "static/media/picBackGround.jpg": "/portfoilo-react-gr/static/media/picBackGround.afc1739c4441fac6bb9f.jpg",
     "static/media/Children's Quiz.png": "/portfoilo-react-gr/static/media/Children's Quiz.4f32772b0e9418c23d95.png",
+    "static/media/GR-army.jpg": "/portfoilo-react-gr/static/media/GR-army.d84bf7bd768376b87fef.jpg",
+    "static/media/Space-Website.png": "/portfoilo-react-gr/static/media/Space-Website.23391f7f6998ce67a29d.png",
     "static/media/ProfilePic.png": "/portfoilo-react-gr/static/media/ProfilePic.0e5e7842839300e03de1.png",
-    "static/media/Tech Blog.png": "/portfoilo-react-gr/static/media/Tech Blog.c89fc3627e3cde352a1a.png",
+    "static/media/pexels-pixabay-2150.jpg": "/portfoilo-react-gr/static/media/pexels-pixabay-2150.0a7b6102b9ef3ea2b12c.jpg",
     "static/media/DNR Project.png": "/portfoilo-react-gr/static/media/DNR Project.c9c39116ff6752ac28dc.png",
     "static/media/Piano Project.png": "/portfoilo-react-gr/static/media/Piano Project.112e455f6b18cabce4c8.png",
     "static/media/Weather.png": "/portfoilo-react-gr/static/media/Weather.daf13db2455cc711980d.png",
     "static/media/Password.png": "/portfoilo-react-gr/static/media/Password.5e29369695e7a4eafac4.png",
     "static/media/Text-Editor.png": "/portfoilo-react-gr/static/media/Text-Editor.7c6e7975bf931bc80686.png",
     "static/media/background.png": "/portfoilo-react-gr/static/media/background.ff2e9711ac2f9e09d189.png",
-    "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.0d4e8fd095267930c920.pdf",
+    "static/media/MyResume.pdf": "/portfoilo-react-gr/static/media/MyResume.be80e718bbbda7379ed9.pdf",
+    "static/media/Interactive-Rating-Component.png": "/portfoilo-react-gr/static/media/Interactive-Rating-Component.8207746c0a2278966ba6.png",
     "index.html": "/portfoilo-react-gr/index.html",
     "static/media/icon-hamburger.svg": "/portfoilo-react-gr/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
-    "main.1ba563b5.css.map": "/portfoilo-react-gr/static/css/main.1ba563b5.css.map",
-    "main.17a409cd.js.map": "/portfoilo-react-gr/static/js/main.17a409cd.js.map"
+    "main.f454be6c.css.map": "/portfoilo-react-gr/static/css/main.f454be6c.css.map",
+    "main.705038dd.js.map": "/portfoilo-react-gr/static/js/main.705038dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ba563b5.css",
-    "static/js/main.17a409cd.js"
+    "static/css/main.f454be6c.css",
+    "static/js/main.705038dd.js"
   ]
 }
