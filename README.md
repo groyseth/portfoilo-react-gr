@@ -28,7 +28,7 @@ This portfoilo was inspired by my wonder with outer space. I took what I learned
 
 ### Links
 
-- Live Site URL: [Link](https://grant-royseths-portfolio1132.herokuapp.com/)
+- Live Site URL: [Link](https://groyseth.github.io/portfoilo-react-gr/)
 
 ## My process
 
