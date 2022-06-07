@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoilo-react-gr/static/css/main.f454be6c.css",
-    "main.js": "/portfoilo-react-gr/static/js/main.705038dd.js",
+    "main.css": "/portfoilo-react-gr/static/css/main.a9fa9360.css",
+    "main.js": "/portfoilo-react-gr/static/js/main.35079d47.js",
     "static/media/E-Commerce.png": "/portfoilo-react-gr/static/media/E-Commerce.4278ab7d21e4622af640.png",
     "static/media/Employee Tracker.png": "/portfoilo-react-gr/static/media/Employee Tracker.7c8b7c807158998e2fa9.png",
     "static/media/noght.png": "/portfoilo-react-gr/static/media/noght.03ac86a117c776e3ffb8.png",
@@ -22,11 +22,11 @@
     "static/media/Interactive-Rating-Component.png": "/portfoilo-react-gr/static/media/Interactive-Rating-Component.8207746c0a2278966ba6.png",
     "index.html": "/portfoilo-react-gr/index.html",
     "static/media/icon-hamburger.svg": "/portfoilo-react-gr/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
-    "main.f454be6c.css.map": "/portfoilo-react-gr/static/css/main.f454be6c.css.map",
-    "main.705038dd.js.map": "/portfoilo-react-gr/static/js/main.705038dd.js.map"
+    "main.a9fa9360.css.map": "/portfoilo-react-gr/static/css/main.a9fa9360.css.map",
+    "main.35079d47.js.map": "/portfoilo-react-gr/static/js/main.35079d47.js.map"
   },
   "entrypoints": [
-    "static/css/main.f454be6c.css",
-    "static/js/main.705038dd.js"
+    "static/css/main.a9fa9360.css",
+    "static/js/main.35079d47.js"
   ]
 }
